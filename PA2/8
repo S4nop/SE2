@@ -1,0 +1,1012 @@
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+<html>
+	<head>		
+	  	<title>
+	  		성균관대학교 정보통신대학
+	  	</title>
+	  	
+		<meta http-equiv="content-type" content="text/html; CHARSET=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		
+		<link href="/icc_new/css/nanumgothic.css" rel="stylesheet" type="text/css" />
+		
+		<link href="/icc_new/css/bootstrap.css" rel="stylesheet" type="text/css" />
+		<link href="/icc_new/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
+		
+		<script type="text/javascript" src="/icc_new/js/bootstrap.js"></script>
+		<script type="text/javascript" src="/icc_new/js/main.js"></script>
+		
+		<link href="/icc_new/css/layout_mink.css" rel="stylesheet" type="text/css" />
+		
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width; initial-scale=1.0;" />
+		
+		<link rel="shortcut icon" href="http://icc.skku.ac.kr/favicon.ico" />
+		<link rel="apple-touch-icon" href="http://icc.skku.ac.kr/apple-touch-icon.png" />
+	</head>
+	<body>
+		<div id="wrap">
+				
+
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+<style>
+	#sliderBox_popup {
+		position: relative;
+		width: 100%;
+		height: 0px;
+		overflow: hidden;
+	}
+	#sliderBox_popup .closePopup{
+		position: absolute;
+		right: 5%;
+		top: 5%;
+		cursor: pointer;
+		z-index: 20000;
+		width: 24px;
+		height: 24px;
+		background-image: url(/icc_new/image/closePopup.png);
+	}
+	#sliderBox_popup .slide_, #sliderBox_popup .slide_image_only, #sliderBox_popup .slide_content_ {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0px;
+		left: 0px;
+		z-index: 1000;
+	}
+	#sliderBox_popup .slide_image_ {
+		position: absolute;
+		width: 720px;
+		height: 100px;
+		top: 0px;
+		left: 0px;
+		z-index: 1000;
+		background-size:100%;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	#sliderBox_popup .slide_content_ {
+		left: 720px;
+		z-index: 1001;
+		width: 238px;
+		color: #FFFFFF;
+		padding: 20px;
+		background-image:url(http://icc.skku.ac.kr/icc_new/image/slide/slide_gradient.png);
+	}
+	#sliderBox_popup .slide_content_title_ {
+		border-bottom: 1px #FFFFFF solid;
+		padding-bottom: 10px;
+	}
+	#sliderBox_popup .silde_content_text_ {
+		padding-top: 10px;
+		font-size: 14px;
+	}
+	#sliderBox_popup .slide_button_ {
+		position: relative;
+		top:40px;
+		text-align: center;
+		z-index: 1002;
+		margin: 0 auto;
+	}
+	#sliderBox_popup .slide_button_prev {
+		position: absolute;
+		top:34%;
+		left:10%;
+		z-index: 1002;
+	}
+	#sliderBox_popup .slide_button_next {
+		position: absolute;
+		top:34%;
+		right:12%;
+		z-index: 1002;
+	}
+	#sliderBox_popup .slide_button_ li {
+		display:inline-block;
+	}
+	#sliderBox_popup .slide_button_prev li {
+		display:inline-block;	
+	}
+	#sliderBox_popup .slide_button_next li {
+		display:inline-block;	
+	}
+	#sliderBox_popup .slide_button_ li button {
+		background-color: rgba(0, 0, 0, 0);
+		border-width: 0px;
+		box-sizing: border-box;
+		color: #FFFFFF;
+		cursor: pointer;
+		display: inline-block;
+		font-family: Arial;
+		font-size: 32px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: normal;
+		height: 20px;
+		opacity: 0.4;
+		text-shadow: rgb(0, 0, 0) 0px 0px 2px;
+	}
+	#sliderBox_popup .slide_button_prev li button {
+		background-color: rgba(0, 0, 0, 0);
+		border-width: 0px;
+		box-sizing: border-box;
+		color: #FFFFFF;
+		cursor: pointer;
+		display: inline-block;
+		font-family: Arial;
+		font-size: 32px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: normal;
+		height: 20px;
+		width: 20px;
+		opacity: 0.4;
+		text-shadow: rgb(0, 0, 0) 0px 0px 2px;
+	}
+	#sliderBox_popup .slide_button_next li button {
+		background-color: rgba(0, 0, 0, 0);
+		border-width: 0px;
+		box-sizing: border-box;
+		color: #FFFFFF;
+		cursor: pointer;
+		display: inline-block;
+		font-family: Arial;
+		font-size: 32px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: normal;
+		height: 20px;
+		width: 20px;
+		opacity: 0.4;
+		text-shadow: rgb(0, 0, 0) 0px 0px 2px;
+	}
+	#sliderBox_popup .slide_ .slide_image_only_{
+		height: 100%;
+	}
+</style>
+
+<div id="sliderBox_popup" class="row-fluid contents">
+	<span class="closePopup" onClick="closePopup()"></span>
+	
+		<div class="slide_">
+			<div class="slide_image_only_" onClick="location.href='http://icc.skku.ac.kr/icc_new/board_view_square?boardName=board_notice&listPage=1&postSeq=27258&menu=board_list_square';" style="background-image: url(/icc_new/viewPhoto?type=popup&popup_seq=198); background-size: 100% 100%;">
+				
+			</div>
+		</div>
+	
+		<div class="slide_">
+			<div class="slide_image_only_" onClick="location.href='http://icc.skku.ac.kr/icc_new/board_view_square?boardName=board_notice&listPage=1&postSeq=27317&menu=board_list_square';" style="background-image: url(/icc_new/viewPhoto?type=popup&popup_seq=199); background-size: 100% 100%;">
+				
+			</div>
+		</div>
+	
+	<ul class="slide_button_prev" style="z-index:998"></ul>
+	<!-- <ul class="slide_button_" style="z-index:998;"></ul> -->
+	<ul class="slide_button_next" style="z-index:998"></ul>
+</div>
+
+<script>
+	$(document).ready(function(){
+		   if($("#sliderBox_popup>.slide_").length > 0){
+		       $("#sliderBox_popup").css("height", "5.26vw");
+		   }
+	});
+	var slideIntervalTime=5000;
+	var current = 0;
+	var num_pop = 0;
+	var start_num = 0;
+	$("#sliderBox_popup>.slide_").each(function(index){
+		num_pop++;	
+	});
+	
+	start_num = Math.floor(Math.random() * num_pop);
+	current = start_num;
+	
+	$("#sliderBox_popup>.slide_").each(function(index){
+		console.log("excute");
+		console.log(start_num);
+		if(num_pop != (0 || 1) && index == 0)
+			$("<li onClick=\"prevSlide("+index+")\")\"><button onfocus=><</button></li>").appendTo("#sliderBox_popup>.slide_button_prev");
+		//$("<li onClick=\"showPopupSlide("+index+")\"><button onfocus=\'blur()\'>•</button></li>").appendTo("#sliderBox_popup>.slide_button_");		
+		if(num_pop != (0 || 1) && index == (num_pop - 1))
+			$("<li onClick=\"nextSlide("+index+")\"><button onfocus=>></button></li>").appendTo("#sliderBox_popup>.slide_button_next");
+	});
+	
+	$("#sliderBox_popup>.slide_").css("display","none").eq(start_num).css({"display":"block","z-index":998});
+	//$("#sliderBox_popup>.slide_button_>li:eq(start_num)>button").css("color","blue");
+	
+	if(num_pop != (0 || 1)){
+		setInterval(function(){
+			if($("#sliderBox_popup>.slide_").is(":animated")) return 0;
+			nextSlide(start_num);
+		},slideIntervalTime);
+	}
+	
+	function prevSlide(index){
+		if( current != 0 )
+			current--;
+		else
+			current = num_pop - 1;
+		showPopupSlide(current);
+		return current;
+	}
+	function nextSlide(index){
+		if(current != (num_pop - 1))
+			current++;
+		else
+			current = 0;
+		showPopupSlide(current);
+		return current;
+	}
+	
+	function showPopupSlide(index){
+		if(typeof(index)==='undefined')index=$("#sliderBox_popup>.slide_:visible").index();
+		if($("#sliderBox_popup>.slide_").length==index) index=0;
+		var prevSlide=$("#sliderBox_popup>.slide_:visible");
+		var nextSlide=$("#sliderBox_popup>.slide_:eq("+index+")");
+		prevSlide.css("z-index",997);
+		nextSlide.css("z-index",998);
+		nextSlide.fadeIn(500,function(){
+			prevSlide.css("z-index",998).hide();
+		});
+		$("#sliderBox_popup>.slide_button_>li>button").css("color","white");
+		$("#sliderBox_popup>.slide_button_>li:eq("+index+")>button").css("color","blue");
+		console.log(current);
+		current = index;
+		console.log(current);
+	}
+	function closePopup(){
+		console.log("closePopup");
+		$("#sliderBox_popup").css("height", 0);
+	}
+	
+</script>
+		        <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<script>
+	function removeValue()
+	{
+		document.getElementById('keyword').value="";
+		return ;
+	}
+
+	$(document).ready(function(){
+			
+		$('#menuIntro').mouseenter(function() {
+			$('#subMenu > div').css("display", "none");
+		    $('#menuIntroSub').animate({ height: "show" }, 100);
+		});
+		$('#menuIntrogra').mouseenter(function() {
+			$('#subMenu > div').css("display", "none");
+		    $('#menuIntrograSub').animate({ height: "show" }, 100);
+		});
+		$('#menuEnter').mouseenter(function() {
+			$('#subMenu > div').css("display", "none");
+		    $('#menuEnterSub').animate({ height: "show" }, 100);
+		});
+		$('#menuFaculty').mouseenter(function() {
+			$('#subMenu > div').css("display", "none");
+		    $('#menuFacultySub').animate({ height: "show" }, 100);
+		});
+		$('#menuInfo').mouseenter(function() {
+			$('#subMenu > div').css("display", "none");
+		    $('#menuInfoSub').animate({ height: "show" }, 100);
+		});
+		$('#menuOrg').mouseenter(function() {
+			$('#subMenu > div').css("display", "none");
+		    $('#menuOrgSub').animate({ height: "show" }, 100);
+		});
+		$('#menuOffice').mouseenter(function() {
+			$('#subMenu > div').css("display", "none");
+		    $('#menuOfficeSub').animate({ height: "show" }, 100);
+		});
+		$('#menuSquare').mouseenter(function() {
+			$('#subMenu > div').css("display", "none");
+		    $('#menuSquareSub').animate({ height: "show" }, 100);
+		});
+		$('#menuService').mouseenter(function() {
+			$('#subMenu > div').css("display", "none");
+		    $('#menuServiceSub').animate({ height: "show" }, 100);
+		});
+		
+		$('#mainsub').mouseleave(function(){
+			$('#subMenu > div').animate({height: "hide"}, 100);
+		});
+		
+	});	
+
+</script>
+
+
+<div id="relative" style="margin-top:20px;">
+	<div class="logoHeader">
+		<div class="topMenuWrap" style="width:450px; float:right;">
+			<div class="container" style="width:450px; height:12px; float:right;">
+
+		
+		
+		
+			<!-- <span class="top" style="margin: 0; padding-left: 10px; border-left: 1px solid #d5d5d5; float: right;"> -->
+				<!-- <a href="login">ADMIN</a> -->
+			<!-- </span> -->
+		
+
+						
+			<span class="top" style="margin: 0 10px 0 0; padding-left: 10px; border-left: 1px solid #d5d5d5; float: right;">
+
+				<a href="http://ice.skku.edu/eng_ice/">ENGLISH</a>
+			</span>
+			<span class="top" style="margin: 0 10px 0 0; padding-left: 10px; border-left: 1px solid #d5d5d5; float: right;">
+				<a href="sitemap">SITEMAP</a>
+			</span>
+			<span class="top" style="margin: 0 10px 0 0; float: right;">
+				<a href="main">HOME</a>
+			</span>
+
+			</div>
+		</div>
+		<div class="container" style="width: 400px; float: left;">
+			<a href="/icc_new/main">
+				<div class="iccLogo"></div>
+			</a>
+		</div>
+
+	
+		<div id="search">
+			<form id="searchForm" action="search" method="get">
+				<input name="keyword" size="20" value="&nbsp;SEARCH" id="keyword" onclick="removeValue();" style="line-height:12px;">
+			</form>
+		</div>
+	</div>
+	
+<div id="mainsub">
+	
+	<div class="mainMenuWrap" style="position:absolute; margin:70px 0 20px 0; left:50%; margin-left:-500px;">
+		<div class="container" style="line-height: 17px;">
+			<div class="menuWrap">
+				<ul class="mainMenu" id="mainMenu">
+					<li id="menuIntro" class="mainMenuFont"><a href="introduce">대학소개</a></li>
+					<li id="menuIntrogra" class="mainMenuFont"><a href="introduce_major">학과소개</a></li>
+					<li id="menuEnter" class="mainMenuFont"><a href="admission">입학안내</a></li>
+					<li id="menuFaculty" class="mainMenuFont"><a href="page_view_faculty?boardName=study_field">교수소개</a></li>
+					<li id="menuInfo" class="mainMenuFont"><a href="https://www.skku.edu/skku/edu/bachelor/ca_de_schedule.do">학사안내</a></li>
+					<li id="menuOrg" class="mainMenuFont"><a href="institution">IT융합연구원</a></li>
+					<li id="menuOffice" class="mainMenuFont"><a href="affairs">대학행정실</a></li>
+					<li id="menuSquare" class="mainMenuFont"><a href="square">열린광장</a></li>
+					<li id="menuService" class="mainMenuFont"><a target="_blank" href="http://scg.skku.ac.kr/seminar/">서비스</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div id="subMenu">
+		<div id="menuIntroSub" class="mainMenuBarSub">
+			<ul style="margin-left:35px;">
+				<li class="mainMenuBarSubFont"><a href="page_view_introduce?boardName=history">대학연혁</a></li>
+				<li class="mainMenuBarSubFont"><a href="page_view_introduce?boardName=chart">대학조직도</a></li>
+				<li class="mainMenuBarSubFont"><a href="http://icc.skku.ac.kr/icc_new/dean_greeting">학장인사말</a></li>
+				<li class="mainMenuBarSubFont"><a href="http://icc.skku.ac.kr/icc_new/webzine">소식지</a></li>
+			</ul>
+		</div>
+		<div id="menuIntrograSub" class="mainMenuBarSub">
+			<ul style="margin-left: 105px;">
+				<li class="mainMenuBarSubFont"><a href="page_view_introduce_major?boardName=undergraduate_introduction">학과/학부</a></li>
+				<li class="mainMenuBarSubFont"><a href="page_view_introduce_major?boardName=graduated_general">일반대학원/협동과정</a></li>
+			</ul>
+		</div>
+		<div id="menuEnterSub" class="mainMenuBarSub">
+			<ul style="margin-left: 230px;">
+				<li class="mainMenuBarSubFont"><a href="http://admission.skku.edu">대학신입학</a></li>
+				<li class="mainMenuBarSubFont"><a href="http://admission.skku.edu/grad/">대학원신입학</a></li>
+			</ul>
+		</div>
+		<div id="menuFacultySub" class="mainMenuBarSub">
+			<ul style="margin-left: 300px;">
+				<li class="mainMenuBarSubFont"><a href="page_view_faculty?boardName=study_field">연구분야</a></li>
+				<li class="mainMenuBarSubFont"><a href="professorList?department_seq=1">전자전기</a></li>
+<!-- 				<li class="mainMenuBarSubFont"><a href="professorList?department_seq=2">컴퓨터</a></li> -->
+				<li class="mainMenuBarSubFont"><a href="professorList?department_seq=3">반도체</a></li>
+<!-- 				<li class="mainMenuBarSubFont"><a href="professorList?department_seq=4">소프트웨어</a></li>  -->
+				<li class="mainMenuBarSubFont"><a href="professorList?department_seq=12">협력교수</a></li>
+			</ul>
+		</div>
+		<div id="menuInfoSub" class="mainMenuBarSub">
+			<ul style="margin-left: 410px;">
+				<li class="mainMenuBarSubFont"><a href="https://www.skku.edu/skku/edu/bachelor/ca_de_schedule.do">학사일정</a></li>
+				<li class="mainMenuBarSubFont"><a href="https://www.skku.edu/skku/edu/bachelor/ca_de_schedule01.do">학사제도안내</a></li>
+				<li class="mainMenuBarSubFont"><a href="https://www.skku.edu/skku/edu/bachelor/de_thesis.jsp">학위논문</a></li>
+				<li class="mainMenuBarSubFont"><a href="https://www.skku.edu/skku/campus/support/rotc.jsp">병사/학군단</a></li>
+				<li class="mainMenuBarSubFont"><a href="https://www.skku.edu/skku/campus/support/scholarship.jsp">장학안내</a></li>
+				<li class="mainMenuBarSubFont"><a href="board_list_undergraduate?boardName=board_student_exchange">국제화프로그램</a></li>
+			</ul>
+		</div>
+		<div id="menuOrgSub" class="mainMenuBarSub">
+			<ul style="margin-left: 560px;">
+				<li class="mainMenuBarSubFont"><a href="page_view_institution?boardName=research_IICT">연구소</a></li>
+				<li class="mainMenuBarSubFont"><a href="page_view_institution?boardName=research_EPRC">연구센터</a></li>
+			</ul>
+		</div>
+		<div id="menuOfficeSub" class="mainMenuBarSub">
+			<ul style="margin-left: 615px;">
+				<li class="mainMenuBarSubFont"><a href="affairs">업무분장현황</a></li>
+				<li class="mainMenuBarSubFont"><a href="board_list_affairs?boardName=board_academic_admin">학사행정서식</a></li>
+				<li class="mainMenuBarSubFont"><a href="board_list_affairs?boardName=board_post">등기&소포</a></li>
+			</ul>
+		</div>
+		<div id="menuSquareSub" class="mainMenuBarSub">
+			<ul style="margin-left: 600px;">
+				<li class="mainMenuBarSubFont"><a href="deans_list">Dean's List</a></li>
+				<li class="mainMenuBarSubFont"><a href="board_list_square?boardName=board_notice">열린광장</a></li>
+			<!-- 	<li class="mainMenuBarSubFont"><a href="page_view_square?boardName=stp_introduction">삼성전자STP트랙</a></li> -->
+				<li class="mainMenuBarSubFont"><a href="https://www.facebook.com/skkuicc" target="_blank">대학학생회</a></li>
+				<li class="mainMenuBarSubFont"><a href="SlideList">주요소식</a></li>
+				<li class="mainMenuBarSubFont"><a href="board_list_square?boardName=board_cowork">산학협력광장</a></li>
+			</ul>
+		</div>
+		<div id="menuServiceSub" class="mainMenuBarSub">
+			<ul style="margin-left: 873px;">
+				<li class="mainMenuBarSubFont"><a target="_blank" href="http://scg.skku.ac.kr/seminar/">해동학술정보실예약</a></li>
+			</ul>
+		</div>
+	</div>
+
+</div>
+	
+</div>
+
+		        
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="/icc_new/js/bootstrap.js"></script>
+
+<style>
+	#sliderQuick3{
+		background-color:green;
+	}
+</style>
+<script>
+              $(document).ready(function () {
+                $("a").tooltip({
+                  'selector': '',
+                  'placement': 'top'
+                });
+              });
+</script>
+
+
+
+
+<div id="body" style="margin-top: 20px;">
+	<div id="body-top">
+		<style>
+			#sliderBox_ {
+				position: relative;
+				width: 998px;
+				height: 290px;
+				overflow: hidden;
+			}
+			#sliderBox_ .slide_, #sliderBox_ .slide_image_only, #sliderBox_ .slide_content_ {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0px;
+				left: 0px;
+				z-index: 1000;
+			}
+			#sliderBox_ .slide_image_ {
+				position: absolute;
+				width: 720px;
+				height: 290px;
+				top: 0px;
+				left: 0px;
+				z-index: 1000;
+				background-size:100%;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			#sliderBox_ .slide_content_ {
+				left: 720px;
+				z-index: 1001;
+				width: 238px;
+				color: #FFFFFF;
+				padding: 20px;
+				background-image:url(http://icc.skku.ac.kr/icc_new/image/slide/slide_gradient.png);
+			}
+			#sliderBox_ .slide_content_title_ {
+				border-bottom: 1px #FFFFFF solid;
+				padding-bottom: 10px;
+			}
+			#sliderBox_ .silde_content_text_ {
+				padding-top: 10px;
+				font-size: 14px;
+			}
+			#sliderBox_ .slide_button_ {
+				position: absolute;
+				bottom:10px;
+				left:10px;
+				z-index: 1002;
+			}
+			#sliderBox_ .slide_button_ li {
+				display:inline-block;	
+			}
+			#sliderBox_ .slide_button_ li button {
+				background-color: rgba(0, 0, 0, 0);
+				border-width: 0px;
+				box-sizing: border-box;
+				color: #FFFFFF;
+				cursor: pointer;
+				display: inline-block;
+				font-family: Arial;
+				font-size: 32px;
+				font-style: normal;
+				font-variant: normal;
+				font-weight: normal;
+				height: 20px;
+				width: 20px;
+				opacity: 0.9;
+				text-shadow: rgb(0, 0, 0) 0px 0px 2px;
+			}
+		</style>		
+	
+	
+		<div id="sliderBox_" class="row-fluid contents">
+			
+				<div class="slide_">
+						
+							<div class="slide_image_only" onclick="location.href='http://icc.skku.ac.kr/icc_new/board_view_square?boardName=board_notice&listPage=1&postSeq=27344&menu=board_list_square';" style="background-image: url(/icc_new/viewPhoto?type=slide&slide_seq=220);"></div>
+						
+						
+					
+				</div>
+			
+				<div class="slide_">
+						
+							<div class="slide_image_only" onclick="location.href='http://icc.skku.ac.kr/icc_new/board_view_square?boardName=board_notice&listPage=1&postSeq=27339&menu=board_list_square';" style="background-image: url(/icc_new/viewPhoto?type=slide&slide_seq=219);"></div>
+						
+						
+					
+				</div>
+			
+				<div class="slide_">
+						
+							<div class="slide_image_only" onclick="location.href='http://icc.skku.ac.kr/icc_new/board_view_square?boardName=board_news&listPage=1&postSeq=27314&menu=board_list_square';" style="background-image: url(/icc_new/viewPhoto?type=slide&slide_seq=217);"></div>
+						
+						
+					
+				</div>
+			
+				<div class="slide_">
+						
+							<div class="slide_image_only" onclick="location.href='http://icc.skku.ac.kr/icc_new/board_view_square?boardName=board_seminar&listPage=1&postSeq=27295&menu=board_list_square';" style="background-image: url(/icc_new/viewPhoto?type=slide&slide_seq=215);"></div>
+						
+						
+					
+				</div>
+			
+				<div class="slide_">
+						
+							<div class="slide_image_only" onclick="location.href='';" style="background-image: url(/icc_new/viewPhoto?type=slide&slide_seq=208);"></div>
+						
+						
+					
+				</div>
+			
+				<div class="slide_">
+						
+							<div class="slide_image_only" onclick="location.href='http://icc.skku.ac.kr/icc_new/board_view_square?boardName=board_news&listPage=1&postSeq=27335&menu=board_list_square';" style="background-image: url(/icc_new/viewPhoto?type=slide&slide_seq=218);"></div>
+						
+						
+					
+				</div>
+			
+			<ul class="slide_button_" style="z-index:998"></ul>
+		</div>
+		
+		<script>
+			var slideIntervalTime=8000;
+			$("#sliderBox_>.slide_").each(function(index){
+				$("<li onClick=\"showSlide("+index+")\"><button onfocus=\'blur()\'>•</button></li>").appendTo("#sliderBox_>.slide_button_");
+			});
+			$("#sliderBox_>.slide_").css("display","none").eq(0).css({"display":"block","z-index":998});
+			$("#sliderBox_>.slide_button_>li:eq(0)>button").css("color","blue");
+			
+			setInterval(function(){
+				if($("#sliderBox_>.slide_").is(":animated")) return 0;
+				showSlide();
+			},slideIntervalTime);
+			
+			function showSlide(index){
+				if(typeof(index)==='undefined')index=$("#sliderBox_>.slide_:visible").index()+1;
+				if($("#sliderBox_>.slide_").length==index) index=0;
+				var prevSlide=$("#sliderBox_>.slide_:visible");
+				var nextSlide=$("#sliderBox_>.slide_:eq("+index+")");
+				prevSlide.css("z-index",997);
+				nextSlide.css("z-index",998);
+				nextSlide.fadeIn(1000,function(){
+					prevSlide.css("z-index",998).hide();
+				});
+				$("#sliderBox_>.slide_button_>li>button").css("color","white");
+				$("#sliderBox_>.slide_button_>li:eq("+index+")>button").css("color","blue");
+			}
+		</script>
+	</div>
+	 <!--body-top끝-->
+	<div id="body-middle" style="margin-top: 20px;">
+		<div id="body-left">
+			<div class="notice shadowing" style="float:left; margin-left: 0px;">
+				<table style="margin-bottom: 10px; width:310px;">
+					<tbody><tr style="height: 30px; border-bottom: 2px solid #3e3e40;">
+						<td class="table-s" style="color: #3e3e40;">
+							<img src="./image/notice_icon3.png" style="margin-bottom: 2px;"/><a href="http://icc.skku.ac.kr/icc_new/board_list_square?boardName=board_notice">&nbsp;공지사항</a></td>
+						<td style="width: 100px; text-align: right; vertical-align:bottom; color: #cccccc;"><a href="board_list_square?boardName=board_notice">more+</a></td>
+					</tr></tbody>
+				</table>
+				<table class="nboardList">							
+					<tbody>
+						
+							<tr>
+								<td class="mainList2" >■</td>
+								<td class="mainHead"><a href="board_view_square?boardName=board_notice&listPage=1&postSeq=27349&menu=board_list_square">[기간연장] 2018-2 논문제출자격시험(외국어..</a></td>
+								<td class="mainData"><a href="board_view_square?boardName=board_notice&listPage=1&postSeq=27349&menu=board_list_square">11-01</a></td>
+							</tr>
+						
+							<tr>
+								<td class="mainList2" >■</td>
+								<td class="mainHead"><a href="board_view_square?boardName=board_notice&listPage=1&postSeq=27348&menu=board_list_square">[재안내] 2018-2 석박사 예비/본심사용 논..</a></td>
+								<td class="mainData"><a href="board_view_square?boardName=board_notice&listPage=1&postSeq=27348&menu=board_list_square">11-01</a></td>
+							</tr>
+						
+							<tr>
+								<td class="mainList2" >■</td>
+								<td class="mainHead"><a href="board_view_square?boardName=board_notice&listPage=1&postSeq=27344&menu=board_list_square">[전자전기공학부] 2018학년도 정선용장학금 신..</a></td>
+								<td class="mainData"><a href="board_view_square?boardName=board_notice&listPage=1&postSeq=27344&menu=board_list_square">10-30</a></td>
+							</tr>
+						
+							<tr>
+								<td class="mainList2" >■</td>
+								<td class="mainHead"><a href="board_view_square?boardName=board_notice&listPage=1&postSeq=27343&menu=board_list_square">2018학년도 전자전기공학부 수강신청 설명회 안..</a></td>
+								<td class="mainData"><a href="board_view_square?boardName=board_notice&listPage=1&postSeq=27343&menu=board_list_square">10-29</a></td>
+							</tr>
+						
+							<tr>
+								<td class="mainList2" >■</td>
+								<td class="mainHead"><a href="board_view_square?boardName=board_notice&listPage=1&postSeq=27342&menu=board_list_square">[전자전기공학부] 2018-2학기 휴학생 연구작..</a></td>
+								<td class="mainData"><a href="board_view_square?boardName=board_notice&listPage=1&postSeq=27342&menu=board_list_square">10-29</a></td>
+							</tr>
+						
+					</tbody>
+				</table>
+			</div>
+					
+			<div class="news shadowing" style="float:right;">
+				<table style="margin-bottom: 10px; width:310px;">
+					<tbody>
+						<tr style="height: 30px; border-bottom: 2px solid #3e3e40;">
+							<td class="table-s" style="color: #3e3e40;">
+								<img src="./image/new_icon3.png" style="margin-bottom: 2px;"/><a href="http://icc.skku.ac.kr/icc_new/board_list_square?boardName=board_news">&nbsp;새소식 &amp; 세미나</a></td>
+							<td style="width: 100px; text-align: right; vertical-align:bottom; color: #cccccc;"><a href="board_list_square?boardName=board_news">more+</a></td>
+						</tr>
+					</tbody>
+				</table>
+				<table class="nboardList">
+					<tbody>
+						
+							<tr>
+								<td class="mainLlist2">■</td>
+								<td class="mainHead"><a href="board_view_square?boardName=board_news&listPage=1&postSeq=27350&menu=board_list_square">(SKKU 최고의 해커를 찾는) 2018 BUG ..</a></td>
+								<td class="mainData"><a href="board_view_square?boardName=board_news&listPage=1&postSeq=27350&menu=board_list_square">11-01</a></td>
+							</tr>
+						
+							<tr>
+								<td class="mainLlist2">■</td>
+								<td class="mainHead"><a href="board_view_square?boardName=board_news&listPage=1&postSeq=27347&menu=board_list_square">   IEC 적합성평가위원에 이병국 교수 재선임</a></td>
+								<td class="mainData"><a href="board_view_square?boardName=board_news&listPage=1&postSeq=27347&menu=board_list_square">10-30</a></td>
+							</tr>
+						
+							<tr>
+								<td class="mainLlist2">■</td>
+								<td class="mainHead"><a href="board_view_square?boardName=board_news&listPage=1&postSeq=27335&menu=board_list_square">에스원-성균관대, 사물인터넷(IoT) 및 보안기..</a></td>
+								<td class="mainData"><a href="board_view_square?boardName=board_news&listPage=1&postSeq=27335&menu=board_list_square">10-26</a></td>
+							</tr>
+						
+							<tr>
+								<td class="mainLlist2">■</td>
+								<td class="mainHead"><a href="board_view_square?boardName=board_news&listPage=1&postSeq=27314&menu=board_list_square">정보통신대학 IC랩팀(지도교수 이강윤) 반도체설..</a></td>
+								<td class="mainData"><a href="board_view_square?boardName=board_news&listPage=1&postSeq=27314&menu=board_list_square">10-19</a></td>
+							</tr>
+						
+							<tr>
+								<td class="mainLlist2">■</td>
+								<td class="mainHead"><a href="board_view_square?boardName=board_news&listPage=1&postSeq=27295&menu=board_list_square">실무형 4차산업기술 단기강좌 안내</a></td>
+								<td class="mainData"><a href="board_view_square?boardName=board_news&listPage=1&postSeq=27295&menu=board_list_square">10-11</a></td>
+							</tr>
+						
+					</tbody>
+				</table>
+			</div>
+
+			<div class="pic shadowing" style="float:left;">
+				<table style="margin-bottom: 10px; width: 670px;">
+					<tbody>
+						<tr style="height: 30px; border-bottom: 2px solid #5BB21D;">
+							<td class="table-s" style="color: #5E8019;">
+								<img src="./image/icon_pic.png" style="margin-bottom: 2px;">&nbsp;최근 소식</td>
+							<td style="width: 100px; text-align: right; vertical-align:bottom; color: #cccccc;"></td>
+						</tr>
+					</tbody>
+				</table>
+				<table class="picList">
+					<tbody>
+					<tr>
+					
+	
+						<td class="picContent" style="width:228px;">
+							<a href="board_view_square?boardName=board_notice&listPage=1&postSeq=27307&menu=board_list_square">
+								<div class="tdContent">
+									<div class="tdTitle">실무형 4차산업기술 단기강..</div>
+									<div class="tdTime">10-16</div>
+									<div class="tdImg" align="center">
+									<img style="width:210px; height:138px; position:relative;" src="/icc_new/viewPostPhoto?name=1540884057194_D106BC3701B5B8CD35A99553C007BB7B.jpg">
+									</div>
+								</div>
+							</a>
+						</td>
+						<td class="picContent" style="width:228px;">
+							<a href="board_view_square?boardName=board_news&listPage=1&postSeq=27314&menu=board_list_square">
+								<div class="tdContent" style=" margin: 0 6px 0 6px;">
+									<div class="tdTitle">IC랩팀( 오성진,김기덕,..</div>
+									<div class="tdTime" style="text-align:right; padding-right:12px;">10-19</div>
+									<div class="tdImg" align="center">
+									<img style="width:210px; height:138px; position:relative;" src="/icc_new/viewPostPhoto?name=1539928362501_DF12785AEF33CC24A0E0B1F24B611F81.jpg">
+									</div>
+								</div>
+							</a>
+						</td>
+						<td class="picContent">
+							<a href="board_view_square?boardName=board_news&listPage=1&postSeq=27335&menu=board_list_square">
+								<div class="tdContent">
+									<div class="tdTitle">에스원-성균관대, 사물인터..</div>
+									<div class="tdTime" style="text-align:right; padding-right: 10px;">10-26</div>
+									<div class="tdImg" align="center">
+									<img style="width:210px; height:138px; position:relative;" src="/icc_new/viewPostPhoto?name=1540538766794_DD5B425095DDE1DD8D5F3271269E503A.jpg"></div>
+								</div>
+							</a>
+						</td>
+					 </tr>
+					</tbody>
+				</table>				
+			</div>
+		</div> <!-- body-left끝 -->
+		
+		<div id="body-right">
+			<div class="schedule shadowing">
+				<table style="margin-bottom: 15px; width: 250px;">
+					<tbody>
+						<tr style="height: 30px; border-bottom: 2px solid #5BB21D;">
+							<td class="table-s" style="width: 200px; color: #5E8019;">
+								<img src="./image/icon_sche.png" style="margin-bottom: 2px;">&nbsp;일정</td>
+							<td style="width: 80px; text-align: right; vertical-align:bottom; color: #cccccc;"><a href="page_view_undergraduate?boardName=guide_schedule">more+</a></td>
+						</tr>
+					</tbody>
+				</table>
+				<table style="width:250px; font-size:11px;">
+					<tbody>
+						
+					</tbody>
+				</table>
+				<div class="row-fluid departmentLink">		
+					<div class="btn-group dropup" style="margin-left:0px; height:47px; border-top: 1px solid #cccccc;">
+						
+						<a id="rightmenu1" class="dropdown-toggle" data-toggle="dropdown" data-original-title="" title="">
+							<img src="./image/hacksa.png">
+							<h5 style="top:8px; margin-left:33px;">&nbsp;&nbsp;학부</h5>
+							
+							</a>
+							<ul class="dropdown-menu-gray dropdown-menu" style="font-size:11px;">
+								<li><a href="http://eee.skku.ac.kr/" target="_blank" data-original-title="" title="">전자전기공학</a>
+								</li>
+<!-- 								<li><a href="http://cse.skku.ac.kr/" target="_blank" data-original-title="" title="">컴퓨터공학</a> 
+								</li>-->
+								<li><a href="http://shb.skku.edu/semicon/" target="_blank" data-original-title="" title="">반도체시스템공학</a>
+								</li>
+<!-- 								<li><a href="http://sw.skku.ac.kr/" target="_blank" data-original-title="" title="">소프트웨어</a>
+								</li> -->
+						</ul>
+					</div>
+					<div class="btn-group dropup" style="margin-left:0px; height:47px;border-top: 1px solid #cccccc;">
+						<a id="rightmenu2" class="dropdown-toggle" data-toggle="dropdown" data-original-title="" title="">
+							<img src="./image/sucksa.png">
+							<h5 style="top:3px; margin-left:33px;">&nbsp;&nbsp;대학원</h5>
+							
+							</a>
+							<ul class="dropdown-menu-gray dropdown-menu" role="menu" aria-labelledby="dropdownMenu" style="font-size:11px;">
+								<li class="dropdown-submenu pull-left">
+									<a tabindex="-1" href="#" style="text-align : right;" data-original-title="" title="">일반대학원</a>
+										<ul class="dropdown-menu-gray dropdown-menu">
+										<li><a tabindex="-1" href="http://icc.skku.ac.kr/icc/introduce/graduated/general.do#c1" target="_blank" data-original-title="" title="">전자전기컴퓨터공학과</a>
+										</li>
+										<li><a tabindex="-1" href="http://grad.icc.skku.ac.kr/~itconv/" target="_blank" data-original-title="" title="">IT융합학과</a>
+										</li>
+										<li><a tabindex="-1" href="http://mobilepower.skku.ac.kr/" target="_blank" data-original-title="" title="">이동통신전력전자공학과</a>
+										</li>
+										<li><a tabindex="-1" href="http://icc.skku.ac.kr/icc/introduce/graduated/general.do#c4" target="_blank" data-original-title="" title="">반도체디스플레이공학과</a>
+										</li>
+										<!-- <li><a tabindex="-1" href="http://dswp.skku.edu/skku/" target="_blank" data-original-title="" title="">소프트웨어플랫폼학과</a> -->
+										<!-- </li> -->
+										<li><a tabindex="-1" href="http://icc.skku.ac.kr/grad/dmcAdmission" target="_blank" data-original-title="" title="">DMC공학과</a>
+										</li>
+									</ul>
+								</li>
+								<li class="divider"></li>
+								<li class="dropdown-submenu pull-left">
+									<a tabindex="-1" href="#" style="text-align : right;" data-original-title="" title="">협동과정</a>
+										<ul class="dropdown-menu-gray dropdown-menu" style="position: absolute; left: -210%;">
+											<li><a tabindex="-1" href="#" data-original-title="" title="">에너지시스템공학협동과정</a>
+											</li>
+											<li><a tabindex="-1" href="http://grad.icc.skku.ac.kr/~ipps/" target="_blank" data-original-title="" title="">태양광시스템공학협동과정</a>
+											</li>
+										</ul>
+								</li>
+							</ul>
+					</div>
+					<div class="btn-group dropup" style="height:46px; border-top: 1px solid #cccccc; border-bottom: 1px solid #cccccc;">
+						<a id="rightmenu3" class="dropdown-toggle" data-toggle="dropdown" data-original-title="" title="">
+							<img src="./image/yeongu.png">
+							<h5 style="top:3px; margin-left:33px;">&nbsp;&nbsp;IT융합연구원<font style="font-size:13px;">(연구소/연구센터)</font></h5>
+							
+							</a>
+							<ul class="dropdown-menu-gray dropdown-menu" style="font-size:11px;">
+								<li><a href="http://icc.skku.ac.kr/icc_new/page_view_institution?boardName=research_IICT" target="_blank" data-original-title="" title="">정보통신기술연구소</a>
+								</li>
+								<li><a href="http://icc.skku.ac.kr/icc_new/page_view_institution?boardName=research_IEAC" target="_blank" data-original-title="" title="">산업전자응용연구소</a>
+								</li>
+								<!-- <li><a href="http://icc.skku.ac.kr/icc_new/page_view_institution?boardName=research_CRI" target="_blank" data-original-title="" title="">컨버젼스연구소</a> -->
+								<!-- </li> -->
+								<li><a href="http://icc.skku.ac.kr/icc_new/page_view_institution?boardName=research_ISRC" target="_blank" data-original-title="" title="">지능시스템연구소</a>
+								</li>
+								<!-- <li><a href="http://icc.skku.ac.kr/icc_new/page_view_institution?boardName=research_UCT" target="_blank" data-original-title="" title="">유비쿼터스컴퓨팅기술연구소</a> -->
+								<!-- </li> -->
+								<li><a href="http://icc.skku.ac.kr/icc_new/page_view_institution?boardName=research_EPRC" target="_blank" data-original-title="" title="">직류배전용전력기기설계기술인력양성센터</a>
+								</li>
+								<li><a href="http://icc.skku.ac.kr/icc_new/page_view_institution?boardName=research_GreenCar" target="_blank" data-original-title="" title="">그린카전력기술센터</a>
+								</li>
+								<li><a href="http://icc.skku.ac.kr/icc_new/page_view_institution?boardName=research_COOPWireless" target="_blank" data-original-title="" title="">무선에너지하비스팅통신융합연구센터</a>
+								</li>
+								<li><a href="http://icc.skku.ac.kr/icc_new/page_view_institution?boardName=research_ITAE" target="_blank" data-original-title="" title="">IT가속기공학연구센터</a>
+								</li>
+								<li><a href="http://icc.skku.ac.kr/icc_new/page_view_institution?boardName=research_CPIT" target="_blank" data-original-title="" title="">전략IT인력양성센터</a>
+								</li>
+								<li><a href="http://icc.skku.ac.kr/icc_new/page_view_institution?boardName=research_GameTechnology" target="_blank" data-original-title="" title="">게임기술개발지원센터</a>
+								</li>
+								<li><a href="http://icc.skku.ac.kr/icc_new/page_view_institution?boardName=research_HumanICT" target="_blank" data-original-title="" title="">휴먼ICT융합연구센터</a>
+								</li>
+								<li><a href="http://icc.skku.ac.kr/icc_new/page_view_institution?boardName=research_AnalogRF" target="_blank" data-original-title="" title="">아날로그RF회로및시스템연구센터</a>
+								</li>
+							</ul>
+					</div>
+				</div>
+			</div>
+		</div>	<!-- body-right 끝 -->				
+	</div> <!-- body-middle 끝 -->
+</div> <!-- body 끝 -->	
+
+		        
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<script>
+              $(document).ready(function () {
+                $("a").tooltip({
+                  'selector': '',
+                  'placement': 'top'
+                });
+              });
+</script>
+
+<div id="footer" style="margin-top: 15px; margin-bottom: 15px;">
+	<div id="quickIcon">
+
+			<a id="icon6" href="./pdf/intro_prof.pdf" title="" data-original-title="교수소개(영문)"></a>
+			<a id="icon8" href="http://icc.skku.ac.kr/eng/media/annual_report/Annual%20Report%202009%20-%201page.pdf" title="" data-original-title="Annual Report"></a>
+			<a id="icon7" href="http://icc.skku.ac.kr/icc/introduce/prMedia/prVideo.do" title="" data-original-title="홍보영상"></a>
+			<a id="icon9" href="deans_list" title="" data-original-title="Dean's List"></a>
+			<a id="icon3" href="http://bk21.skku.edu/ice/" title="" data-original-title="BK 21"></a>
+			<a id="icon4" href="http://abeek.skku.edu/new/" title="" data-original-title="공학인증 ABEEK"></a>
+			<a id="icon12" href="page_view_square?boardName=stp_introduction" title="" data-original-title="Samsung Talent Program"></a>
+			<a id="icon5" href="board_list_square?boardName=board_student_exchange" title="" data-original-title="교환학생 프로그램"></a>
+			<a id="icon1" href="http://icc.skku.ac.kr/alumni/" title="" data-original-title="총동창회"></a>
+			<a id="icon2" href="#" title="" data-original-title="성균만원장학사업"></a>
+			<a id="icon13" href="http://icc.skku.ac.kr/iccsys/" title="" data-original-title="교수 졸업작품/졸업논문 시스템"></a>
+			<a id="icon14" href="http://icc.skku.ac.kr/iccsys/" title="" data-original-title="학부 졸업작품/졸업논문 시스템"></a>
+			<!-- <a id="icon10" href="https://twitter.com/skkuice" title="" data-original-title="트위터"></a> -->
+			<a id="icon15" href="http://priv.icc.skku.ac.kr/~icepaper/" title="" data-original-title="대학원 논문심사"></a>
+			<!-- <a id="icon11" href="http://icc.skku.ac.kr/icc/media/introduce/2013_invitation_day.pdf" title="" data-original-title="기타 팝업 대체용"></a> -->
+		
+	</div>
+
+
+			<div id="siteMap" style="border-top: 2px solid #3e3e40;">
+				<div class="row-fluid contents shadowing" style="background-color:#fff;border-bottom:1px solid #aaa;">
+
+					<div class="sitemap-left" style="width: 185px;">
+						<p><a href="page_view_introduce?boardName=history">대학연혁</a></p>
+						<p><a href="page_view_introduce?boardName=chart">대학조직도</a></p>
+						<p><a href="dean_greeting">학장인사말</a></p>
+						<p><a href="admission">입학안내</a></p>
+						<p><a href="webzine">성균소식</a></p>
+						<p><a href="professorList?department_seq=1">교수소개</a></p>
+					</div>					
+					<div class="sitemap-left" style="width: 185px;  text-align: right;">
+						<p><a href="https://www.skku.edu/skku/edu/bachelor/ca_de_schedule.do">학사일정</a></p>
+						<p><a href="https://www.skku.edu/skku/edu/bachelor/ca_de_schedule01.do">학사제도안내</a></p>
+						<p><a href="http://www.skku.edu/skku/edu/bachelor/de_thesis.jsp">학위논문</a></p>
+						<p><a href="http://www.skku.edu/skku/campus/support/scholarship.jsp">장학안내</a></p>
+						<p><a href="page_view_undergraduate?boardName=guide_course">교육과정</a></p>
+						<p><a href="courseList?subject_seq=0">로드맵</a></p>
+					</div>
+					<div class="sitemap-left" style="width: 185px; height: 110px; border:none;">
+						<a href="#">
+							<img src="./image/skku_color.png" style="margin-top: 3px; margin-left: 45px; position: relative;">
+						</a>
+					</div>
+					<div class="sitemap-right" style="width: 185px;">
+						<p><a href="page_view_introduce_major?boardName=graduated_general">대학원</a></p>
+						<p><a href="page_view_institution?boardName=research_IICT">IT융합연구원</a></p>
+						<p><a href="affairs">업무분장현황</a></p>
+						<p><a href="board_list_affairs?boardName=board_academic_admin">학사행정서식</a></p>
+						<p><a href="board_list_affairs?boardName=board_post">등기&amp;소포</a></p>
+						<p><a href="deans_list">Dean's List</a></p>
+					</div>
+					<div class="sitemap-right" style="width: 190px;">
+						<p><a href="https://www.facebook.com/skkuice" target="_blank">대학학생회</a></p>
+						<p><a href="https://twitter.com/skkuicc">트위터</a></p>
+						<p><a href="#">성균만원장학사업</a></p>
+						<p><a href="graduationPortInfo">졸업작품실</a></p>
+						<p><a href="#">학습실</a></p>
+						<p><a href="http://icc.skku.ac.kr/icc_new/board_list_square?boardName=board_student_exchange">교환학생프로그램</a></p>
+					</div>
+				</div>
+			</div>
+			<div id="copyright">
+				<div class="contents">
+					<p style="padding-top: 5px;">
+						(16410) 경기도 수원시 장안구 서부로 2066 </p>
+					<p><a href="#" title="#13 이범석 #14 김동민 #14 손준일 #14 진주영 #15 오예린 #15 윤지아 #15 이민경 #15 최원영 #15 한상우 #15 홍민호 #15 황준성 #15신영찬" >
+					COPYRIGHT ⓒ 2013 성균관대학교 자연과학캠퍼스 정보통신대학 시스템컨설턴트그룹 All Right Reserved.
+					</a></p>
+				</div>
+			</div>
+	
+			<script>	//ga등록
+			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			  ga('create', 'UA-57565687-1', 'auto');
+			  ga('send', 'pageview');
+			</script>
+   
+		</div>
+
+		</div>
+	</body>
+</html>

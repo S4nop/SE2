@@ -1,0 +1,4318 @@
+
+
+
+<!doctype html>
+<html lang="ko">
+<head>
+<title>성균관대학교</title>
+<link rel="shortcut icon" href="/_res/skku/img/common/favicon.png">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-53596226-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-53596226-1');
+</script><link rel="canonical" href="http://www.skku.edu/skku/index.do" />
+
+<link rel="stylesheet" type="text/css" href="/_common/cms.css" />
+<link rel="stylesheet" type="text/css" href="/_res/skku/_css/layout.css" />
+<!--[if IE 8]>
+	<link rel="stylesheet" type="text/css" href="/_common/ie8.css" />
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="/_res/skku/_css/owl.carousel.css" />
+
+<link rel="stylesheet" type="text/css" href="/_res/skku/_css/user.css" />
+
+<script type="text/javascript" src="/_common/js/jquery/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="/_common/js/jquery/jquery-ui-1.11.4.min.js"></script>
+
+<script type="text/javascript">
+//<![CDATA[
+	var _thisHost = location.protocol+'//'+location.host, _thisUrl = document.location.href,_so_ = false,_cur_menu_cd = '',_edit_content = false,front_page_edit = true,zooInOutMode = 'font',_reouscePath = '/_res/skku/',editorVendor = 'froala',sslYN = 'Y',sslPort = '443',servicePort = '',developMode = false,device='pc',isMobile=false,_cfgUseDevMode = false,_siteId = 'skku',printSelector = '#jwxe_main_content',ctx = '',rootPath = '',locale= 'ko',localeScriptPath='/_custom/skkuedu/resource/js/';
+//]]>
+</script>
+
+<script type="text/javascript" src="/_common/cms.js"></script>
+<script type="text/javascript" src="/_res/skku/_js/user/mainVisual.js"></script>
+<script type="text/javascript" src="/_custom/skkuedu/resource/js/app.url.js"></script>
+<script type="text/javascript" src="/_res/skku/_js/user/footer.js"></script>
+
+<script type="text/javascript" src="/_res/skku/_js/user.js"></script>
+<script type="text/javascript" src="/_res/skku/_js/user/user2.js"></script>
+<script type="text/javascript" src="/_res/skku/_js/user/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="/_res/skku/_js/user/temp.js"></script>
+<script type="text/javascript" src="/_res/eng/_js/user/owl.carousel.min.js"></script>
+
+<!--<script type="text/javascript">
+	WebFontConfig = {
+    custom: {
+        families: ['Noto Sans KR'],
+        urls: ['/_res/skku/_css/font.css']
+    }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1.4.10/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })();
+</script>-->
+</head>
+<body id="item_body" class="pc">
+<ul id="go_main">
+	<li><a href="#jwxe_main_content" >본문 바로가기</a></li>
+	<li><a href="#jwxe_main_menu" >주메뉴 바로가기</a></li>
+	<li><a href="#jwxe_sub_menu" >서브메뉴 바로가기</a></li>
+</ul>
+
+<div class="main_banner" id="banner-top">
+
+
+
+
+     
+
+
+
+
+
+
+
+
+	
+	<div class="w1400">
+		<img src="/_res/skku/img/main/banner_icon.png" alt="bannerIcon">
+		<p class="banner_txt">
+			
+			
+			
+				
+					
+					
+					
+					<a 
+					
+						
+						
+							href="/cms/uicomponent/popupZoneClick.do?siteId=skku&amp;key=GOKkopUtuFUSfFyYIoFs" title="새창으로 이동" target="_blank"
+						
+						
+					
+					>
+						2019 SKK GSB 주간/야간/주말 MBA 신입생 모집
+					</a>
+					
+				
+			
+		</p>
+		
+		<div class="flR">
+			<input type="checkbox" id="bannerChk" value="mainpopup">
+			<label for="bannerChk">오늘하루 열지 않기</label>
+			<a href="#none" class="btn_close" onclick="javascript:closePopLayer2();">
+				<img src="/_res/skku/img/main/banner_xBtn.png" alt="배너 닫기">
+			</a>
+		</div>
+	</div>
+	
+	
+
+
+
+
+
+
+</div>
+<div class="header">
+
+
+<style>
+	.loginFrame {display:none; width:228px; height:35px; position:relative; top:50px; right:50px; background:#004483;}
+	.loginFrame > iframe {border:0;}
+	.loginEnt:hover .loginFrame {display:block;}
+</style>
+
+<div class="utill_wrap">
+	<div class="w1400">
+		<p class="utill_txt">Truly, Global Leading University ‘SKKU’</p>
+		<ul class="utill">
+			<li>
+				<a href="/eng/" target="_blank">ENG</a>
+			</li>
+			<li>
+				<a href="https://fund.skku.edu/fund/index.do" target="_blank">발전기금</a>
+			</li>
+			<li>
+				<a href="#" data-url="http://kingo.skku.edu" class="kingo">킹고봇</a>
+				
+			</li>
+
+			<li>
+				
+				<a data-link="https://eportal.skku.edu" class="postLink" href="#">킹고ID LOGIN</a>
+			</li> 
+						
+			
+				
+			
+			
+		</ul>
+	</div>
+</div>
+<div class="gnb_wrap main_gnbWrap">
+	<div class="main_headTop">
+		<div class="w1400">
+		<button class="gnb_menuBtn"></button>
+			
+			<div class="today">
+				<p>TODAY</p>
+				
+				
+					
+					
+					
+					
+					
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="owl-carousel owl-theme" style="display: block;">
+		<div class="today_txtWrap">
+			
+				
+					
+						
+						
+					
+					
+				
+				
+				<p>
+					<a class="url" data-h="" data-w="" data-url="https://www.skku.edu/skku/campus/skk_comm/event.do" href="#" data-target=_self>
+						대학원생 학위논문 예비·본심사 신청
+					</a>
+				</p>
+			
+				
+					
+						
+						
+					
+					
+				
+				
+				<p>
+					<a class="url" data-h="" data-w="" data-url="https://www.skku.edu/skku/campus/skk_comm/event.do" href="#" data-target=_self>
+						학부생 2학기 강의평가 기간
+					</a>
+				</p>
+			
+				
+					
+						
+						
+					
+					
+				
+				
+				<p>
+					<a class="url" data-h="" data-w="" data-url="https://www.skku.edu/skku/campus/skk_comm/event.do" href="#" data-target=_self>
+						성균핵심역량(SCCA) 및 학습경험 설문 실시
+					</a>
+				</p>
+			
+				
+					
+						
+						
+					
+					
+				
+				
+				<p>
+					<a class="url" data-h="" data-w="" data-url="https://www.skku.edu/skku/campus/skk_comm/event.do" href="#" data-target=_self>
+						2018년 후반기 학생예비군훈련
+					</a>
+				</p>
+			
+				
+					
+						
+						
+					
+					
+				
+				
+				<p>
+					<a class="url" data-h="" data-w="" data-url="https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&amp;articleNo=67146&amp;article.offset=0&amp;articleLimit=10" href="#" data-target=_self>
+						[대학교육혁신센터] &#039;Co-Deep-Learning 프로젝트&#039; 신청 기간
+					</a>
+				</p>
+			
+		</div>
+	</div>
+
+
+
+
+			</div>
+			
+			<h1 class="logo"> 
+				<a href="/skku" class="web_logo"><img alt="성균관대학교" src="/_res/skku//img/common/logo_typeA.png" /></a>
+				<a href="/skku" class="mo_logo"><img alt="성균관대학교" src="/_res/skku//img/common/logo.png" /></a>
+			</h1>
+			<ul class="gnb_iconList">
+				<li class="main_searchWrap">
+					<button class="search_icon" id="searchBtn"></button>
+					<div class="search_wrap">
+						<form method="post" action="/skku/search/search.do" id="topSearchForm">
+							<fieldset>
+								<legend class="hidden">검색</legend>
+								<input type="hidden" name="menu" value="통합검색">
+
+								<label for="search_val" class="hidden">검색어</label>
+								<input type="text" id="search_val" name="qt">
+
+
+
+							</fieldset>
+						</form>
+					</div>
+				</li>
+				<li class="Sgallery">
+					<a href="http://sgallery.skku.edu" target="_blank" class="sda">S - Gallery</a>
+				</li>
+				<li>
+					<button class="share_icon"></button>
+					<div class="share_wrap">
+						<ul class="share_list">
+							<li><a href="https://www.facebook.com/sungkyunkwanuniversity1398" target="_blank"><img src="/_res/skku/img/common/headM_sns_icon01.png" alt="facebook 바로가기"></a></li>
+							<li><a href="https://www.instagram.com/sungkyunkwan_univ_official/" target="_blank"><img src="/_res/skku/img/common/headM_sns_icon02.png" alt="instagram 바로가기"></a></li>
+							<li><a href="https://www.youtube.com/channel/UCMSzjNHLZNNUUA-Z8OrXY9Q" target="_blank"><img src="/_res/skku/img/common/headM_sns_icon03.png" alt="youtube 바로가기"></a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="main_gnb">
+		<div class="w1400">
+			<div class="main_gnbLeft">
+				<ul class="main_gnbIconList">
+					<li>
+						<img src="/_res/skku/img/main/main_gnbIcon03.png" alt="닫기" class="main_gnbIcon03">
+						<a href="#" class="main_gnbIcon01">
+							<img src="/_res/skku/img/main/main_gnbIcon01.png" alt="로그인">
+						</a>
+						<div class="GnbKeywordWrap GnbKeywordWrapB">
+							<ul class="GnbCategoryList">
+								<li>
+									<div class="iconBg">
+										<div>
+											<img src="/_res/eng/img/sub/asd.png" alt="학생·동문">
+											<p>
+												학생·동문
+											</p>
+										</div>
+									</div>
+									<ul>
+										<li>
+											<a href="https://sugang.skku.edu/skku/" target="_blank">
+												<span>·</span>
+												수강신청
+											</a>
+										</li>
+										<li>
+											<a href="/skku/campus/support/welfare_11.do">
+												<span>·</span>
+												식당메뉴
+											</a>
+										</li>
+										<li>
+											<a href="/skku/campus/IT_service/it_service10.do">
+												<span>·</span>
+												증명서 발급
+											</a>
+										</li>
+										<li>
+											<a href="/skku/campus/support/welfare_12.do">
+												<span>·</span>
+												셔틀버스
+											</a>
+										</li>
+										<li>
+											<a href="/skku/edu/bachelor/ca_de_schedule01.do">
+												<span>·</span>
+												학사제도<br>
+												(휴복학/졸업요건등)
+											</a>
+										</li>
+										<li>
+											<a href="/skku/campus/skk_comm/event.do">
+												<span>·</span>
+												캘린더
+											</a>
+										</li>
+										<li>
+											<a href="/skku/campus/support/scholarship.do">
+												<span>·</span>
+												장학금
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<div class="iconBg">
+										<div>
+											<img src="/_res/skku/img/main/main_gnbIcon05.png" alt="교수·직원">
+											<p>
+												교수·직원
+											</p>
+										</div>
+									</div>
+									<ul class="GnbCategoryList_inner">
+										<li>
+											<a href="/skku/campus/skk_comm/news02.do">
+												<span>·</span>
+												교수 동정
+											</a>
+										</li>
+										<li>
+											<a href="https://lib.skku.edu" target="_blank">
+												<span>·</span>
+												학술정보관
+											</a>
+										</li>
+										<li>
+											<a href="/skku/research/industry/search_researcher.do">
+												<span>·</span>
+												연구자검색(교수연락처)
+											</a>
+										</li>
+										<li>
+											<a href="/skku/research/industry/researchStory.do">
+												<span>·</span>
+												Research Stories
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<div class="iconBg">
+										<div>
+											<img src="/_res/skku/img/main/main_gnbIcon04.png" alt="일반인">
+											<p>
+												일반인
+											</p>
+										</div>
+									</div>
+									<ul>
+										<li>
+											<a href="/skku/edu/education.do">
+												<span>·</span>
+												전공 소개
+											</a>
+										</li>
+										<li>
+											<a href="/skku/about/campusInfo/campusMap.do" target="_blank">
+												<span>·</span>
+												캠퍼스맵
+											</a>
+										</li>
+										<li>
+											<a href="https://admission.skku.edu/main.html" target="_blank">
+												<span>·</span>
+												입학 정보
+											</a>
+										</li>
+										<li>
+											<a href="/skku/about/campusInfo/location.do">
+												<span>·</span>
+												찾아오시는 길
+											</a>
+										</li>
+										<li>
+											<a href="https://admission.skku.edu/ipsi/campus_tour.htm" target="_blank">
+												<span>·</span>
+												캠퍼스 투어
+											</a>
+										</li>
+										<li class="block_li">
+											<a href="/skku/edu/international/schooling_04.do">
+												<span>·</span>
+												공개강좌(평생교육)
+											</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							
+						</div>
+					</li>
+					<li>
+						<img src="/_res/skku/img/main/main_gnbIcon03.png" alt="닫기" class="main_gnbIcon03">
+						<a href="#" class="main_gnbIcon02">
+							<img src="/_res/skku/img/main/main_gnbIcon02.png" alt="link">
+						</a>
+						<div class="GnbKeywordWrap" >
+							<p class="gnbKeywordTit">
+								인기검색어
+							</p>
+							<ul class="gnbKeywordList">
+								<li>
+									<a class="best" href="#">
+										<i>1</i>
+										<span>수강신청</span>
+									</a>
+								</li>
+								<li>
+									<a class="best" href="#">
+										<i>2</i>
+										<span>국제학생증</span>
+									</a>
+								</li>
+								<li>
+									<a class="best" href="#">
+										<i>3</i>
+										<span>평생회원</span>
+									</a>
+								</li>
+								<li>
+									<a class="best" href="#">
+										<i>4</i>
+										<span>LC</span>
+									</a>
+								</li>
+								<li>
+									<a class="best" href="#">
+										<i>5</i>
+										<span>논문</span>
+									</a>
+								</li>
+								<li>
+									<a class="best" href="#">
+										<i>6</i>
+										<span>학사일정</span>
+									</a>
+								</li>
+								<li>
+									<a class="best" href="#">
+										<i>7</i>
+										<span>장학금</span>
+									</a>
+								</li>
+								<li>
+									<a class="best" href="#">
+										<i>8</i>
+										<span>셔틀버스</span>
+									</a>
+								</li>
+								<li>
+									<a class="best" href="#">
+										<i>9</i>
+										<span>졸업요건</span>
+									</a>
+								</li>
+								<li>
+									<a class="best" href="#">
+										<i>10</i>
+										<span>s-갤러리</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						
+					</li>
+				</ul>
+				<div class="main_gnbSearch">
+					
+					
+					<form method="post" action="/skku/search/search.do" id="topSearchForm" onsubmit="return formValid(this)">
+						<fieldset>
+							<legend class="hidden">검색</legend>
+							<input type="hidden" name="menu" value="통합검색"/>
+							<button class="main_searchIcon"></button>
+							<label for="main_seaInput" class="hidden">검색어</label>
+							<input type="text" id="main_seaInput" name="qt" placeholder="검색이 더욱 편리해졌습니다"/>
+
+						</fieldset>
+					</form>			
+					
+				</div>
+			</div>
+			<div class="mgnb_bg">
+				<div class="gnbList_wrap">
+					<div class="mgnb_top">
+						<h1 class="mo_logo">
+							<a href="/skku"><img alt="성균관대학교" src="/_res/skku//img/common/mo_logo.png" /></a>
+						</h1>
+						<button class="moGnb_xBtn"></button>
+					</div>
+					
+					<ul class="utill">
+						
+						<li>
+							<a href="/eng/" target="_blank">ENG</a>
+						</li>
+						
+						<li>
+							
+							<a data-link="https://eportal.skku.edu" class="postLink" href="#">킹고ID LOGIN</a>
+						</li> 
+						<li>
+							<a href="#" data-url="http://kingo.skku.edu" class="kingo">킹고봇</a>
+						</li>
+						
+			
+						
+						
+						
+						
+					</ul>
+
+					
+					
+						 
+						 
+					
+<ul class="gnb">
+	
+		<li class="gnbFirst">
+			<a href="/skku/about/pr/greeting.do" >대학정보</a>	
+			
+   			<div class="gnb_bg">
+				<div class="w1650">
+					
+					<ul class="gnb_2dept">
+						
+		          		
+							<li>
+								<a href="/skku/about/pr/greeting.do" >총장실</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/about/pr/greeting.do" >인사말</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/about/pr/profile.do" >프로필</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/about/pr/prev_president_main.do" >역대총장</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/skku/about/vision/vision01.do" >VISION2020+</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/about/vision/vision01.do" >추진체계</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/about/vision/vision02.do" >4대 전략목표</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/about/vision/vision03.do" >3대 전략방향</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/about/vision/vision04.do" >5대 부문별 전략</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/about/vision/vision05.do" >비전선언문</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/skku/about/s620/sub01.do" target="_blank" >성대역사 / 상징</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/about/s620/sub01.do" target="_blank" >성대 620년</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/about/symbol/symbol_01.do" >성대 UI</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/about/symbol/sy_tree_song_01.do" >교시 / 교목 / 교가</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/skku/about/status/univ_info.do" >대학현황</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/about/status/univ_info.do" >현황</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/about/status/self_evaluation.do" >자체평가</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/about/status/tuition_2018.do" >등록금심의위원회 회의록</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+														
+															
+																<a href="/skku/about/status/tuition02_intro.do" >대학평의원회</a>	
+															
+																
+														
+														
+													
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/about/status/budgetaccounts_2017.do" >예결산공고</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/skku/about/organ/organization.do" >대학기관 / 규정</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/about/organ/organization.do" >조직도</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/about/organ/admin_organ_01.do" >행정기관</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/about/organ/attachment_01.do" >부속기관</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="http://rules.skku.edu" target="_blank" >학칙/규정</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/about/status/state_02_2012.do" >요람</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/skku/campus/skk_comm/news.do" >SKKU 미디어</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+														
+															
+																<a href="/skku/campus/skk_comm/news.do" >성대뉴스</a>	
+															
+																
+														
+														
+													
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/campus/skk_comm/press.do" >보도자료</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/campus/skk_comm/newsLetter.do" >성균소식</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/international/department/newletter.do" >글로벌 뉴스레터</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="https://webzine.skku.edu/" target="_blank" >성균웹진</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="http://sgallery.skku.edu" target="_blank" >S-Gallery</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/skku/about/campusInfo/campusMap.do" >캠퍼스 안내</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/about/campusInfo/campusMap.do" target="_blank" >캠퍼스맵</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/about/campusInfo/location.do" >찾아오시는 길</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="https://admission.skku.edu/ipsi/campus_tour.htm?PHPSESSID=bfaa9b0579d31e83fb123a4b919ebbd" target="_blank" >학교탐방</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/about/campusInfo/parking.do" >주차안내</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/about/campusInfo/campus_telInfo.do" >전화번호안내</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+					</ul>
+				</div>
+			</div>
+		          	
+		</li>
+	
+		<li class="">
+			<a href="#iphak" >입학</a>	
+			
+   			<div class="gnb_bg">
+				<div class="w1650">
+					
+					<ul class="gnb_2dept">
+						
+		          		
+							<li>
+								<a href="https://admission.skku.edu" target="_blank" >대학</a>
+								
+							</li>
+						
+							<li>
+								<a href="https://gradschool.skku.edu/grad/index.htm" target="_blank" >대학원</a>
+								
+							</li>
+						
+							<li>
+								<a href="https://admission-global.skku.edu/chn/" target="_blank" >외국인 입학</a>
+								
+							</li>
+						
+					</ul>
+				</div>
+			</div>
+		          	
+		</li>
+	
+		<li class="">
+			<a href="/skku/edu/education.do" >교육</a>	
+			
+   			<div class="gnb_bg">
+				<div class="w1650">
+					
+						<img src="/_res/skku/img/common/gnb_img.jpg"/>
+					
+					<ul class="gnb_2dept">
+						
+		          		
+							<li>
+								<a href="/skku/edu/education.do" >대학</a>
+								
+							</li>
+						
+							<li>
+								<a href="/skku/edu/graduateSchool/graduate_school01.do" >대학원</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/edu/graduateSchool/graduate_school01.do" >일반대학원</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/edu/graduateSchool/graduate_school02.do" >특수대학원</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/edu/graduateSchool/graduate_school03.do" >전문대학원</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/skku/edu/international/schooling_01.do" >부설교육</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/edu/international/schooling_01.do" >성균어학원&#40;한국어학당&#41;</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/edu/international/schooling_02.do" >한국사서교육원</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/edu/international/schooling_03.do" >e-러닝</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/edu/international/schooling_04.do" >공개강좌&#40;인재교육원&#41;</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/skku/edu/bachelor/ca_de_schedule.do" >학사안내</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/edu/bachelor/ca_de_schedule.do" >학사일정</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/edu/bachelor/ca_de_schedule01.do" >학사제도</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/edu/bachelor/de_thesis.do" >학위논문</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/edu/bachelor/curriculum.do" >학과/교육과정 검색</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+					</ul>
+				</div>
+			</div>
+		          	
+		</li>
+	
+		<li class="">
+			<a href="/skku/research/industry/researchStory.do" >연구</a>	
+			
+   			<div class="gnb_bg">
+				<div class="w1650">
+					
+						<img src="/_res/skku/img/common/gnb_img.jpg"/>
+					
+					<ul class="gnb_2dept">
+						
+		          		
+							<li>
+								<a href="/skku/research/industry/researchStory.do" >연구정보</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/research/industry/researchStory.do" >Research Stories</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/research/industry/search_researcher.do" >연구자&#40;교수&#41; 검색</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="http://research.skku.edu/rims/" target="_blank" >연구정보포털</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/research/industry/StudentChallenge.do" >Student Challenge</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/skku/research/industry/research.do" >연구기관</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/research/industry/research.do" >교내연구기관</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/research/industry/BK21.do" >BK21 플러스 사업</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/research/industry/research_national.do" >정부지원센터</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/skku/research/support/research02.do" >연구지원</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/research/support/research02.do" >교내연구제도</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/research/industry/supp_program.do" >학술활동 지원사업</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/skku/research/industry/IRB.do" >연구윤리</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/research/industry/IRB.do" >기관생명윤리위원회&#40;IRB&#41;</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/research/industry/IRB02.do" >연구윤리위원회</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+					</ul>
+				</div>
+			</div>
+		          	
+		</li>
+	
+		<li class="">
+			<a href="/skku/sanhak/sanhak_01.do" >산학</a>	
+			
+   			<div class="gnb_bg">
+				<div class="w1650">
+					
+						<img src="/_res/skku/img/common/gnb_img.jpg"/>
+					
+					<ul class="gnb_2dept">
+						
+		          		
+							<li>
+								<a href="/skku/sanhak/sanhak_01.do" >산학협력단</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/sanhak/sanhak_01.do" >산학협력단 현황</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/sanhak/sanhak_02.do" >산학협력단 조직</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/skku/sanhak/sanhak_12.do" >산학사업</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/sanhak/sanhak_12.do" >지식재산권</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/sanhak/sanhak_04.do" >기술이전 / 사업화</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/sanhak/sanhak_05.do" >산업자문</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/sanhak/sanhak_10.do" >브릿지사업&#40;지식재산실용화센터&#41;</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/skku/sanhak/sanhak_99.do" >LINC 사업단</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/sanhak/sanhak_99.do" >LINC 사업단 조직</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/sanhak/sanhak_06.do" >사업추진체계</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/skku/sanhak/sanhak_11.do" >창업지원단</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/sanhak/sanhak_11.do" >창업지원단 조직</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/sanhak/sanhak_13.do" >교원창업</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/sanhak/sanhak_03.do" >창업선도대학육성사업</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/sanhak/sanhak_98.do" >캠퍼스타운사업</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/sanhak/sanhak_08.do" >기업가정신과 혁신센터</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/sanhak/sanhak_09.do" >창업보육센터</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/sanhak/sanhak_14.do" >한국형 I-Corps사업</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+					</ul>
+				</div>
+			</div>
+		          	
+		</li>
+	
+		<li class="">
+			<a href="/skku/international/globalSKKU/InternationalReputationandAchievements.do" >국제화</a>	
+			
+   			<div class="gnb_bg">
+				<div class="w1650">
+					
+						<img src="/_res/skku/img/common/gnb_img.jpg"/>
+					
+					<ul class="gnb_2dept">
+						
+		          		
+							<li>
+								<a href="/skku/international/globalSKKU/InternationalReputationandAchievements.do" >글로벌 SKKU</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/international/globalSKKU/InternationalReputationandAchievements.do" >국제화 위상</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/international/globalSKKU/global_network.do" >글로벌 네트워크</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/skku/international/globalProgram/outbound.do" >글로벌 프로그램</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/international/globalProgram/outbound.do" >교환학생</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/international/globalProgram/inter_sumuniv.do" >국제하계학기</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/international/globalProgram/Supreme_Studies_Progr.do" >7+1 장학 프로그램</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/international/globalProgram/campus_asia.do" >캠퍼스 아시아</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/international/globalProgram/visiting_1.do" >한국학 / 한국어</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/international/globalProgram/writing.do" >성균한글백일장</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/international/globalProgram/visiting_1_1025.do" >International Freshmen Welcome Program</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="http://oiss.skku.edu/oiss/" >글로벌 커뮤니티</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="http://oiss.skku.edu/oiss/" target="_blank" >외국인학생 지원</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/international/globalComm/international01.do" >공지사항</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/skku/about/organ/admin_organ_07.do" >국제처 안내</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/about/organ/admin_organ_07.do" >국제교류팀</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="http://oiss.skku.edu/oiss/" target="_blank" >외국인유학생지원팀</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/international/department/location.do" >위치 및 운영시간</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+					</ul>
+				</div>
+			</div>
+		          	
+		</li>
+	
+		<li class="">
+			<a href="/skku/campus/support/employment.do" >대학생활</a>	
+			
+   			<div class="gnb_bg">
+				<div class="w1650">
+					
+						<img src="/_res/skku/img/common/gnb_img.jpg"/>
+					
+					<ul class="gnb_2dept">
+						
+		          		
+							<li>
+								<a href="/skku/campus/support/employment.do" >학생지원</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/campus/support/employment.do" >취업</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/campus/support/employment_3.do" >Co-op &#40;현장실습프로그램&#41;</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/campus/support/employment_2.do" >고시</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/campus/support/scholarship.do" >장학제도</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/campus/support/welfare_13.do" >인권센터</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/campus/support/welfare_05.do" >장애학생지원</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/campus/support/dormitory.do" >기숙사</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/campus/support/welfare_07.do" >다기능학생증</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/campus/support/welfare_08.do" >국제학생증</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/campus/support/rotc.do" >학군단&#40;ROTC&#41;</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/campus/support/welfare_counseling_center.do" >학생상담&#40;카운슬링센터&#41;</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/skku/campus/support/welfare_11.do" >편의 / 복지</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/campus/support/welfare_11.do" >식당 / 메뉴</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/campus/support/welfare_12.do" >셔틀버스</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/campus/support/welfare_01.do" >편의시설</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/campus/support/welfare_facility.do" >시설대여 / 신청</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/campus/support/welfare_03.do" >건강센터</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/campus/support/insurance.do" >학생보험</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/campus/support/lost_and_found.do" >Lost &amp; Found </a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/skku/campus/activities/voluntary.do" >학생활동</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/campus/activities/voluntary.do" >사회봉사</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/campus/activities/council_01.do" >총학생회</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+														
+															
+																<a href="/skku/campus/activities/council_03.do" >학생기구 / 단체</a>	
+															
+																
+														
+														
+													
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/campus/activities/event.do" >축제/이벤트</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/skku/campus/IT_service/ITCallcenter.do" >IT 서비스</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/campus/IT_service/ITCallcenter.do" >IT Call center</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/campus/IT_service/it_service02_3.do" >모바일 웹/앱 이용안내</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/campus/IT_service/it_service04.do" >노트북/SW 대여</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/campus/IT_service/it_service05.do" >무선랜 이용신청</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/campus/IT_service/it_service06.do" >전산망 이용 신청 / 서버계정신청</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+														
+															
+																<a href="/skku/campus/IT_service/it_service07.do" >킹고포털</a>	
+															
+																
+														
+														
+													
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/campus/IT_service/it_service08.do" >홈빌더 / 웹하드</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/campus/IT_service/it_service09.do" >영상회의시스템 / 전화</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/campus/IT_service/it_service10.do" >증명발급</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/campus/itservice/home_edit.do" >대표홈페이지 수정 요청</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/skku/campus/skk_comm/notice01.do" >성균광장</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+														
+															
+																<a href="/skku/campus/skk_comm/notice01.do" >공지사항</a>	
+															
+																
+														
+														
+													
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/campus/skk_comm/event.do" >SKKU 캘린더</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+														
+															
+																<a href="/skku/campus/skk_comm/qna_info.do" >묻고답하기</a>	
+															
+																
+														
+														
+													
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/campus/skk_comm/best.do" >칭찬마당</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/skku/campus/skk_comm/report_center.do" >불친절신고센터</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+														
+															
+																<a href="/skku/campus/skk_comm/skku_history_notice.do" >학교역사자료방</a>	
+															
+																
+														
+														
+													
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+					</ul>
+				</div>
+			</div>
+		          	
+		</li>
+	
+</ul>
+
+					<a href="https://gradschool.skku.edu" target="_blank" class="graBtn">대학원</a>
+					<a class="graBtn fundBtn" href="https://fund.skku.edu/fund/index.do" target="_blank">발전기금</a>
+					<div class="body">
+
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="mo_seaWrap">
+	<div class="seadiv">
+		<form method="post" action="/skku/search/search.do" id="moSearchForm">
+			<fieldset>
+				<legend class="hidden">검색</legend>
+				<input type="hidden" name="menu" value="통합검색"/>
+
+				<label for="mo_search_val" class="hidden">검색어</label>
+				<input type="text" id="mo_search_val" name="qt" placeholder="검색어를 입력하세요"/>
+
+				<button class="mo_seaBtn"></button>
+
+			</fieldset>
+		</form>
+	</div>
+	<ul class="share_list">
+		<li><a href="https://www.facebook.com/sungkyunkwanuniversity1398" target="_blank"><img src="/_res/skku/img/common/headM_sns_icon01.png" alt="facebook 바로가기"></a></li>
+		<li><a href="https://www.instagram.com/sungkyunkwan_univ_official/" target="_blank"><img src="/_res/skku/img/common/headM_sns_icon02.png" alt="instagram 바로가기"></a></li>
+		<li><a href="https://www.youtube.com/channel/UCMSzjNHLZNNUUA-Z8OrXY9Q" target="_blank"><img src="/_res/skku/img/common/headM_sns_icon03.png" alt="youtube 바로가기"></a></li>
+	</ul>
+</div>
+
+<form name="popForm">
+    <input type="hidden" name="ssoToken" value="" />
+	<input type="hidden" name="varUA"/>
+</form>
+</div>
+<div class="main_container" id="jwxe_main_content">
+<div class="main_visualWrap">
+	<div class="owl-carousel owl-theme" style="display: block;">
+		<div class="mainVisual">
+			
+				
+				
+				
+				
+				
+			
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	 
+
+	
+		 
+		 
+		
+			
+			
+				
+					
+					
+						
+							
+								
+								
+										
+										
+									
+									
+										
+									
+										
+											
+											
+											
+										
+									
+								
+
+							
+							
+						
+					
+
+					<div class="item url" data-target="_blank" data-h="" data-w="" data-url="https://www.skku.edu/skku/campus/skk_comm/news.do?mode=view&amp;articleNo=67183">
+						<div class="mainVis02 type1">
+							
+								
+								 
+									<div class="mainVisTxtWrap"></div>
+									<div class="w1400">
+										<div class="mainVisTxtInner">
+											<div>
+												<div class="fr-view"><h2 class="mainVisTit"><span style="color: rgb(255, 255, 255);">㈜라까사웍스<br>이현구 회장(경영68)<br>대학발전기금 15억원 기부</span></h2><p class="mainVisDesc"><span style="color: rgb(255, 255, 255); font-size: 14px;">대학발전기금 15억원(학교발전기금 10억원/제2경영관건립기금 3억원/중봉학술연구기금 2억원) 기부, 이현구 회장은 금번 기부를 포함하여 모교로의 총 기부액이 28억원에 이른다.&nbsp;</span></p><br>　</div>
+
+												
+													<a href="#" class="main_moreBtn url" data-target="_blank" data-h="" data-w="" data-url="https://www.skku.edu/skku/campus/skk_comm/news.do?mode=view&amp;articleNo=67183">
+														자세히 보기
+													</a>
+												
+											</div>
+										</div>
+									</div>
+									<img src="/_attach/image/2018/10/qvyXwPXgBkBRGlHFIhGH.jpg" alt="㈜라까사웍스 이현구 회장(경영68) 대학발전기금 15억원 기부"/>
+								
+								
+								
+								
+							
+
+						</div>
+					</div>
+				
+				
+			
+		
+		
+	
+		 
+		 
+		
+			
+			
+				
+					
+					
+						
+							
+								
+								
+										
+										
+									
+									
+										
+									
+										
+											
+											
+											
+										
+									
+								
+
+							
+							
+						
+					
+
+					<div class="item url" data-target="_blank" data-h="" data-w="" data-url="https://www.skku.edu/skku/campus/skk_comm/news.do?mode=view&amp;articleNo=67321">
+						<div class="mainVis01 type2">
+							
+								
+								
+								
+								
+								
+									<div class="mainVisTxtWrap">
+										<div class="mainVisTxtInner">
+											<div>
+												<div class="fr-view"><p class="mainVisTit"><br>&lsquo;1988, 다시 스물&rsquo;</p><p class="mainVisDesc"><span style="font-size: 18px;">88학번 입학 30주년 홈커밍데이 성황리에 열려</span></p></div>
+											</div>
+										</div>
+									</div>
+									<img src="/_attach/image/2018/10/JYUidaHonyqBInqrtYsd.jpg" alt="88학번 입학 30주년 홈커밍데이 성황리에 열려"/>
+								
+							
+
+						</div>
+					</div>
+				
+				
+			
+		
+		
+	
+		 
+		 
+		
+			
+			
+				
+					
+					
+						
+							
+								
+								
+										
+										
+									
+									
+										
+									
+										
+											
+											
+											
+										
+									
+								
+
+							
+							
+						
+					
+
+					<div class="item url" data-target="_blank" data-h="" data-w="" data-url="https://www.skku.edu/skku/campus/skk_comm/news.do?mode=view&amp;articleNo=67297">
+						<div class="mainVis01 type3">
+							
+								
+								
+								
+								
+								
+									<div class="mainVisTxtWrap">
+										<div class="mainVisTxtInner">
+											<div>
+												<div class="fr-view"><p>　</p></div>
+											</div>
+										</div>
+									</div>
+									<img src="/_attach/image/2018/10/EzYkfeIazISsPKSVAhkm.jpg" alt="문화융합대학원 휴비즈니스 전공 신입생 모집"/>
+								
+							
+
+						</div>
+					</div>
+				
+				
+			
+		
+		
+	
+		 
+		 
+		
+			
+			
+				
+					
+					
+						
+							
+								
+								
+										
+										
+									
+									
+										
+									
+										
+											
+											
+											
+										
+									
+								
+
+							
+							
+						
+					
+
+					<div class="item url" data-target="_blank" data-h="" data-w="" data-url="https://www.skku.edu/skku/campus/skk_comm/news.do?mode=view&amp;articleNo=67312&amp;article.offset=0&amp;articleLimit=10">
+						<div class="mainVis01 type4">
+							
+								
+								
+								
+								
+								
+									<div class="mainVisTxtWrap">
+										<div class="mainVisTxtInner">
+											<div>
+												<div class="fr-view"><p class="mainVisTit"><br>&#39;대한민국 반도체 설계 대전&#39; 대통령상 수상</p><p class="mainVisDesc">정보통신대학 이강윤 교수 연구팀</p></div>
+											</div>
+										</div>
+									</div>
+									<img src="/_attach/image/2018/10/IpnqvLotqDKqXKSlwZGN.jpg" alt="정보통신대학 이강윤 교수 연구팀, '대한민국 반도체 설계 대전' 대통령상 수상 "/>
+								
+							
+
+						</div>
+					</div>
+				
+				
+			
+		
+		
+	
+		 
+		 
+		
+			
+			
+				
+					
+					
+						
+							
+								
+								
+										
+										
+									
+									
+										
+									
+										
+											
+											
+											
+										
+									
+								
+
+							
+							
+						
+					
+
+					<div class="item url" data-target="_blank" data-h="" data-w="" data-url="http://news.hankyung.com/article/201810249468i">
+						<div class="mainVis01 type5">
+							
+								
+								
+								
+								
+								
+									<div class="mainVisTxtWrap">
+										<div class="mainVisTxtInner">
+											<div>
+												<div class="fr-view"><p class="mainVisTit">제10회 중앙아시아 성균한글백일장</p><p class="mainVisDesc"><span style="font-size: 18px;">중앙아시아 지역 4개국 24개 대학 50여명 참여</span></p></div>
+											</div>
+										</div>
+									</div>
+									<img src="/_attach/image/2018/10/GMsTKeyxmApcSbaRkioJ.jpg" alt="제10회 중앙아시아 성균한글백일장"/>
+								
+							
+
+						</div>
+					</div>
+				
+				
+			
+		
+		
+	
+		 
+		 
+		
+		
+	
+		 
+		 
+		
+		
+	
+		 
+		 
+		
+		
+	
+		 
+		 
+		
+		
+	
+		 
+		 
+		
+		
+	
+	
+	
+	
+
+
+			
+			
+		</div>
+	</div>
+</div>
+<div class="main_content">
+	<div class="w1400">
+		<div class="mainContTop">
+			<div class="newsWrap">
+				<h3 class="mainContTit"><a href="/skku/campus/skk_comm/news.do">News</a></h3>
+				<div class="newsBox">
+					
+						
+						
+						
+						
+						
+						
+					
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+			
+			
+		
+		
+			
+			
+				
+			
+		
+		
+		
+		
+			
+				
+					
+					
+						
+			
+		
+		
+		
+			
+				<div class="news_gallery">
+					
+						<img src="/_attach/image/2018/10/YxCgcJaOXbmACKUBJciG.jpg" alt="">
+					
+					<div class="newsGallery_txtWrap">
+						<p class="newsGalleryTit"><a href="/skku/campus/skk_comm/news.do?mode=view&amp;articleNo=67360">미술학과 공성훈교수, 대구미술관 제19회 이인성 미술상 수상</a></p>
+						<p class="newsGalleryDesc"><a href="/skku/campus/skk_comm/news.do?mode=view&amp;articleNo=67360">대구미술관은 이인성 미술상 심사위원회 개최결과 미술학과 공성훈교수를 ‘제19회 이인성 미술상’ 수상자로 선정 …</a></p>
+					</div>
+				</div>
+			
+			
+				
+		
+		
+	
+		
+			
+			
+		
+		
+			
+				
+			
+			
+		
+		
+		
+		
+			
+				
+					
+					
+						
+			
+		
+		
+		
+			
+			
+			
+				
+					<ul class="notice_list">
+				
+						
+				<li>
+					<a href="http://news.chosun.com/site/data/html_dir/2018/10/26/2018102600130.html?utm_source=naver&amp;utm_medium=original&amp;utm_campaign=news">· 대동문화연구원장 안대회 교수, &#039;완역 정본 택리지&#039; 출간</a>
+					<span class="date">10.26</span>
+				</li>
+						
+				
+				
+		
+		
+	
+		
+			
+			
+		
+		
+			
+			
+				
+			
+		
+		
+		
+		
+			
+				
+					
+					
+						
+			
+		
+		
+		
+			
+			
+			
+				
+						
+				<li>
+					<a href="/skku/campus/skk_comm/news.do?mode=view&amp;articleNo=67336">· 정문석 교수팀, 나노광학 측정 통해 2차원 반도체의 결함신호 세계 최초 발견</a>
+					<span class="date">10.25</span>
+				</li>
+						
+				
+					</ul>
+				
+				
+		
+		
+	
+	
+	
+	
+
+
+				</div>
+			</div>
+			<div class="noticeWrap">
+				<h3 class="mainContTit"><a href="/skku/campus/skk_comm/notice01.do">Notice</a></h3>
+				
+					
+					
+					
+					
+					
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="noticeDotArea">
+	<ul class="clearFloat">
+		
+			<li><a href="#" class="textHide">1번 공지보기</a></li>
+		
+			<li><a href="#" class="textHide">2번 공지보기</a></li>
+		
+			<li><a href="#" class="textHide">3번 공지보기</a></li>
+		
+			<li><a href="#" class="textHide">4번 공지보기</a></li>
+		
+	</ul>
+	<a href="#" class="textHide noticeToggleButton">정지</a>
+</div>
+
+<div class="newsBox" id="noticeCarousel">
+	<ul class="notice_list">
+
+		
+			<li>
+				<a href="/skku/campus/skk_comm/notice01.do?mode=view&amp;articleNo=67370">
+				[행사/세미나]
+				[해외교류 프로젝트]Korea-Taiwan Student Collaborative Design Workshop 참가학생 모집</a>
+				<span class="date">	10.26</span>
+			</li>	
+		
+			<li>
+				<a href="/skku/campus/skk_comm/notice01.do?mode=view&amp;articleNo=67368">
+				[채용/모집]
+				[건강센터] 심폐소생술 무료 교육 안내</a>
+				<span class="date">	10.26</span>
+			</li>	
+		
+			<li>
+				<a href="/skku/campus/skk_comm/notice01.do?mode=view&amp;articleNo=67366">
+				[일반]
+				[정정][인사캠] 2018년 10월 27일(토) 오후(13~19시), 혜화역 셔틀버스 운행 휴무 안내</a>
+				<span class="date">	10.26</span>
+			</li>	
+		
+			<li>
+				<a href="/skku/campus/skk_comm/notice01.do?mode=view&amp;articleNo=67357">
+				[채용/모집]
+				2018년 제18기 동계 대학생 재능봉사「국가(우수)장학생 캠프사업」멘토(대학생) 모집</a>
+				<span class="date">	10.26</span>
+			</li>	
+		
+			<li>
+				<a href="/skku/campus/skk_comm/notice01.do?mode=view&amp;articleNo=67351">
+				[학사]
+				부모님과 함께하는 인성여행(제12회 인성캠프)</a>
+				<span class="date">	10.26</span>
+			</li>	
+		
+			<li>
+				<a href="/skku/campus/skk_comm/notice01.do?mode=view&amp;articleNo=67346">
+				[행사/세미나]
+				2018년 동양철학과 BK21플러스 사업단 제64회 해외학자초청강연</a>
+				<span class="date">	10.26</span>
+			</li>	
+		
+			<li>
+				<a href="/skku/campus/skk_comm/notice01.do?mode=view&amp;articleNo=67345">
+				[일반]
+				[코어사업단] &lt;인문포토그래프와 미래창업 A, B&gt;</a>
+				<span class="date">	10.26</span>
+			</li>	
+		
+			<li>
+				<a href="/skku/campus/skk_comm/notice01.do?mode=view&amp;articleNo=67344">
+				[일반]
+				[코어사업단] &lt;인문코딩과 미래창업A, B&gt; </a>
+				<span class="date">	10.26</span>
+			</li>	
+		
+			<li>
+				<a href="/skku/campus/skk_comm/notice01.do?mode=view&amp;articleNo=67343">
+				[일반]
+				[SAINT] SPECIAL LECTURE Seminar_(Thursday, November 01, 2018, 16:00) Dr. 채성욱  ( Korea Institute of Orental Medicine)</a>
+				<span class="date">	10.25</span>
+			</li>	
+		
+			<li>
+				<a href="/skku/campus/skk_comm/notice01.do?mode=view&amp;articleNo=67338">
+				[행사/세미나]
+				2018 인문학강의 상호교환제 - 다릿돌 인문학 특강</a>
+				<span class="date">	10.25</span>
+			</li>	
+		
+			<li>
+				<a href="/skku/campus/skk_comm/notice01.do?mode=view&amp;articleNo=67334">
+				[채용/모집]
+				(자)1398피트니스센터 11월 등록 안내</a>
+				<span class="date">	10.25</span>
+			</li>	
+		
+			<li>
+				<a href="/skku/campus/skk_comm/notice01.do?mode=view&amp;articleNo=67331">
+				[일반]
+				SKKU휴먼북 선배님들과의 만남 일정 안내</a>
+				<span class="date">	10.26</span>
+			</li>	
+		
+			<li>
+				<a href="/skku/campus/skk_comm/notice01.do?mode=view&amp;articleNo=67328">
+				[채용/모집]
+				[국제교류팀] 2018-2 인턴학생 모집</a>
+				<span class="date">	10.26</span>
+			</li>	
+		
+			<li>
+				<a href="/skku/campus/skk_comm/notice01.do?mode=view&amp;articleNo=67326">
+				[장학]
+				2018년도 1학기 입학금 감축 대응 지원 4차 추가신청 안내</a>
+				<span class="date">	10.24</span>
+			</li>	
+		
+			<li>
+				<a href="/skku/campus/skk_comm/notice01.do?mode=view&amp;articleNo=67311">
+				[학사]
+				2018학년도 동계 계절수업 안내</a>
+				<span class="date">	10.26</span>
+			</li>	
+		
+		
+		
+	</ul>
+		
+	
+</div>
+
+
+
+
+				
+			</div>
+		</div>
+		<div class="headLineWrap">
+			<h3 class="mainContTit">Headlines</h3>
+			<ul class="headLine_list">
+				
+					
+					
+					
+					
+					
+					
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+			
+				
+				
+			
+			
+		
+			
+		
+		
+		
+		
+		
+		<li>
+			
+			<a class="articleTitle url" data-w= data-h= href="#"  data-url="http://news.chosun.com/site/data/html_dir/2018/10/23/2018102300193.html?utm_source=naver&amp;utm_medium=original&amp;utm_campaign=news" data-target=_self>
+				<span class="headLineimgWrap">
+					<img src="/_attach/image/2018/10/cQRcFInvKzyhBkvCCYqf.jpg" alt="성균관대, 2018 QS 아시아 대학평가에서 작년보다 3계단 올라 … 15위 기록">
+				</span>
+				<span class="headLineTxtWrap">
+					<span class="headLIneTit">REPUTATION</span>
+					<span class="headLIneRec"></span>
+					<span class="headLIneDesc">성균관대, 2018 QS 아시아 대학평가에서 작년보다 3계단 올라 … 15위 기록</span>
+				</span>
+			</a>
+		</li>	
+	
+	
+	
+
+
+
+
+
+				
+				
+					
+					
+					
+					
+					
+					
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+			
+				
+				
+			
+			
+		
+			
+		
+		
+		
+		
+		
+		<li>
+			
+			<a class="articleTitle url" data-w= data-h= href="#"  data-url="https://news.joins.com/article/23049276" data-target=_self>
+				<span class="headLineimgWrap">
+					<img src="/_attach/image/2018/10/MBqpzwnqOokEdtkdbSMj.jpg" alt="성균관대와 교류협력차 방한한 NTU 수레쉬 총장...양교 간 조인트 박사학위 프로그램 운영 계획">
+				</span>
+				<span class="headLineTxtWrap">
+					<span class="headLIneTit">GLOBAL SKKU</span>
+					<span class="headLIneRec"></span>
+					<span class="headLIneDesc">성균관대-싱가포르 난양공대(NTU), 양교 간 조인트 박사학위 프로그램 운영 계획</span>
+				</span>
+			</a>
+		</li>	
+	
+	
+	
+
+
+
+
+
+				
+				
+					
+					
+					
+					
+					
+					
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+			
+				
+				
+			
+			
+		
+			
+		
+		
+		
+		
+		
+		<li>
+			
+			<a class="articleTitle url" data-w= data-h= href="#"  data-url="https://www.skku.edu/skku/campus/skk_comm/news.do?mode=view&amp;articleNo=67360&amp;article.offset=0&amp;articleLimit=10" data-target=_self>
+				<span class="headLineimgWrap">
+					<img src="/_attach/image/2018/10/FHrUrfFVyMXZrbdLyAuD.jpg" alt="professorgong">
+				</span>
+				<span class="headLineTxtWrap">
+					<span class="headLIneTit">PEOPLE</span>
+					<span class="headLIneRec"></span>
+					<span class="headLIneDesc">미술학과 공성훈교수, 대구미술관 제19회 이인성 미술상 수상</span>
+				</span>
+			</a>
+		</li>	
+	
+	
+	
+
+
+
+
+
+				
+				
+					
+					
+					
+					
+					
+					
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+			
+				
+				
+			
+			
+		
+			
+		
+		
+		
+		
+		
+		<li>
+			
+			<a class="articleTitle url" data-w= data-h= href="#"  data-url="https://webzine.skku.edu/skkuzine/section/people02.do?articleNo=66975&amp;pager.offset=0&amp;pagerLimit=10" data-target=_blank>
+				<span class="headLineimgWrap">
+					<img src="/_attach/image/2018/10/AfoErTsgigrjvUVRxWNS.jpg" alt="이사흔 학우">
+				</span>
+				<span class="headLineTxtWrap">
+					<span class="headLIneTit">WEBZINE</span>
+					<span class="headLIneRec"></span>
+					<span class="headLIneDesc">말레이시아에서 온 화학공학도 <br> 이사흔 학우</span>
+				</span>
+			</a>
+		</li>	
+	
+	
+	
+
+
+
+
+
+			</ul>
+		</div>
+		<div class="Research">
+			<h3 class="mainContTit">Research Stories</h3>
+			
+				
+				
+				
+				
+				
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="mResWrap">
+	<div class="mResSwiperWrap">				
+		<ul class="mResSwiper">
+			
+				
+				
+					
+						
+									
+						
+							
+								
+								<li>
+									<a href="/skku/research/industry/researchStory_view.do?mode=view&amp;articleNo=67141" target="_blank">
+										<img src="/_attach/image/2018/10/xSaEZMmRTSYPjiIBWyAF.jpg" alt="Wnt 신호전달의 작용기전 규명"/>
+									</a>
+								</li>
+									
+						
+							
+								
+								<li>
+									<a href="/skku/research/industry/researchStory_view.do?mode=view&amp;articleNo=67141" target="_blank">
+										<img src="/_attach/image/2018/10/EZrZZKypTQJVNfXnqPWf.jpg" alt="Wnt 신호전달의 작용기전 규명"/>
+									</a>
+								</li>
+									
+						
+					
+					
+				
+			
+				
+				
+			
+		</ul>
+	</div>
+	<div class="researchRight">
+		<ul>
+			
+				
+				
+				
+					
+						
+							
+							
+								
+					
+								
+					
+								
+					
+				
+				<li>
+					<div class="mainRes_txtWrap">
+						<div>
+							
+							<p>
+								Wnt 신호전달의 작용기전 규명
+								<span>
+									약학과 <br/>  정가영 교수  
+									
+									
+										
+										·
+										김희령 석박통합학생
+									
+								</span>
+							</p>
+							<a href="/skku/research/industry/researchStory_view.do?mode=view&amp;articleNo=67141" class="main_moreBtn" target="_blank">
+								자세히 보기
+							</a>
+							
+							
+						</div>
+						<a href="/skku/research/industry/researchStory_view.do?mode=view&amp;articleNo=67141" target="_blank">
+							<img src="/_attach/image/2018/10/tdmqLiuIhNwhPHOIvhnJ.jpg" alt="정가영 교수"/>
+						</a>
+					</div>
+				</li>
+			
+				
+				
+				
+					
+						
+							
+							
+								
+					
+								
+					
+								
+					
+				
+				<li>
+					<div class="mainRes_txtWrap mainRes_txtWrapBtm">
+						<div>
+							
+								<div>
+									<a class="poa_tx" href="/skku/research/industry/researchStory.do?mode=list">[지난 내용 보기]</a>
+							
+							<p>
+								단일 파장대역에서만 발광하는 새로운 상향변환 호스트 물질 개발
+								<span>
+									화학공학/고분자공학부 <br/>  김동환 교수  
+									
+									
+										
+										·
+										문병석 연구원
+									
+								</span>
+							</p>
+							<a href="/skku/research/industry/researchStory_view.do?mode=view&amp;articleNo=66683" class="main_moreBtn" target="_blank">
+								자세히 보기
+							</a>
+							
+								</div>
+							
+							
+						</div>
+						<a href="/skku/research/industry/researchStory_view.do?mode=view&amp;articleNo=66683" target="_blank">
+							<img src="/_attach/image/2018/09/lBwglBWorYPyaMzsAiYI.jpg" alt="김동환 교수님"/>
+						</a>
+					</div>
+				</li>
+			
+		</ul>
+	</div>
+</div>
+
+
+			
+		</div>	
+	</div>
+</div>
+</div>
+<div class="social_media">
+<div class="w1400">
+	<div class="Media">
+		<h3 class="mainContTit">Social Media</h3>
+		<div class="mediaLeft">
+			
+			
+			<div class="youtubeWrap">
+				<iframe frameborder="0" allowfullscreen title="YouTube video player" width="100%" height="100%"
+				src="https://www.youtube.com/embed/xD3C9j1e8WA?&amp;autoplay=0&amp;loop=0&amp;controls=0&amp;showinfo=0&amp;autohide=1&amp;modestbranding=1&amp;rel=0&amp;playlist=ZgUwxCqj3c4&amp;vq=hd1080&amp;widget_referrer=http%3A%2F%2Fwww.skku.ac.kr%2Findex_pc.jsp&amp;enablejsapi=1&amp;origin=http%3A%2F%2Fwww.skku.ac.kr&amp;widgetid=2"></iframe>
+			</div>
+			<div class="mediaTxtWrap">
+				<p class="mediaTit">2018 유소문화축제<br>고하노라</p>
+				<p class="mediaDesc">
+					유생문화기획단 '청랑'주최
+				</p>
+				<!--<p class="mediaDesc">
+					Social Entrepreneurship Team Academy(SeTA)<br><br>
+					* 시즌2 - 2018 Change Makers Lab 참가학생 모집
+				</p>-->
+				<!--<a href="https://www.skku.edu/skku/campus/skk_comm/notice01.do?mode=view&articleNo=66018&article.offset=0&articleLimit=10&srSearchVal=%EC%9D%B4%EC%9B%90%EC%A4%80" target="_blank" class="main_moreBtn">모집 안내</a>-->
+				<a href="https://www.youtube.com/watch?v=xD3C9j1e8WA" target="_blank" class="main_moreBtn">자세히 보기</a>
+			    <!--<a href="https://www.youtube.com/channel/UCMSzjNHLZNNUUA-Z8OrXY9Q" target="_blank" class="main_moreBtn">자세히 보기</a>-->
+				
+			</div>
+		</div>
+		<div class="mediaRight">
+			<ul class="snsList">
+				<li><a href="https://www.facebook.com/sungkyunkwanuniversity1398" target="_blank" title="새창"><img src="/_res/skku/img/main/media_icon01.png" alt="페이스북 바로가기"></a></li>
+				<li><a href="https://www.instagram.com/sungkyunkwan_univ_official/" target="_blank" title="새창"><img src="/_res/skku/img/main/media_icon02.png" alt="인스타그램 바로가기"></a></li>
+				<li><a href="http://blog.naver.com/good7101910" target="_blank" title="새창"><img src="/_res/skku/img/main/media_icon03.png" alt="블로거 바로가기"></a></li>
+				<li><a href="https://www.youtube.com/channel/UCMSzjNHLZNNUUA-Z8OrXY9Q" target="_blank" title="새창"><img src="/_res/skku/img/main/media_icon04.png" alt="유투브바로가기"></a></li>
+			</ul>
+			<ul class="snsQuickList">
+				<li><a href="https://www.facebook.com/skkujob/" target="_blank" title="새창">/ 취업 페이스북</a></li>
+				<li><a href="http://www.facebook.com/skkuintl" target="_blank" title="새창">/ 국제교류 페이스북</a></li>
+				<li><a href="https://www.facebook.com/skkuintlstudents" target="_blank" title="새창">/ 외국인유학생 페이스북</a></li>
+				<li><a href="https://www.facebook.com/skkuiss" target="_blank" title="새창">/ 국제하계학기 페이스북</a></li>
+				<li><a href="https://www.facebook.com/skkuoutgoing/" target="_blank" title="새창">/ 파견교환학생 페이스북</a></li>
+				<li><a href="https://www.facebook.com/skkgsb" target="_blank" title="새창">/ SKK GSB 페이스북</a></li>
+				<li><a href="https://www.facebook.com/skkuctl/" target="_blank" title="새창">/ 교육개발센터(CTL) 페이스북</a></li>
+				<li><a href="https://www.facebook.com/aeas.skku/" target="_blank" title="새창">/ 동아시아학술원 페이스북</a></li>
+			</ul>
+		</div>
+	</div>	
+</div>
+</div>
+<div class="footer">
+<a href="#" class="topBtn">
+	<img src="/_res/skku/img/common/topBtn.png" class="top">
+	<img src="/_res/skku/img/common/topBtn_hover.png" class="top_hover">
+</a>
+<div class="LinkWrap">
+	<div class="LinkList">
+		<div class="w1400">
+			<ul>
+				
+					
+					
+					
+					
+					
+				
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+			
+				
+				
+			
+			
+		
+		
+		
+		<li>
+			<a class="url" data-w="" data-h="" data-url="https://lib.skku.edu/" href="#" data-target=_blank>
+				
+					
+						
+						
+						
+							
+							
+								
+					
+						
+						
+						
+							
+							
+								
+					
+						
+							
+							
+						
+						
+								
+					
+						
+						
+						
+							
+							
+								
+					
+				
+				
+				<img src="/_attach/image/2018/07/esUHzVvIhYfnAlpzqCCL.png" alt="학술정보관 off" class="fIconTop">
+				<img src="/_attach/image/2018/07/kAoPiUftNTnsNUkcSyLi.png" alt="학술정보관 on 이미지" class="fIconBtm">
+				<span>학술정보관</span>
+			</a>
+			
+			
+			<div class="seaBan_pupp" style="display: none;">
+				학사과정/일반대학원 학사 문의
+				
+					<br><br>
+				
+				1811-8585(바로바로)<br>
+				1811-7558(SKKU)<br><br>
+
+				9:00~12:00 / 13:00~17:00<br>
+				(주말 및 공휴일 제외)
+				<img src="/_res/skku/img/sub/seaBan_tail.png" alt=""/>
+			</div>
+		</li>	
+	
+		
+		
+			
+				
+				
+			
+			
+		
+		
+		
+		<li>
+			<a class="url" data-w="" data-h="" data-url="https://job.skku.edu/" href="#" data-target=_blank>
+				
+					
+						
+							
+							
+						
+						
+								
+					
+						
+						
+						
+							
+							
+								
+					
+				
+				
+				<img src="/_attach/image/2018/06/gKqFDWkHatIMBEgHLQSn.png" alt="취업지원 off" class="fIconTop">
+				<img src="/_attach/image/2018/06/HDtodiFkbqkGiymovSCa.png" alt="취업지원 on" class="fIconBtm">
+				<span>취업지원</span>
+			</a>
+			
+			
+			<div class="seaBan_pupp" style="display: none;">
+				학사과정/일반대학원 학사 문의
+				
+					<br><br>
+				
+				1811-8585(바로바로)<br>
+				1811-7558(SKKU)<br><br>
+
+				9:00~12:00 / 13:00~17:00<br>
+				(주말 및 공휴일 제외)
+				<img src="/_res/skku/img/sub/seaBan_tail.png" alt=""/>
+			</div>
+		</li>	
+	
+		
+		
+			
+				
+				
+			
+			
+		
+		
+		
+			
+		
+		<li>
+			<a class="url foot_hover" data-w="300" data-h="200" data-url="tel:1811-8585" href="#" data-target=_self>
+				
+					
+						
+						
+						
+							
+							
+								
+					
+						
+						
+						
+							
+							
+								
+					
+						
+							
+							
+						
+						
+								
+					
+						
+						
+						
+							
+							
+								
+					
+				
+				
+				<img src="/_attach/image/2018/07/AOCmfhPJIHyCHRUxeBCR.png" alt="학사바로센터 off" class="fIconTop">
+				<img src="/_attach/image/2018/07/qpTIoVaMNtyPMZJITQYm.png" alt="학사바로센터 on" class="fIconBtm">
+				<span>학사바로센터</span>
+			</a>
+			
+			
+			<div class="seaBan_pupp" style="display: none;">
+				학사과정/일반대학원 학사 문의
+				
+					<br><br>
+				
+				1811-8585(바로바로)<br>
+				1811-7558(SKKU)<br><br>
+
+				9:00~12:00 / 13:00~17:00<br>
+				(주말 및 공휴일 제외)
+				<img src="/_res/skku/img/sub/seaBan_tail.png" alt=""/>
+			</div>
+		</li>	
+	
+		
+		
+			
+				
+				
+			
+			
+		
+		
+		
+		<li>
+			<a class="url" data-w="" data-h="" data-url="https://www.youtube.com/watch?v=laacoGAhsOc" href="#" data-target=_blank>
+				
+					
+						
+							
+							
+						
+						
+								
+					
+						
+						
+						
+							
+							
+								
+					
+				
+				
+				<img src="/_attach/image/2018/06/ysBBBXnNraTwTbQCikVy.png" alt="장애인식개선 영상 ‘이해더하기’  off" class="fIconTop">
+				<img src="/_attach/image/2018/06/nocaTICapiEGVisBQlMY.png" alt="장애인식개선 영상 ‘이해더하기’   on" class="fIconBtm">
+				<span>장애인식개선 영상<br>‘이해더하기’  </span>
+			</a>
+			
+			
+			<div class="seaBan_pupp" style="display: none;">
+				학사과정/일반대학원 학사 문의
+				
+					<br><br>
+				
+				1811-8585(바로바로)<br>
+				1811-7558(SKKU)<br><br>
+
+				9:00~12:00 / 13:00~17:00<br>
+				(주말 및 공휴일 제외)
+				<img src="/_res/skku/img/sub/seaBan_tail.png" alt=""/>
+			</div>
+		</li>	
+	
+		
+		
+			
+				
+				
+			
+			
+		
+		
+		
+		<li>
+			<a class="url" data-w="" data-h="" data-url="http://helper.skku.edu/helper/index.jsp" href="#" data-target=_blank>
+				
+					
+						
+							
+							
+						
+						
+								
+					
+						
+						
+						
+							
+							
+								
+					
+				
+				
+				<img src="/_attach/image/2018/06/JOrZPcbIjcVYFkRlBjjy.png" alt="인권센터 off" class="fIconTop">
+				<img src="/_attach/image/2018/06/KlNSDoWUOXpgcMORkivD.png" alt="인권센터 on" class="fIconBtm">
+				<span>인권센터</span>
+			</a>
+			
+			
+			<div class="seaBan_pupp" style="display: none;">
+				학사과정/일반대학원 학사 문의
+				
+					<br><br>
+				
+				1811-8585(바로바로)<br>
+				1811-7558(SKKU)<br><br>
+
+				9:00~12:00 / 13:00~17:00<br>
+				(주말 및 공휴일 제외)
+				<img src="/_res/skku/img/sub/seaBan_tail.png" alt=""/>
+			</div>
+		</li>	
+	
+		
+		
+			
+				
+				
+			
+			
+		
+		
+		
+		<li>
+			<a class="url" data-w="" data-h="" data-url="https://fund.skku.edu/" href="#" data-target=_blank>
+				
+					
+						
+							
+							
+						
+						
+								
+					
+						
+						
+						
+							
+							
+								
+					
+				
+				
+				<img src="/_attach/image/2018/06/CsQzlgIbwgLPxKNAgoYf.png" alt=" 발전기금 off" class="fIconTop">
+				<img src="/_attach/image/2018/06/ArgCtULXeRYGBlCaeXbx.png" alt=" 발전기금 on" class="fIconBtm">
+				<span> 발전기금</span>
+			</a>
+			
+			
+			<div class="seaBan_pupp" style="display: none;">
+				학사과정/일반대학원 학사 문의
+				
+					<br><br>
+				
+				1811-8585(바로바로)<br>
+				1811-7558(SKKU)<br><br>
+
+				9:00~12:00 / 13:00~17:00<br>
+				(주말 및 공휴일 제외)
+				<img src="/_res/skku/img/sub/seaBan_tail.png" alt=""/>
+			</div>
+		</li>	
+	
+	
+	
+
+
+
+
+
+				
+				
+			</ul>
+		</div>
+	</div>
+	<div class="LinkListBtm">
+		<div class="w1400">
+			<ul>
+				<li><a href="/skku/about/campusInfo/campus_telInfo.do" target="_blank" title="새창"><span>·</span> 교내전화번호</a></li>
+				<li><a href="/skku/about/campusInfo/campusMap.do" target="_blank" title="새창"><span>·</span> 캠퍼스맵</a></li>
+				<li><a href="http://www.icampus.ac.kr/" target="_blank" title="새창"><span>·</span> i-Campus</a></li>
+				<li><a href="https://certi.skku.edu/icert/link.jsp" target="_blank" title="새창"><span>·</span> 증명발급</a></li>
+				<li><a href="http://book.skku.edu/" target="_blank" title="새창"><span>·</span> 오거서</a></li>
+				<li><a href="http://dailyinsight.skku.edu/" target="_blank" title="새창"><span>·</span> 수중혜</a></li>
+				<li><a href="http://chec.skku.edu/chec/menu5/sub5_4_2.jsp?mode=view&amp;article_no=3234050&amp;board_wrapper=%2Fchec%2Fmenu5%2Fsub5_4_2.jsp&amp;pager.offset=0&amp;board_no=51" target="_blank" title="새창"><span>·</span> 인성가언</a></li>
+				<li><a href="/skku/etc/my_proposal.do" target="_blank" title="새창"><span>·</span> 예산절감제안방</a></li>
+				<li><a href="/skku/campus/skk_comm/report_center.do" target="_blank" title="새창"><span>·</span> 불친절신고센터</a></li>
+				<li><a href="http://press.skku.edu/" target="_blank" title="새창"><span>·</span> 출판부</a></li>
+				<li><a href="https://dorm.skku.edu/" target="_blank" title="새창"><span>·</span> 기숙사</a></li>
+				<li><a href="http://shb.skku.edu/scc/" target="_blank" title="새창"><span>·</span> 카운슬링센터</a></li>
+				<li><a href="/skku/campus/skk_comm/newsLetter.do" target="_blank" title="새창"><span>·</span> 성균소식</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="w1400">
+  <div class="footer_top">
+    <h1 class="footer_logo"><img src="/_res/skku/img/common/footer-logo.png" alt="성균관대학교"></h1>
+    
+    <div class="secWrap">
+       <ul class="foot_secList">
+		   <li>
+			   <label class="hidden" for="secLink">주요링크</label>
+			   <select class="select" id="secLink">
+				   <option>주요링크</option>
+			   </select>
+		   </li>
+		   
+		   
+		   <li>
+			   
+
+
+
+
+
+
+
+
+
+<label class="hidden" for="sec1">대학/대학원</label>
+<select class="select" id="sec1">
+	<option>대학/대학원</option>
+	
+		
+		
+		
+		
+		<option value="https://hakbu.skku.edu/hakbu/index.jsp" target=_blank>학부대학</option>	
+	
+		
+		
+		
+		
+		<option value="http://scos.skku.edu/scos/index.jsp" target=_blank>유학대학</option>	
+	
+		
+		
+		
+		
+		<option value="http://liberalarts.skku.edu/liberal/index.jsp" target=_blank>문과대학</option>	
+	
+		
+		
+		
+		
+		<option value="http://sscience.skku.edu/sscience/index.jsp" target=_blank>사회과학대학</option>	
+	
+		
+		
+		
+		
+		<option value="http://ecostat.skku.edu/ecostat/index.jsp" target=_blank>경제대학</option>	
+	
+		
+		
+		
+		
+		<option value="https://biz.skku.edu/" target=_blank>경영대학</option>	
+	
+		
+		
+		
+		
+		<option value="http://coe.skku.edu/coe/index.jsp" target=_blank>사범대학</option>	
+	
+		
+		
+		
+		
+		<option value="http://art.skku.edu/art/index.jsp" target=_blank>예술대학</option>	
+	
+		
+		
+		
+		
+		<option value="https://cscience.skku.edu/cscience/index.do" target=_blank>자연과학대학</option>	
+	
+		
+		
+		
+		
+		<option value="http://icc.skku.ac.kr/icc_new/main" target=_blank>정보통신대학</option>	
+	
+		
+		
+		
+		
+		<option value="http://cs.skku.edu/" target=_blank>소프트웨어대학</option>	
+	
+		
+		
+		
+		
+		<option value="http://enc.skku.edu/enc/" target=_blank>공과대학</option>	
+	
+		
+		
+		
+		
+		<option value="http://pharm.skku.edu/" target=_blank>약학대학</option>	
+	
+		
+		
+		
+		
+		<option value="https://skb.skku.edu/biotech/index.do" target=_blank>생명공학대학</option>	
+	
+		
+		
+		
+		
+		<option value="http://sport.skku.edu/sports/index.jsp" target=_blank>스포츠과학대학</option>	
+	
+		
+		
+		
+		
+		<option value="http://www.skkumed.ac.kr/" target=_blank>의과대학</option>	
+	
+		
+		
+		
+		
+		<option value="http://icon.skku.edu/icon/index.jsp" target=_blank>성균융합원</option>	
+	
+	<option value="/skku/edu/graduateSchool/graduate_school01.do" target="_blank">일반대학원</option>
+	<option value="/skku/edu/graduateSchool/graduate_school02.do" target="_blank">특수대학원</option>
+	<option value="/skku/edu/graduateSchool/graduate_school03.do" target="_blank">전문대학원</option>	
+</select>
+
+		   </li>
+		   
+		   <li>
+			   
+				   
+				   
+				   
+				   
+				   
+					
+			   
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<label class="hidden" for="sec2">주요서비스</label>
+	<select class="select" id="sec2">
+		<option value="">주요서비스</option>
+		
+			<option value="http://vod.skku.ac.kr/studio/z_etc/e_lectureroom/system_main.html" data-target="_blank">강의실안내</option>	
+		
+			<option value="http://admin.skku.edu/co/DispatchWebAction.do?SKEY=G000003325&BIZ=hs&FIRST_PAGE=HSSU030530M&LANGUAGE=KO" data-target="_blank">교육과정안내</option>	
+		
+			<option value="/skku/campus/IT_service/it_service04.do" data-target="_blank">노트북대여</option>	
+		
+			<option value="http://admin.skku.edu/co/DispatchWebAction.do?SKEY=S00HSDR001&BIZ=hs&FIRST_PAGE=HSDR030071M&SINGLE=Y" data-target="_blank">등록금고지서출력(재학생)</option>	
+		
+			<option value="https://skb.skku.edu/liveweb" data-target="_blank">라이브 웹캠</option>	
+		
+			<option value="/skku/campus/IT_service/it_service05.do" data-target="_blank">무선랜서비스</option>	
+		
+			<option value="/skku/campus/support/welfare_12.do" data-target="_blank">셔틀버스안내</option>	
+		
+			<option value="/skku/campus/IT_service/it_service04.do" data-target="_blank">SW안내</option>	
+		
+			<option value="/skku/campus/support/welfare_11.do" data-target="_blank">식당메뉴안내</option>	
+		
+			<option value="http://helpu.kr/6119/" data-target="_blank">IT콜센터 원격지원</option>	
+		
+			<option value="/skku/about/campusInfo/campus_telInfo.do" data-target="_blank">전화번호 안내</option>	
+		
+			<option value="http://admin.skku.edu/co/DispatchWebAction.do?SKEY=G000005605&BIZ=hs&FIRST_PAGE=IBIT060210M&FIRST_POPYN=Y" data-target="_blank">전화요금명세서</option>	
+		
+			<option value="/skku/about/campusInfo/parking.do" data-target="_blank">주차안내(서울)</option>	
+		
+			<option value="/skku/about/campusInfo/parking02.do" data-target="_blank">주차안내(수원)</option>	
+		
+			<option value="/skku/about/campusInfo/location.do" data-target="_blank">찾아오시는길</option>	
+		
+			<option value="/skku/campus/support/welfare_01.do" data-target="_blank">편의시설</option>	
+		
+			<option value="http://admin.skku.edu/co/DispatchWebAction.do?SKEY=SYSIBGK001&BIZ=ib&FIRST_PAGE=IBGK050100M&FIRST_POPYN=Y" data-target="_blank">공간관리비납부</option>	
+		
+			<option value="http://admin.skku.edu/co/DispatchWebAction.do?SKEY=SYSIBIH004&BIZ=ib&FIRST_PAGE=IBIH040100M&FIRST_POPYN=Y" data-target="_blank">거래처 출금조회</option>	
+		
+	</select>
+
+
+
+		   </li>
+		   <li>
+			   
+				   
+				   
+				   
+				   
+				   
+					
+			   
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<label class="hidden" for="sec3">주요사이트</label>
+	<select class="select" id="sec3">
+		<option value="">주요사이트</option>
+		
+			<option value="http://archives.skku.edu/" data-target="_blank">기록보존실</option>	
+		
+			<option value="https://health.skku.edu/health/index.do" data-target="_blank">건강센터</option>	
+		
+			<option value="https://socw.skku.edu/" data-target="_blank">공개강의(SOCW)</option>	
+		
+			<option value="https://ccrf.skku.edu/ccrf/index.do" data-target="_blank">공동기기원</option>	
+		
+			<option value="https://dorm.skku.edu/" data-target="_blank">기숙사</option>	
+		
+			<option value="http://ctl.skku.edu/ctl/index.jsp" data-target="_blank">교육개발센터</option>	
+		
+			<option value="https://aeas.skku.edu/main.jsp" data-target="_blank">동아시아학술원</option>	
+		
+			<option value="http://cihe.skku.edu/" data-target="_blank">대학교육혁신센터</option>	
+		
+			<option value="https://linc.skku.edu/" data-target="_blank">LINC+사업단</option>	
+		
+			<option value="http://shb.skku.edu/museum/index.jsp" data-target="_blank">박물관</option>	
+		
+			<option value="https://fund.skku.edu/" data-target="_blank">발전기금</option>	
+		
+			<option value="http://sls.skku.edu/sls/index.jsp" data-target="_blank">법학전문대학원(로스쿨)</option>	
+		
+			<option value="https://bk21plus.skku.edu/main/main.jsp" data-target="_blank">BK21 PLUS</option>	
+		
+			<option value="http://ranbiz.skku.edu/" data-target="_blank">산학협력단</option>	
+		
+			<option value="http://www.smc.or.kr/" data-target="_blank">삼성의료원</option>	
+		
+			<option value="http://saihst.skku.edu/m/index.php" data-target="_blank">삼성융합의과학원(SAIHST)</option>	
+		
+			<option value="https://src.skku.edu/" data-target="_blank">서베이리서치센터</option>	
+		
+			<option value="https://koreansli.skku.edu/ksli/index.do" data-target="_blank">성균어학원</option>	
+		
+			<option value="http://saah.skku.edu/saah/index.jsp" data-target="_blank">성균인문동양학아카데미</option>	
+		
+			<option value="http://chec.skku.edu/chec/index.jsp" data-target="_blank">성균인성교육센터</option>	
+		
+			<option value="https://safety.skku.edu/" data-target="_blank">안전정보망</option>	
+		
+			<option value="https://book.skku.edu/" data-target="_blank">오거서</option>	
+		
+			<option value="http://ygmh.skku.edu/ygmh/index.jsp" data-target="_blank">유교문화연구소</option>	
+		
+			<option value="https://admission.skku.edu/main.html" data-target="_blank">입학처</option>	
+		
+			<option value="http://ur1004.skku.edu" data-target="_blank">UR1004(자원봉사)</option>	
+		
+			<option value="https://support.skku.edu/" data-target="_blank">장애학생지원센터</option>	
+		
+			<option value="http://security.skku.edu/security/index.jsp" data-target="_blank">정보보안포털</option>	
+		
+			<option value="https://east.skku.edu/" data-target="_blank">존경각</option>	
+		
+			<option value="http://alumni.skku.edu/" data-target="_blank">총동창회</option>	
+		
+			<option value="https://www.facebook.com/skku50swith/" data-target="_blank">총학생회(인사캠)</option>	
+		
+			<option value="https://www.facebook.com/skkunssc/" data-target="_blank">총학생회(자과캠)</option>	
+		
+			<option value="http://dozawee.com/" data-target="_blank">도서관자치위원회</option>	
+		
+			<option value="http://press.skku.edu/" data-target="_blank">출판부</option>	
+		
+			<option value="http://shb.skku.edu/scc/" data-target="_blank">카운슬링센터</option>	
+		
+			<option value="https://job.skku.edu/" data-target="_blank">학생인재개발팀</option>	
+		
+			<option value="https://lib.skku.edu/#/" data-target="_blank">학술정보관(도서관)</option>	
+		
+			<option value="http://ygc.skku.edu/index_2013.jsp?location_type=kor" data-target="_blank">한국유경편찬센터</option>	
+		
+			<option value="https://cerk.skku.edu/" data-target="_blank">CERK</option>	
+		
+			<option value="http://home.skku.edu/~alimi/index_temp.htm" data-target="_blank">SKKU 알리미</option>	
+		
+			<option value="http://bridge.skku.edu/" data-target="_blank">V데스크</option>	
+		
+			<option value="https://oldbook.skku.edu/" data-target="_blank">고서찾기시스템</option>	
+		
+			<option value="http://matrix.skku.ac.kr/simsan/" data-target="_blank">심산연구회</option>	
+		
+	</select>
+
+
+
+		   </li>
+		   
+		   
+      </ul>
+      <ul class="footer_list">
+        <li><a href="/skku/etc/private.do" class="indi_info">개인정보처리방침</a></li>
+        <li><a href="http://www.academyinfo.go.kr/UIPISA/uipnh/unt/ipsrch/UntUnvAcdtSrchPupExtrn.do?schlId=0000133" target="_blank">대학정보공시</a></li>
+        <li><a href="/skku/about/status/self_evaluation.do">자체평가</a></li>
+        <li><a href="/skku/etc/netizen.do">네티즌윤리규약</a></li>
+        <li><a href="#none" target="_blank" onclick="openPop('/skku/etc/pop_email.jsp','campusmap',660,365);return false" title="새창">이메일무단수집거부</a></li>
+        <li><a href="/skku/about/status/budgetaccounts_2017.do">예결산공고</a></li>
+        <li><a href="/skku/etc/service.do">행정서비스헌장</a></li>
+        <li><a href="/skku/etc/illegal.do">청탁금지법</a></li>
+		<li><a href="http://security.skku.edu/" target="_blank" title="새창"> 정보보안</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer_btm">
+    <div class="footBtm_info">
+      <ul>
+        <li>인문사회과학캠퍼스 (03063) 서울특별시 종로구 성균관로 25-2 / TEL.02.760.0114</li>
+        <li>자연과학캠퍼스 (16419) 경기도 수원시 장안구 서부로 2066 / TEL.031.290.5114</li>
+        <li>COPYRIGHT ⓒ 2014 SUNGKYUNKWAN UNIVERSITY ALL RIGHTS RESERVED.   Contact us</li>
+      </ul>
+    </div>
+    <div class="foot_award">
+      <ul>
+        <li>
+          <a href="#">
+            <img src="/_res/skku/img/common/award_icon01.png" alt="잘 가르치는 대학 ACE">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="/_res/skku/img/common/award_icon02.png" alt="국가고객만족도 9년 연속 1위">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="/_res/skku/img/common/award_icon03.png" alt="대통령상 大賞">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="/_res/skku/img/common/award_icon04.png" alt="국가품질경영 대통령상">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="/_res/skku/img/common/award_icon05.png" alt="2013년 한국서비스품질지수 3년 연속 1위 달성">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="/_res/skku/img/common/award_icon06.png" alt="공공부문 Best HRD 1위">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="/_res/skku/img/common/award_icon07.png" alt="국내대학 최초 QS 5-star 인증 획득">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+</div>
+<noscript><p>이 사이트는 자바스크립트를 지원하지 않으면 정상적으로 보이지 않을수 있습니다.</p></noscript>
+</body>
+</html>

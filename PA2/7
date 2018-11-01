@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html  xmlns="http://www.w3.org/1999/xhtml" prefix="" lang="en-US">
+<head>
+<meta charset="UTF-8">
+<title>SKKU ESLAB | Embedded Software Laboratory, SKKU</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://nyx.skku.ac.kr/xmlrpc.php">
+
+<!-- BEGIN Metadata added by the Add-Meta-Tags WordPress plugin -->
+<meta name="description" content="Embedded Software Laboratory, SKKU" />
+<meta name="keywords" content="news, tizen faq" />
+<!-- END Metadata added by the Add-Meta-Tags WordPress plugin -->
+
+<link rel="alternate" type="application/rss+xml" title="SKKU ESLAB &raquo; Feed" href="http://nyx.skku.ac.kr/?feed=rss2" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/nyx.skku.ac.kr\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56806,55356,56826),0,0),c.toDataURL().length>3e3):("simple"===a?d.fillText(String.fromCharCode(55357,56835),0,0):d.fillText(String.fromCharCode(55356,57135),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='jobair-ticker-css-css'  href='http://nyx.skku.ac.kr/wp-content/plugins/jb-news-ticker/css/jquery.smarticker.css?ver=4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='papercite_css-css'  href='http://nyx.skku.ac.kr/wp-content/plugins/papercite/papercite.css?ver=4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='generate-fonts-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300%2C300italic%2Cregular%2Citalic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic&#038;subset=latin%2Clatin-ext&#038;ver=1.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='EG-Attachments-css'  href='http://nyx.skku.ac.kr/wp-content/plugins/eg-attachments/css/eg-attachments.css?ver=2.1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='toc_css-css'  href='http://nyx.skku.ac.kr/wp-content/plugins/seo-friendly-table-of-contents/style.css?ver=4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='accordioncssfree-css'  href='http://nyx.skku.ac.kr/wp-content/plugins/sp-faq/css/jquery.accordion.css?ver=3.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='generate-style-grid-css'  href='http://nyx.skku.ac.kr/wp-content/themes/generatepress/css/structure.css?ver=1.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='generate-style-css'  href='http://nyx.skku.ac.kr/wp-content/themes/generatepress/style.css?ver=1.2.2' type='text/css' media='all' />
+<style id='generate-style-inline-css' type='text/css'>
+body {background-color: #efefef; color: #3a3a3a; }a, a:visited {color: #1e73be; text-decoration: none; }a:hover, a:focus, a:active {color: #000000; }body .grid-container {max-width: 1100px; }
+body, button, input, select, textarea {font-family: Open Sans; font-weight: normal; text-transform: none; font-size: 17px; }.main-title {font-family: inherit; font-weight: bold; text-transform: none; font-size: 45px; }.site-description {font-family: inherit; font-weight: normal; text-transform: none; font-size: 15px; }.main-navigation a, .menu-toggle {font-family: inherit; font-weight: normal; text-transform: none; font-size: 15px; }.main-navigation .main-nav ul ul li a {font-size: 13px; }.widget-title {font-family: inherit; font-weight: normal; text-transform: none; font-size: 20px; }h1 {font-family: inherit; font-weight: 300; text-transform: none; font-size: 40px; }h2 {font-family: inherit; font-weight: 300; text-transform: none; font-size: 30px; }h3 {font-family: inherit; font-weight: normal; text-transform: none; font-size: 20px; }h4 {font-family: inherit; font-weight: normal; text-transform: none; font-size: 15px; }
+.site-header {background-color: #FFFFFF; color: #3a3a3a; }.site-header a,.site-header a:visited {color: #3a3a3a; }.main-title a,.main-title a:hover,.main-title a:visited {color: #222222; }.site-description {color: #999999; }.main-navigation,  .main-navigation ul ul {background-color: #222222; }.navigation-search input[type="search"],.navigation-search input[type="search"]:active {color: #3f3f3f; background-color: #3f3f3f; }.navigation-search input[type="search"]:focus {color: #FFFFFF; background-color: #3f3f3f; }.main-navigation ul ul {background-color: #3f3f3f; }.main-navigation .main-nav ul li a,.menu-toggle {color: #FFFFFF; }.main-navigation .main-nav ul ul li a {color: #FFFFFF; }.main-navigation .main-nav ul li > a:hover, .main-navigation .main-nav ul li.sfHover > a {color: #FFFFFF; background-color: #3f3f3f; }.main-navigation .main-nav ul ul li > a:hover, .main-navigation .main-nav ul ul li.sfHover > a {color: #FFFFFF; background-color: #4f4f4f; }.main-navigation .main-nav ul .current-menu-item > a, .main-navigation .main-nav ul .current-menu-parent > a, .main-navigation .main-nav ul .current-menu-ancestor > a, .main-navigation .main-nav ul .current_page_item > a, .main-navigation .main-nav ul .current_page_parent > a, .main-navigation .main-nav ul .current_page_ancestor > a {color: #FFFFFF; background-color: #3f3f3f; }.main-navigation .main-nav ul .current-menu-item > a:hover, .main-navigation .main-nav ul .current-menu-parent > a:hover, .main-navigation .main-nav ul .current-menu-ancestor > a:hover, .main-navigation .main-nav ul .current_page_item > a:hover, .main-navigation .main-nav ul .current_page_parent > a:hover, .main-navigation .main-nav ul .current_page_ancestor > a:hover, .main-navigation .main-nav ul .current-menu-item.sfHover > a, .main-navigation .main-nav ul .current-menu-parent.sfHover > a, .main-navigation .main-nav ul .current-menu-ancestor.sfHover > a, .main-navigation .main-nav ul .current_page_item.sfHover > a, .main-navigation .main-nav ul .current_page_parent.sfHover > a, .main-navigation .main-nav ul .current_page_ancestor.sfHover > a {color: #FFFFFF; background-color: #3f3f3f; }.main-navigation .main-nav ul ul .current-menu-item > a, .main-navigation .main-nav ul ul .current-menu-parent > a, .main-navigation .main-nav ul ul .current-menu-ancestor > a, .main-navigation .main-nav ul ul .current_page_item > a, .main-navigation .main-nav ul ul .current_page_parent > a, .main-navigation .main-nav ul ul .current_page_ancestor > a {color: #FFFFFF; background-color: #4f4f4f; }.main-navigation .main-nav ul ul .current-menu-item > a:hover, .main-navigation .main-nav ul ul .current-menu-parent > a:hover, .main-navigation .main-nav ul ul .current-menu-ancestor > a:hover, .main-navigation .main-nav ul ul .current_page_item > a:hover, .main-navigation .main-nav ul ul .current_page_parent > a:hover, .main-navigation .main-nav ul ul .current_page_ancestor > a:hover,.main-navigation .main-nav ul ul .current-menu-item.sfHover > a, .main-navigation .main-nav ul ul .current-menu-parent.sfHover > a, .main-navigation .main-nav ul ul .current-menu-ancestor.sfHover > a, .main-navigation .main-nav ul ul .current_page_item.sfHover > a, .main-navigation .main-nav ul ul .current_page_parent.sfHover > a, .main-navigation .main-nav ul ul .current_page_ancestor.sfHover > a {color: #FFFFFF; background-color: #4f4f4f; }.inside-article, .comments-area, .page-header,.one-container .container,.paging-navigation,.inside-page-header {background-color: #FFFFFF; color: #3a3a3a; }.entry-meta {color: #888888; }.entry-meta a, .entry-meta a:visited {color: #666666; }.entry-meta a:hover {color: #1E73BE; }.sidebar .widget {background-color: #FFFFFF; color: #3a3a3a; }.sidebar .widget .widget-title {color: #000000; }.footer-widgets {background-color: #FFFFFF; color: #3a3a3a; }.footer-widgets a, .footer-widgets a:visited {color: #1e73be; }.footer-widgets a:hover {color: #000000; }.footer-widgets .widget-title {color: #000000; }.site-info {background-color: #222222; color: #ffffff; }.site-info a, .site-info a:visited {color: #ffffff; }.site-info a:hover {color: #4295DD; }input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], textarea {background-color: #FAFAFA; border-color: #CCCCCC; color: #666666; }input[type="text"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="password"]:focus, input[type="search"]:focus, textarea:focus {background-color: #FFFFFF; color: #666666; border-color: #BFBFBF; }button, html input[type="button"], input[type="reset"], input[type="submit"],.button,.button:visited {background-color: #666666; color: #FFFFFF; }button:hover, html input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover,.button:hover,button:focus, html input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus,.button:focus,button:active, html input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active,.button:active {background-color: #3F3F3F; color: #FFFFFF; }
+.inside-header {padding-top: 40px; padding-right: 40px; padding-bottom: 40px; padding-left: 40px; }.separate-containers .inside-article, .separate-containers .comments-area, .separate-containers .page-header, .separate-containers .paging-navigation, .one-container .site-content {padding-top: 40px; padding-right: 40px; padding-bottom: 40px; padding-left: 40px; }.ignore-x-spacing {margin-right: -40px; margin-bottom: 40px; margin-left: -40px; }.ignore-xy-spacing {margin-top: -40px; margin-right: -40px; margin-bottom: 40px; margin-left: -40px; }.main-navigation .main-nav ul li a,			.menu-toggle {padding-left: 20px; padding-right: 20px; line-height: 60px; }.nav-float-right .main-navigation .main-nav ul li a {line-height: 60px; }.main-navigation .main-nav ul ul li a {padding-left: 20px; padding-right: 20px; padding-top: 10px; padding-bottom: 10px; }.main-navigation ul ul {top: 60px; }.navigation-search {height: 60px; line-height: 0px; }.navigation-search input {height: 60px; line-height: 0px; }.separate-containers .widget-area .widget {padding-top: 40px; padding-right: 40px; padding-bottom: 40px; padding-left: 40px; }.footer-widgets {padding-top: 40px; padding-right: 0px; padding-bottom: 40px; padding-left: 0px; }.site-info {padding-top: 20px; padding-right: 0px; padding-bottom: 20px; padding-left: 0px; }.right-sidebar.separate-containers .site-main {margin-top: 20px; margin-right: 20px; margin-bottom: 20px; margin-left: 0px; padding: 0px; }.left-sidebar.separate-containers .site-main {margin-top: 20px; margin-right: 0px; margin-bottom: 20px; margin-left: 20px; padding: 0px; }.both-sidebars.separate-containers .site-main {margin: 20px; padding: 0px; }.both-right.separate-containers .site-main {margin-top: 20px; margin-right: 20px; margin-bottom: 20px; margin-left: 0px; padding: 0px; }.separate-containers .site-main {margin-top: 20px; margin-bottom: 20px; padding: 0px; }.separate-containers .page-header-image, .separate-containers .page-header-content, .separate-containers .page-header-image-single, .separate-containers .page-header-content-single {margin-top: 20px; }.both-left.separate-containers .site-main {margin-top: 20px; margin-right: 0px; margin-bottom: 20px; margin-left: 20px; padding: 0px; }.separate-containers .inside-right-sidebar, .inside-left-sidebar {margin-top: 20px; margin-bottom: 20px; padding-top: 0px; padding-bottom: 0px; }.separate-containers .widget, .separate-containers .hentry, .separate-containers .page-header, .widget-area .main-navigation {margin-bottom: 20px; }.both-left.separate-containers .inside-left-sidebar {margin-right: 10px; padding-right: 0px; }.both-left.separate-containers .inside-right-sidebar {margin-left: 10px; padding-left: 0px; }.both-right.separate-containers .inside-left-sidebar {margin-right: 10px; padding-right: 0px; }.both-right.separate-containers .inside-right-sidebar {margin-left: 10px; padding-left: 0px; }
+</style>
+<link rel='stylesheet' id='generate-mobile-style-css'  href='http://nyx.skku.ac.kr/wp-content/themes/generatepress/css/mobile.css?ver=1.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='superfish-css'  href='http://nyx.skku.ac.kr/wp-content/themes/generatepress/css/superfish.css?ver=1.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-css'  href='http://nyx.skku.ac.kr/wp-content/themes/generatepress/css/font-awesome.min.css?ver=4.4' type='text/css' media='all' />
+<script type='text/javascript' src='http://nyx.skku.ac.kr/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://nyx.skku.ac.kr/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://nyx.skku.ac.kr/wp-content/plugins/jb-news-ticker/js/jquery.smarticker.min.js?ver=1'></script>
+<script type='text/javascript' src='http://nyx.skku.ac.kr/wp-content/plugins/papercite/js/papercite.js?ver=4.4'></script>
+<script type='text/javascript' src='http://nyx.skku.ac.kr/wp-content/plugins/sp-faq/js/jquery.accordion.js?ver=3.2.3'></script>
+<link rel='https://api.w.org/' href='http://nyx.skku.ac.kr/?rest_route=/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://nyx.skku.ac.kr/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://nyx.skku.ac.kr/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4" />
+<meta name="viewport" content="width=device-width, initial-scale=1">	<!--[if lt IE 9]>
+		<script src="http://nyx.skku.ac.kr/wp-content/themes/generatepress/js/html5shiv.js"></script>
+		<link rel="stylesheet" href="http://nyx.skku.ac.kr/wp-content/themes/generatepress/css/ie.css" />
+	<![endif]-->
+</head>
+
+<body itemtype="http://schema.org/WebPage" itemscope="itemscope" class="home blog no-sidebar nav-below-header fluid-header separate-containers nav-aligned-left header-aligned-left group-blog">
+		<header itemtype="http://schema.org/WPHeader" itemscope="itemscope" id="masthead" role="banner" class="site-header">
+		<div class="inside-header grid-container grid-parent">
+						
+					
+							<div class="site-branding">
+									<p class="site-description">Embedded Software Laboratory, SKKU</p>
+								</div>
+							<div class="site-logo">
+					<a href="http://nyx.skku.ac.kr/" title="SKKU ESLAB" rel="home"><img class="header-image" src="http://nyx.skku.ac.kr/wp-content/uploads/2014/07/eslab-logo2.png" alt="SKKU ESLAB" title="SKKU ESLAB" /></a>
+				</div>
+								</div><!-- .inside-header -->
+	</header><!-- #masthead -->
+		<nav itemtype="http://schema.org/SiteNavigationElement" itemscope="itemscope" id="site-navigation" role="navigation" class="main-navigation">
+		<div class="inside-navigation grid-container grid-parent">
+						<h3 class="menu-toggle">Menu</h3>
+			<div class="screen-reader-text skip-link"><a href="#content" title="Skip to content">Skip to content</a></div>
+			<div class="main-nav"><ul id="menu-menu-1" class=" menu sf-menu"><li id="menu-item-1039" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1039"><a href="http://nyx.skku.ac.kr/?cat=5">News</a></li><li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40"><a href="http://nyx.skku.ac.kr/?page_id=2">About</a></li><li id="menu-item-46" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-46"><a href="http://nyx.skku.ac.kr/?page_id=30">Research</a>
+<ul class="sub-menu">
+	<li id="menu-item-222" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-222"><a href="http://nyx.skku.ac.kr/?page_id=201">Tizen</a></li></ul>
+</li><li id="menu-item-45" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45"><a href="http://nyx.skku.ac.kr/?page_id=32">Projects</a></li><li id="menu-item-41" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41"><a href="http://nyx.skku.ac.kr/?page_id=34">Courses</a></li><li id="menu-item-69" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69"><a href="http://nyx.skku.ac.kr/?page_id=67">Publications</a></li><li id="menu-item-43" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a href="http://nyx.skku.ac.kr/?page_id=36">Members</a></li><li id="menu-item-149" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-149"><a href="http://nyx.skku.ac.kr/xe/?mid=flash">Seminar</a></li><li id="menu-item-48" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48"><a target="_blank" href="http://nyx.skku.ac.kr/wiki">Wiki</a></li><li id="menu-item-159" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-159"><a href="http://nyx.skku.ac.kr/wp-admin">Admin</a></li></ul></div>		</div><!-- .inside-navigation -->
+	</nav><!-- #site-navigation -->
+		
+	<div id="page" class="hfeed site grid-container container grid-parent">
+		<div id="content" class="site-content">
+			
+	<div id="primary" class="content-area grid-parent grid-100">
+		<main id="main" class="site-main" itemtype="http://schema.org/Blog" itemscope="itemscope" itemprop="mainContentOfPage" role="main">
+				
+						
+				
+<article id="post-1197" class="post-1197 post type-post status-publish format-standard hentry category-news" itemprop="blogPost" itemtype="http://schema.org/BlogPosting" itemscope="itemscope">
+	<div class="inside-article">
+				<header class="entry-header">
+			<h2 class="entry-title" itemprop="headline"><a href="http://nyx.skku.ac.kr/?p=1197" rel="bookmark">SW스타랩 지원 대상 선정</a></h2>
+
+						<div class="entry-meta">
+				<span class="posted-on"><a href="http://nyx.skku.ac.kr/?p=1197" title="10:12 am" rel="bookmark"><time class="entry-date published" datetime="2017-05-06T10:12:17+00:00" itemprop="datePublished">May 6, 2017</time><time class="updated" datetime="2018-09-03T09:07:45+00:00" itemprop="dateModified">September 3, 2018</time></a></span> <span class="byline"><span class="author vcard" itemtype="http://schema.org/Person" itemscope="itemscope" itemprop="author">by <a class="url fn n" href="http://nyx.skku.ac.kr/?author=2" title="View all posts by Gyeonghwan Hong" rel="author" itemprop="url"><span class="author-name" itemprop="name">Gyeonghwan Hong</span></a></span></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+				
+				<div class="entry-content" itemprop="text">
+			<p>2017년 4월 6일, 본 연구실은 미래부와 정보통신기술진흥센터(IITP)가 주관하는 SW스타랩 사업의 지원 대상으로 선정되었다.</p>
+<p>SW스타랩은 국내 SW 기초체력을 세계수준으로 향상하기 위해, 분야별 우수 대학 연구실을 지정하여 장기 연구를 지원하는 사업이다.</p>
+<p>올해는 전국에서 7개의 연구실이 SW스타랩 지원 대상으로 선정되었으며, 특히 분산컴퓨팅 분야에서는 본 연구실 포함 2개의 연구실이 선정되었다.</p>
+<p>SW스타랩에 선정된 연구실은 최장 8년간 연간 3억원의 사업비를 지원받는다.</p>
+<p>과제명: <b>지능형 IoT 장치용 소프트웨어 프레임워크</b></p>
+<p><strong>관련 기사</strong></p>
+<ul>
+<li><a href="http://www.dt.co.kr/contents.html?article_no=2017040602109960753005">&#8220;미래부·IITP, 7개 대학 연구실 `SW스타랩` 선정&#8221;, 디지털타임즈, 2017.4.6</a></li>
+</ul>
+<p><a href="http://nyx.skku.ac.kr/wp-content/uploads/2017/05/StarLab-Logo.png" rel="attachment wp-att-1813"><img class="aligncenter wp-image-1813" src="http://nyx.skku.ac.kr/wp-content/uploads/2017/05/StarLab-Logo.png" alt="StarLab-Logo" width="1024" height="683" /></a></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+									<span class="cat-links">
+				<a href="http://nyx.skku.ac.kr/?cat=5" rel="category">News</a>			</span>
+			
+								
+			
+		</footer><!-- .entry-meta -->
+			</div><!-- .inside-article -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-1205" class="post-1205 post type-post status-publish format-standard hentry category-news" itemprop="blogPost" itemtype="http://schema.org/BlogPosting" itemscope="itemscope">
+	<div class="inside-article">
+				<header class="entry-header">
+			<h2 class="entry-title" itemprop="headline"><a href="http://nyx.skku.ac.kr/?p=1205" rel="bookmark">USENIX ATC`17 논문 채택</a></h2>
+
+						<div class="entry-meta">
+				<span class="posted-on"><a href="http://nyx.skku.ac.kr/?p=1205" title="1:24 am" rel="bookmark"><time class="entry-date published" datetime="2017-04-26T01:24:07+00:00" itemprop="datePublished">April 26, 2017</time><time class="updated" datetime="2017-04-26T01:24:32+00:00" itemprop="dateModified">April 26, 2017</time></a></span> <span class="byline"><span class="author vcard" itemtype="http://schema.org/Person" itemscope="itemscope" itemprop="author">by <a class="url fn n" href="http://nyx.skku.ac.kr/?author=2" title="View all posts by Gyeonghwan Hong" rel="author" itemprop="url"><span class="author-name" itemprop="name">Gyeonghwan Hong</span></a></span></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+				
+				<div class="entry-content" itemprop="text">
+			<p>미국 캘리포니아주 산타 클라라에서 2017년 7월 12일~14일에 개최되는 USENIX ATC`17(Annual Technical Conference)에 본 연구실 소속 대학원생의 논문이 채택되었다.</p>
+<ul>
+<li>&#8220;iJournaling: Fine-Grained Journaling for Improving the Latency of Fsync System Call&#8221; (박대준 박사과정) (Acceptance Ratio = 21.2% = 60/283)</li>
+</ul>
+<p><a href="http://nyx.skku.ac.kr/wp-content/uploads/2017/04/atc17.png" rel="attachment wp-att-1206"><img class="aligncenter size-full wp-image-1206" src="http://nyx.skku.ac.kr/wp-content/uploads/2017/04/atc17.png" alt="atc17" width="1916" height="822" /></a></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+									<span class="cat-links">
+				<a href="http://nyx.skku.ac.kr/?cat=5" rel="category">News</a>			</span>
+			
+								
+			
+		</footer><!-- .entry-meta -->
+			</div><!-- .inside-article -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-1175" class="post-1175 post type-post status-publish format-standard hentry category-news" itemprop="blogPost" itemtype="http://schema.org/BlogPosting" itemscope="itemscope">
+	<div class="inside-article">
+				<header class="entry-header">
+			<h2 class="entry-title" itemprop="headline"><a href="http://nyx.skku.ac.kr/?p=1175" rel="bookmark">제43회 한국정보과학회 동계학술발표회 우수발표논문상 수상</a></h2>
+
+						<div class="entry-meta">
+				<span class="posted-on"><a href="http://nyx.skku.ac.kr/?p=1175" title="12:04 pm" rel="bookmark"><time class="entry-date published" datetime="2017-02-02T12:04:27+00:00" itemprop="datePublished">February 2, 2017</time><time class="updated" datetime="2017-02-02T12:04:44+00:00" itemprop="dateModified">February 2, 2017</time></a></span> <span class="byline"><span class="author vcard" itemtype="http://schema.org/Person" itemscope="itemscope" itemprop="author">by <a class="url fn n" href="http://nyx.skku.ac.kr/?author=2" title="View all posts by Gyeonghwan Hong" rel="author" itemprop="url"><span class="author-name" itemprop="name">Gyeonghwan Hong</span></a></span></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+				
+				<div class="entry-content" itemprop="text">
+			<p>2016년 12월 21~23일, 강원도 평창에서 개최된 &#8220;제43회 한국정보과학회 동계학술발표회&#8221;에서 본 연구실 소속 대학원생이 우수발표논문상을 수상하였다.</p>
+<h3 id=''>우수발표논문상</h3>
+<ul>
+<li>&#8220;메모리 제약을 위한 순서 증가 페이지 매핑 <span class="font5">FTL 기법</span>&#8221; (김효진; 컴퓨터시스템 부문)</li>
+</ul>
+<p>&nbsp;</p>
+<p>또한, 동일 학회에서 개최하는 &#8220;학부생/고등학생 논문경진대회&#8221;에서 본 연구실 소속 학생이 최우수상을 수상하였다.</p>
+<h3 id=''>최우수상</h3>
+<ul>
+<li>&#8220;토러스 네트워크 기반 분산 스토리지 시스템의 데이터 배치에 따른 성능 분석&#8221; (이하윤)</li>
+</ul>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+									<span class="cat-links">
+				<a href="http://nyx.skku.ac.kr/?cat=5" rel="category">News</a>			</span>
+			
+								
+			
+		</footer><!-- .entry-meta -->
+			</div><!-- .inside-article -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-1141" class="post-1141 post type-post status-publish format-standard hentry category-news" itemprop="blogPost" itemtype="http://schema.org/BlogPosting" itemscope="itemscope">
+	<div class="inside-article">
+				<header class="entry-header">
+			<h2 class="entry-title" itemprop="headline"><a href="http://nyx.skku.ac.kr/?p=1141" rel="bookmark">USENIX FAST`17 논문 채택</a></h2>
+
+						<div class="entry-meta">
+				<span class="posted-on"><a href="http://nyx.skku.ac.kr/?p=1141" title="10:45 am" rel="bookmark"><time class="entry-date published" datetime="2016-12-27T10:45:39+00:00" itemprop="datePublished">December 27, 2016</time><time class="updated" datetime="2016-12-28T08:25:59+00:00" itemprop="dateModified">December 28, 2016</time></a></span> <span class="byline"><span class="author vcard" itemtype="http://schema.org/Person" itemscope="itemscope" itemprop="author">by <a class="url fn n" href="http://nyx.skku.ac.kr/?author=2" title="View all posts by Gyeonghwan Hong" rel="author" itemprop="url"><span class="author-name" itemprop="name">Gyeonghwan Hong</span></a></span></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+				
+				<div class="entry-content" itemprop="text">
+			<p>미국 캘리포니아주 산타 클라라에서 2017년 2월 27일~3월 2일에 개최되는 USENIX FAST`17(15th USENIX Conference on File and Storage Technologies)에 본 연구실 소속 대학원생의 논문이 채택되었다.</p>
+<ul>
+<li>&#8220;SHRD: Improving Spatial Locality in Flash Storage Accesses by Sequentializing in Host and Randomizing in Device&#8221; (김혁중 박사과정)  (Acceptance Ratio = 24% = 28/116)</li>
+</ul>
+<p><a href="http://nyx.skku.ac.kr/wp-content/uploads/2016/12/fast2017_logo.png" rel="attachment wp-att-1142"><img class="aligncenter size-full wp-image-1142" src="http://nyx.skku.ac.kr/wp-content/uploads/2016/12/fast2017_logo.png" alt="fast2017_logo" width="2442" height="1094" /></a></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+									<span class="cat-links">
+				<a href="http://nyx.skku.ac.kr/?cat=5" rel="category">News</a>			</span>
+			
+								
+			
+		</footer><!-- .entry-meta -->
+			</div><!-- .inside-article -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-1139" class="post-1139 post type-post status-publish format-standard hentry category-news" itemprop="blogPost" itemtype="http://schema.org/BlogPosting" itemscope="itemscope">
+	<div class="inside-article">
+				<header class="entry-header">
+			<h2 class="entry-title" itemprop="headline"><a href="http://nyx.skku.ac.kr/?p=1139" rel="bookmark">제43회 한국정보과학회 동계학술발표회 우수논문상 수상</a></h2>
+
+						<div class="entry-meta">
+				<span class="posted-on"><a href="http://nyx.skku.ac.kr/?p=1139" title="10:40 am" rel="bookmark"><time class="entry-date published" datetime="2016-12-27T10:40:44+00:00" itemprop="datePublished">December 27, 2016</time><time class="updated" datetime="2016-12-27T10:47:12+00:00" itemprop="dateModified">December 27, 2016</time></a></span> <span class="byline"><span class="author vcard" itemtype="http://schema.org/Person" itemscope="itemscope" itemprop="author">by <a class="url fn n" href="http://nyx.skku.ac.kr/?author=2" title="View all posts by Gyeonghwan Hong" rel="author" itemprop="url"><span class="author-name" itemprop="name">Gyeonghwan Hong</span></a></span></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+				
+				<div class="entry-content" itemprop="text">
+			<p>2016년 12월 21~23일, 강원도 평창에서 개최된 &#8220;제43회 한국정보과학회 동계학술발표회&#8221;에서 본 연구실 소속 대학원생이 우수논문상을 수상하였다.</p>
+<h3 id=''>우수논문상</h3>
+<ul>
+<li>&#8220;실시간 리눅스 기반 드론 시스템 소프트웨어 연구&#8221; (황인중 석사과정; 사물인터넷 부문)</li>
+</ul>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+									<span class="cat-links">
+				<a href="http://nyx.skku.ac.kr/?cat=5" rel="category">News</a>			</span>
+			
+								
+			
+		</footer><!-- .entry-meta -->
+			</div><!-- .inside-article -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-1135" class="post-1135 post type-post status-publish format-standard hentry category-news" itemprop="blogPost" itemtype="http://schema.org/BlogPosting" itemscope="itemscope">
+	<div class="inside-article">
+				<header class="entry-header">
+			<h2 class="entry-title" itemprop="headline"><a href="http://nyx.skku.ac.kr/?p=1135" rel="bookmark">제43회 한국정보과학회 동계학술발표회 특별공로상 수상</a></h2>
+
+						<div class="entry-meta">
+				<span class="posted-on"><a href="http://nyx.skku.ac.kr/?p=1135" title="10:12 am" rel="bookmark"><time class="entry-date published" datetime="2016-12-27T10:12:15+00:00" itemprop="datePublished">December 27, 2016</time><time class="updated" datetime="2016-12-27T10:12:29+00:00" itemprop="dateModified">December 27, 2016</time></a></span> <span class="byline"><span class="author vcard" itemtype="http://schema.org/Person" itemscope="itemscope" itemprop="author">by <a class="url fn n" href="http://nyx.skku.ac.kr/?author=2" title="View all posts by Gyeonghwan Hong" rel="author" itemprop="url"><span class="author-name" itemprop="name">Gyeonghwan Hong</span></a></span></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+				
+				<div class="entry-content" itemprop="text">
+			<p>본 연구실은 한국정보과학회가 주최한 &#8220;제43회 정기총회 및 동계학술발표회&#8221;에서 다수의 논문을 발표하여, 특별공로상 장려상을 수상하였다.</p>
+<p><a href="http://nyx.skku.ac.kr/wp-content/uploads/2016/12/kiise_winter16.jpeg" rel="attachment wp-att-1136"><img class="aligncenter size-full wp-image-1136" src="http://nyx.skku.ac.kr/wp-content/uploads/2016/12/kiise_winter16.jpeg" alt="kiise_winter16" width="960" height="720" /></a></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+									<span class="cat-links">
+				<a href="http://nyx.skku.ac.kr/?cat=5" rel="category">News</a>			</span>
+			
+								
+			
+		</footer><!-- .entry-meta -->
+			</div><!-- .inside-article -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-1116" class="post-1116 post type-post status-publish format-standard hentry category-news" itemprop="blogPost" itemtype="http://schema.org/BlogPosting" itemscope="itemscope">
+	<div class="inside-article">
+				<header class="entry-header">
+			<h2 class="entry-title" itemprop="headline"><a href="http://nyx.skku.ac.kr/?p=1116" rel="bookmark">중앙일보 보도: &#8220;화웨이 ‘워치’에 삼성 OS 타이젠 깔린다&#8221;</a></h2>
+
+						<div class="entry-meta">
+				<span class="posted-on"><a href="http://nyx.skku.ac.kr/?p=1116" title="7:07 am" rel="bookmark"><time class="entry-date published" datetime="2016-10-07T07:07:11+00:00" itemprop="datePublished">October 7, 2016</time><time class="updated" datetime="2016-10-07T07:09:12+00:00" itemprop="dateModified">October 7, 2016</time></a></span> <span class="byline"><span class="author vcard" itemtype="http://schema.org/Person" itemscope="itemscope" itemprop="author">by <a class="url fn n" href="http://nyx.skku.ac.kr/?author=2" title="View all posts by Gyeonghwan Hong" rel="author" itemprop="url"><span class="author-name" itemprop="name">Gyeonghwan Hong</span></a></span></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+				
+				<div class="entry-content" itemprop="text">
+			<p>2016년 9월 28일, 중앙일보에 보도된 &#8220;화웨이 ‘워치’에 삼성 OS 타이젠 깔린다&#8221; 기사에서, 신동군 교수의 논평이 함께 보도되었다.</p>
+<p>관련 자료</p>
+<ul>
+<li><a href="http://news.joins.com/article/20645912">&#8220;화웨이 ‘워치’에 삼성 OS 타이젠 깔린다&#8221; 중앙일보, 2016.9.28</a></li>
+</ul>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+									<span class="cat-links">
+				<a href="http://nyx.skku.ac.kr/?cat=5" rel="category">News</a>			</span>
+			
+								
+			
+		</footer><!-- .entry-meta -->
+			</div><!-- .inside-article -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-1052" class="post-1052 post type-post status-publish format-standard hentry category-news" itemprop="blogPost" itemtype="http://schema.org/BlogPosting" itemscope="itemscope">
+	<div class="inside-article">
+				<header class="entry-header">
+			<h2 class="entry-title" itemprop="headline"><a href="http://nyx.skku.ac.kr/?p=1052" rel="bookmark">2016 WISET·KIISE 젊은연구자상 입상</a></h2>
+
+						<div class="entry-meta">
+				<span class="posted-on"><a href="http://nyx.skku.ac.kr/?p=1052" title="5:54 am" rel="bookmark"><time class="entry-date published" datetime="2016-07-04T05:54:48+00:00" itemprop="datePublished">July 4, 2016</time><time class="updated" datetime="2016-07-18T06:08:26+00:00" itemprop="dateModified">July 18, 2016</time></a></span> <span class="byline"><span class="author vcard" itemtype="http://schema.org/Person" itemscope="itemscope" itemprop="author">by <a class="url fn n" href="http://nyx.skku.ac.kr/?author=2" title="View all posts by Gyeonghwan Hong" rel="author" itemprop="url"><span class="author-name" itemprop="name">Gyeonghwan Hong</span></a></span></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+				
+				<div class="entry-content" itemprop="text">
+			<p>2016년 6월 30일, 본 연구실의 강윤지 학생이 WISET·KIISE 젊은연구자상을 수상하였다.</p>
+<p>본 상은 WISET(한국여성과학기술인지원센터)와 15개 이공계 학회가 신진 여성과학기술인에게 공동으로 수여하는 상이다.</p>
+<p><strong>관련 자료</strong></p>
+<ul>
+<li><a href="http://www.wiset.or.kr/now/sub_view.jsp?sc_board_seq=1001&amp;pk_seq=23779&amp;sc_str=%EC%A0%8A%EC%9D%80%EC%97%AC%EC%84%B1%EC%97%B0%EA%B5%AC%EC%9E%90%EC%83%81">&#8220;&#8216;젊은 연구자상&#8217; 수상자 8인의 이야기 &#8211; &#8216;아는 만큼 보이고, 알아야 행운도 따른다'&#8221; (한국여성과학기술인지원센터)</a></li>
+<li><a href="http://www.kiise.or.kr/conference/board/m6_01.html">2016 WISET·KIISE 젊은연구자상 입상자 명단 (한국정보과학회)<br />
+</a></li>
+</ul>
+<p style="text-align: center;"><a href="http://nyx.skku.ac.kr/wp-content/uploads/2016/07/KakaoTalk_20160718_150714193.jpg" rel="attachment wp-att-1072"><img class="alignnone  wp-image-1072" src="http://nyx.skku.ac.kr/wp-content/uploads/2016/07/KakaoTalk_20160718_150714193.jpg" alt="KakaoTalk_20160718_150714193" width="278" height="397" /></a></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+									<span class="cat-links">
+				<a href="http://nyx.skku.ac.kr/?cat=5" rel="category">News</a>			</span>
+			
+								
+			
+		</footer><!-- .entry-meta -->
+			</div><!-- .inside-article -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-1041" class="post-1041 post type-post status-publish format-standard hentry category-news" itemprop="blogPost" itemtype="http://schema.org/BlogPosting" itemscope="itemscope">
+	<div class="inside-article">
+				<header class="entry-header">
+			<h2 class="entry-title" itemprop="headline"><a href="http://nyx.skku.ac.kr/?p=1041" rel="bookmark">2016 한국컴퓨터종합학술대회 최우수논문상 및 우수논문상 수상</a></h2>
+
+						<div class="entry-meta">
+				<span class="posted-on"><a href="http://nyx.skku.ac.kr/?p=1041" title="10:08 am" rel="bookmark"><time class="entry-date published" datetime="2016-06-30T10:08:22+00:00" itemprop="datePublished">June 30, 2016</time><time class="updated" datetime="2016-09-02T05:38:35+00:00" itemprop="dateModified">September 2, 2016</time></a></span> <span class="byline"><span class="author vcard" itemtype="http://schema.org/Person" itemscope="itemscope" itemprop="author">by <a class="url fn n" href="http://nyx.skku.ac.kr/?author=2" title="View all posts by Gyeonghwan Hong" rel="author" itemprop="url"><span class="author-name" itemprop="name">Gyeonghwan Hong</span></a></span></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+				
+				<div class="entry-content" itemprop="text">
+			<p>2016년 6월 29일~7월 1일에 열린 2016 한국컴퓨터종합학술대회에서, 본 연구실 소속 대학원생들이 최우수논문상 및 우수논문상을 수상하였다.</p>
+<h3 id=''>최우수논문상</h3>
+<ul>
+<li>&#8220;웹 애플리케이션 성능 개선을 위한 V8 JavaScript 엔진의 아키텍처 레벨 프로파일링&#8221; (강윤지, 홍경환; 컴퓨터시스템 부문)</li>
+</ul>
+<h3 id=''>우수논문상</h3>
+<ul>
+<li>&#8220;로그 구조 파일 시스템에서 불필요한 저장장치 공간 낭비를 줄이기 위한 이중 로깅 기법&#8221; (곽현호; 컴퓨터시스템 부문)</li>
+<li>&#8220;다수의 어플리케이션을 위한 멀티 스레드 센서 프레임워크&#8221; (황인중; 사물인터넷 부문)</li>
+</ul>
+<h3 id=''>우수발표논문상</h3>
+<ul>
+<li>&#8220;DRAM 인터페이스 기반 SSD 메모리 장치 관리 기법&#8221; (한규화; 컴퓨터시스템 부문)</li>
+</ul>
+<p>&nbsp;</p>
+<p><a href="http://nyx.skku.ac.kr/wp-content/uploads/2016/06/kcc2016.jpg" rel="attachment wp-att-1042"><img class="aligncenter size-full wp-image-1042" src="http://nyx.skku.ac.kr/wp-content/uploads/2016/06/kcc2016.jpg" alt="kcc2016" width="1440" height="810" /></a></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+									<span class="cat-links">
+				<a href="http://nyx.skku.ac.kr/?cat=5" rel="category">News</a>			</span>
+			
+								
+			
+		</footer><!-- .entry-meta -->
+			</div><!-- .inside-article -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-1020" class="post-1020 post type-post status-publish format-standard hentry category-uncategorized category-news" itemprop="blogPost" itemtype="http://schema.org/BlogPosting" itemscope="itemscope">
+	<div class="inside-article">
+				<header class="entry-header">
+			<h2 class="entry-title" itemprop="headline"><a href="http://nyx.skku.ac.kr/?p=1020" rel="bookmark">CISS Tech Fair 2016에서 OPEL Platform 전시</a></h2>
+
+						<div class="entry-meta">
+				<span class="posted-on"><a href="http://nyx.skku.ac.kr/?p=1020" title="5:07 am" rel="bookmark"><time class="entry-date published" datetime="2016-06-27T05:07:38+00:00" itemprop="datePublished">June 27, 2016</time><time class="updated" datetime="2016-06-28T04:28:15+00:00" itemprop="dateModified">June 28, 2016</time></a></span> <span class="byline"><span class="author vcard" itemtype="http://schema.org/Person" itemscope="itemscope" itemprop="author">by <a class="url fn n" href="http://nyx.skku.ac.kr/?author=2" title="View all posts by Gyeonghwan Hong" rel="author" itemprop="url"><span class="author-name" itemprop="name">Gyeonghwan Hong</span></a></span></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+				
+				<div class="entry-content" itemprop="text">
+			<p>2016년 6월 23일, 대전 ICC 호텔에서 진행된 <a href="http://kor.ciss.re.kr/board.php?db=m6_1&amp;no=260&amp;c=view">CISS Tech Fair 2016</a>에서, 본 연구실에서 개발한 IoT 플랫폼인 OPEL(Open Platform Event Logger)을 전시하였다.</p>
+<p>해당 전시회에는 본 연구실 소속 학생 이혜민, 신동익, 박은수가 참석하였다.</p>
+<p><a href="http://nyx.skku.ac.kr/wp-content/uploads/2016/06/KakaoTalk_20160623_160712571.jpg" rel="attachment wp-att-1021"><img class="wp-image-1023 aligncenter" src="http://nyx.skku.ac.kr/wp-content/uploads/2016/06/KakaoTalk_20160623_170428944.jpg" alt="KakaoTalk_20160623_170428944" width="720" height="960" /><img class="size-full wp-image-1021 aligncenter" src="http://nyx.skku.ac.kr/wp-content/uploads/2016/06/KakaoTalk_20160623_160712571.jpg" alt="KakaoTalk_20160623_160712571" width="720" height="960" /></a> <a href="http://nyx.skku.ac.kr/wp-content/uploads/2016/06/KakaoTalk_20160623_161212391.jpg" rel="attachment wp-att-1022"><img class="wp-image-1022 aligncenter" src="http://nyx.skku.ac.kr/wp-content/uploads/2016/06/KakaoTalk_20160623_161212391.jpg" alt="KakaoTalk_20160623_161212391" width="720" height="960" /></a><a href="http://nyx.skku.ac.kr/wp-content/uploads/2016/06/KakaoTalk_20160623_160710645.jpg" rel="attachment wp-att-1025"><img class="size-full wp-image-1025 aligncenter" src="http://nyx.skku.ac.kr/wp-content/uploads/2016/06/KakaoTalk_20160623_160710645.jpg" alt="KakaoTalk_20160623_160710645" width="960" height="720" /></a></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+									<span class="cat-links">
+				<a href="http://nyx.skku.ac.kr/?cat=1" rel="category">Uncategorized</a>, <a href="http://nyx.skku.ac.kr/?cat=5" rel="category">News</a>			</span>
+			
+								
+			
+		</footer><!-- .entry-meta -->
+			</div><!-- .inside-article -->
+</article><!-- #post-## -->
+
+			
+				<nav role="navigation" id="nav-below" class="paging-navigation">
+		<h1 class="screen-reader-text">Post navigation</h1>
+
+	
+				<div class="nav-previous"><span class="prev" title="Previous"><a href="http://nyx.skku.ac.kr/?paged=2" >Older posts</a></span></div>
+		
+				
+		<span class='page-numbers current'>1</span>
+<a class='page-numbers' href='http://nyx.skku.ac.kr/?paged=2'>2</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class='page-numbers' href='http://nyx.skku.ac.kr/?paged=4'>4</a>
+<a class="next page-numbers" href="http://nyx.skku.ac.kr/?paged=2">Next &rarr;</a>		
+	
+	</nav><!-- #nav-below -->
+	
+						</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+	</div><!-- #content -->
+</div><!-- #page -->
+<div class="site-footer">
+			<div id="footer-widgets" class="site footer-widgets">
+			<div class="inside-footer-widgets grid-container grid-parent">
+									<div class="footer-widget-1 grid-parent grid-100">
+								<aside id="recent-posts-4" class="widget inner-padding widget_recent_entries">		<h4 class="widget-title">Recent Posts</h4>		<ul>
+					<li>
+				<a href="http://nyx.skku.ac.kr/?p=1197">SW스타랩 지원 대상 선정</a>
+						</li>
+					<li>
+				<a href="http://nyx.skku.ac.kr/?p=1205">USENIX ATC`17 논문 채택</a>
+						</li>
+					<li>
+				<a href="http://nyx.skku.ac.kr/?p=1175">제43회 한국정보과학회 동계학술발표회 우수발표논문상 수상</a>
+						</li>
+					<li>
+				<a href="http://nyx.skku.ac.kr/?p=1141">USENIX FAST`17 논문 채택</a>
+						</li>
+					<li>
+				<a href="http://nyx.skku.ac.kr/?p=1139">제43회 한국정보과학회 동계학술발표회 우수논문상 수상</a>
+						</li>
+				</ul>
+		</aside>							</div>
+							</div>
+		</div>
+		<footer class="site-info" itemtype="http://schema.org/WPFooter" itemscope="itemscope" role="contentinfo">
+		<div class="inside-site-info grid-container grid-parent">
+				<span class="copyright">Copyright &copy; 2018</span> 	&#x000B7; <a href="http://generatepress.com" target="_blank" title="GeneratePress">GeneratePress</a> &#x000B7; <a href="http://wordpress.org" target="_blank" title="Proudly powered by WordPress">WordPress</a>
+				</div>
+	</footer><!-- .site-info -->
+	</div><!-- .site-footer -->
+
+
+
+
+<script type='text/javascript' src='http://nyx.skku.ac.kr/wp-content/themes/generatepress/js/navigation.js?ver=1.2.2'></script>
+<script type='text/javascript' src='http://nyx.skku.ac.kr/wp-content/themes/generatepress/js/superfish.js?ver=1.2.2'></script>
+<script type='text/javascript' src='http://nyx.skku.ac.kr/wp-includes/js/hoverIntent.min.js?ver=1.8.1'></script>
+<script type='text/javascript' src='http://nyx.skku.ac.kr/wp-content/themes/generatepress/js/scripts.js?ver=1.2.2'></script>
+<script type='text/javascript' src='http://nyx.skku.ac.kr/wp-includes/js/wp-embed.min.js?ver=4.4'></script>
+
+</body>
+</html>

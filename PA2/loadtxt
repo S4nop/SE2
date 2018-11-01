@@ -1,0 +1,12 @@
+http://www.skku.edu
+http://www.naver.com
+http://www.google.com
+http://www.daum.net
+http://www.skku.edu/eng
+http://www.skku.edu
+http://nyx.skku.ac.kr
+print skku.ac.kr
+print daum.net
+stat
+load loadtxt2
+stat

@@ -1,0 +1,3864 @@
+
+
+
+<!doctype html>
+<html lang="en">
+<head>
+<title>Sungkyunkwan University</title>
+<link rel="shortcut icon" href="/_res/skku/img/common/favicon.png">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-56726400-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-56726400-1');
+</script><link rel="canonical" href="http://www.skku.edu/eng/index.do" />
+
+<link rel="stylesheet" type="text/css" href="/_common/cms.css" />
+<link rel="stylesheet" type="text/css" href="/_res/eng/_css/layout.css" />
+<!--[if IE 8]>
+	<link rel="stylesheet" type="text/css" href="/_common/ie8.css" />
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="/_res/eng/_css/owl.carousel.css" />
+
+<link rel="stylesheet" type="text/css" href="/_res/eng/_css/user.css" />
+
+<script type="text/javascript" src="/_common/js/jquery/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="/_common/js/jquery/jquery-ui-1.11.4.min.js"></script>
+<script type="text/javascript" src="/_res/eng/_js/user/jquery.bxslider.min.js"></script>
+
+<script type="text/javascript">
+//<![CDATA[
+	var _thisHost = location.protocol+'//'+location.host, _thisUrl = document.location.href,_so_ = false,_cur_menu_cd = '',_edit_content = false,front_page_edit = true,zooInOutMode = 'font',_reouscePath = '/_res/eng/',editorVendor = 'froala',sslYN = 'Y',sslPort = '443',servicePort = '',developMode = false,device='pc',isMobile=false,_cfgUseDevMode = false,_siteId = 'eng',printSelector = '#jwxe_main_content',ctx = '',rootPath = '',locale= 'en',localeScriptPath='/_custom/skkuedu/resource/js/';
+//]]>
+</script>
+
+<script type="text/javascript" src="/_common/cms.js"></script>
+<script type="text/javascript" src="/_custom/skkuedu/resource/js/app.url.js"></script>
+<script type="text/javascript" src="/_res/skku/_js/user/footer.js"></script>
+<script type="text/javascript" src="/_res/eng/_js/user/mainVisual.js"></script>
+
+<script type="text/javascript" src="/_res/eng/_js/user.js"></script>
+<script type="text/javascript" src="/_res/eng/_js/user/owl.carousel.min.js"></script>
+
+<!--<script type="text/javascript">
+  	/*WebFont.load({
+		custom: {
+			families: ['Noto Sans KR'],
+			urls:['/_res/skku/_css/font.css']
+		}
+	});*/
+	WebFontConfig = {
+    custom: {
+        families: ['Noto Sans CJKkr'],
+        urls: ['/_res/skku/_css/font.css']
+    }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1.4.10/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })();
+</script>-->
+</head>
+<body id="item_body" class="pc">
+<ul id="go_main">
+	<li><a href="#jwxe_main_content" >본문 바로가기</a></li>
+	<li><a href="#jwxe_main_menu" >주메뉴 바로가기</a></li>
+	<li><a href="#jwxe_sub_menu" >서브메뉴 바로가기</a></li>
+</ul>
+
+<div class="main_banner" id="banner-top">
+
+     
+
+
+
+
+
+
+
+
+	
+	<div class="w1400">
+		<img src="/_res/skku/img/main/banner_icon.png" alt="bannerIcon">
+		<p class="banner_txt">
+			
+			
+			
+				
+					
+					
+					
+					<a 
+					
+						
+						
+							href="/cms/uicomponent/popupZoneClick.do?siteId=eng&amp;key=RLyWACXcJmZMVafZoOBd" title="새창으로 이동" target="_blank"
+						
+						
+					
+					>
+						Questionnaire Survey about Satisfaction for SKKU English Homepage
+					</a>
+					
+				
+			
+		</p>
+		
+		<div class="flR">
+			<input type="checkbox" id="bannerChk" value="mainpopup">
+			<label for="bannerChk">오늘하루 열지 않기</label>
+			<a href="#none" class="btn_close" onclick="javascript:closePopLayer2();">
+				<img src="/_res/skku/img/main/banner_xBtn.png" alt="배너 닫기">
+			</a>
+		</div>
+	</div>
+	
+	
+
+
+
+
+
+</div>
+<div class="header">
+
+<div class="utill_wrap">
+	<div class="w1400">
+		<p class="utill_txt">Truly, Global Leading University ‘SKKU’</p>
+		
+		<ul class="utill">
+			<li>
+				<a href="/skku/">KOR</a>
+			</li>
+			<li>
+				<a href="#" data-url="http://kingo.skku.edu" class="kingo">KINGOBOT</a>
+				
+			</li>
+			<li>
+				<a data-link="https://eportal.skku.edu" class="postLink" href="#">KINGO ID LOGIN</a>
+			</li> 
+						
+			
+				
+			
+			
+		</ul>
+	</div>
+</div>
+<div class="gnb_wrap main_gnbWrap">
+	<div class="main_headTop">
+		<div class="w1400">
+		<button class="gnb_menuBtn"></button>
+			<div class="today">
+				<p>TODAY</p>
+				
+				
+					
+					
+					
+					
+					
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="owl-carousel owl-theme" style="display: block;">
+		<div class="today_txtWrap">
+			
+				
+					
+						
+						
+					
+					
+				
+				
+				<p>
+					<a class="url" data-h="" data-w="" data-url="https://www.skku.edu/eng/CampusLife/skku/SKKUCalendar.do" href="#" data-target=_self>
+						Grade Notification of Midterm Examination
+					</a>
+				</p>
+			
+				
+					
+						
+						
+					
+					
+				
+				
+				<p>
+					<a class="url" data-h="" data-w="" data-url="https://www.skku.edu/eng/CampusLife/skku/SKKUCalendar.do" href="#" data-target=_self>
+						Midterm Course Evaluation of Fall Semester
+					</a>
+				</p>
+			
+		</div>
+	</div>
+
+
+
+
+			</div>
+			<h1 class="logo">
+				<a href="/eng" class="web"><img alt="성균관대학교" src="/_res/eng//img/common/logo1.png" /></a>
+				<a href="/eng" class="mobile"><img alt="성균관대학교" src="/_res/eng//img/common/logo.png" /></a>
+			</h1>
+			<ul class="gnb_iconList">
+				<li class="main_searchWrap">
+					<button class="search_icon" id="searchBtn"></button>
+					<div class="search_wrap">
+						<form method="post" action="/skku/search/search.do" id="topSearchForm" onsubmit="return formValid(this)">
+							<fieldset>
+								<legend class="hidden">검색</legend>
+								<input type="hidden" name="menu" value="통합검색">
+								<label for="search_val" class="hidden">검색어</label>
+								<input type="text" id="search_val" name="qt">
+
+							</fieldset>
+						</form>
+					</div>
+				</li>
+				<li class="Sgallery">
+					<a href="http://sgallery.skku.edu" target="_blank" class="sda">S - Gallery</a>
+				</li>
+				<li>
+					<button class="share_icon"></button>
+					<div class="share_wrap">
+						<ul class="share_list">
+							<li><a href="https://www.facebook.com/sungkyunkwanuniversity1398" target="_blank"><img src="/_res/skku/img/common/headM_sns_icon01.png" alt="facebook 바로가기"></a></li>
+							<li><a href="https://www.instagram.com/sungkyunkwan_univ_official/" target="_blank"><img src="/_res/skku/img/common/headM_sns_icon02.png" alt="instagram 바로가기"></a></li>
+							<li><a href="https://www.youtube.com/channel/UCMSzjNHLZNNUUA-Z8OrXY9Q" target="_blank"><img src="/_res/skku/img/common/headM_sns_icon03.png" alt="youtube 바로가기"></a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="main_gnb">
+		<div class="w1400">
+			<div class="main_gnbLeft">
+				<ul class="main_gnbIconList">
+					<li>
+						<img src="/_res/skku/img/main/main_gnbIcon03.png" alt="닫기" class="main_gnbIcon03">
+						<a href="#" class="main_gnbIcon01">
+							<img src="/_res/skku/img/main/main_gnbIcon01.png" alt="로그인">
+						</a>
+						<div class="GnbKeywordWrap GnbKeywordWrapB">
+							<ul class="GnbCategoryList">
+								<li>
+									<div class="iconBg">
+										<div>
+											<img src="/_res/eng/img/sub/asd.png" alt="학생·동문">
+											<p>
+												Student / Alumnus
+
+											</p>
+										</div>
+									</div>
+									<ul>
+										<li>
+											<a href="https://sugang.skku.edu/skku/" target="_blank">
+												<span>·</span>
+												Course Registration
+											</a>
+										</li>
+										<li>
+											<a href="/eng/CampusLife/convenience/DiningHallsMenu.do
+">
+												<span>·</span>
+												Dining Halls/Menu
+
+											</a>
+										</li>
+										<li>
+											<a href="/eng/CampusLife/convenience/Shuttlebus.do">
+												<span>·</span>
+												Shuttle bus
+
+											</a>
+										</li>
+										<li>
+											<a href="/eng/CampusLife/ITServices/CertificateIssuingServices.d">
+												<span>·</span>
+												Certificate Issuing Services
+
+											</a>
+										</li>
+										<li>
+											<a href="/eng/CampusLife/skku/SKKUCalendar.do">
+												<span>·</span>
+												SKKU Calendar
+
+											</a>
+										</li>
+										<li>
+											<a href="/eng/International/AboutDivision/AbouttheInternationalAffairsDivision03.do">
+												<span>·</span>
+												Office of International Student Services
+
+											</a>
+										</li>
+										<li>
+											<a href="/eng/CampusLife/support/scholarship.do">
+												<span>·</span>
+												Scholarships and Financial Aid
+
+											</a>
+										</li>
+										<li>
+											<a href="/eng/CampusLife/convenience/ConvenienceFacilities.do">
+												<span>·</span>
+												Convenience Facilities
+
+
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<div class="iconBg">
+										<div>
+											<img src="/_res/skku/img/main/main_gnbIcon05.png" alt="교수·직원">
+											<p>
+												Professor / Staff
+
+											</p>
+										</div>
+									</div>
+									<ul class="GnbCategoryList_inner">
+										<li>
+											<a href="https://lib.skku.edu/en/#/" target="_blank">
+												<span>·</span>
+												Library
+											</a>
+										</li>
+										<li>
+											<a href="/eng/Research/industry/search_researcher.do">
+												<span>·</span>
+												Find a Researcher
+
+											</a>
+										</li>
+										<li>
+											<a href="/eng/Research/industry/researchStory.do">
+												<span>·</span>
+												Research Stories
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<div class="iconBg">
+										<div>
+											<img src="/_res/skku/img/main/main_gnbIcon04.png" alt="일반인">
+											<p>
+												Visitors
+
+											</p>
+										</div>
+									</div>
+									<ul>
+										<li>
+											<a href="/eng/edu/education.do">
+												<span>·</span>
+												Colleges & Schools
+
+											</a>
+										</li>
+										<li>
+											<a href="https://admission-global.skku.edu/eng/index.html" target="_blank">
+												<span>·</span>
+												Admission
+
+											</a>
+										</li>
+										<li>
+											<a href="https://admission-global.skku.edu/eng/index.html" target="_blank">
+												<span>·</span>
+												Graduate School
+
+											</a>
+										</li>
+										<li>
+											<a href="/eng/About/campusinfo/CampusMap.do">
+												<span>·</span>
+												Campus Map
+
+											</a>
+										</li>
+										<li>
+											<a href="/eng/About/campusinfo/location.do">
+												<span>·</span>
+												Directions to SKKU
+
+											</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							
+						</div>
+					</li>
+					<li>
+						<img src="/_res/skku/img/main/main_gnbIcon03.png" alt="닫기" class="main_gnbIcon03">
+						<a href="#" class="main_gnbIcon02">
+							<img src="/_res/skku/img/main/main_gnbIcon02.png" alt="link">
+						</a>
+						<div class="GnbKeywordWrap" >
+							<p class="gnbKeywordTit">
+								Popular Keywords
+							</p>
+							<ul class="gnbKeywordList">
+								<li>
+									<a class="best" href="#">
+										<i>1</i>
+										<span>course registration system</span>
+									</a>
+								</li>
+								<li>
+									<a class="best" href="#">
+										<i>2</i>
+										<span>International Student ID Card</span>
+									</a>
+								</li>
+								<li>
+									<a class="best" href="#">
+										<i>3</i>
+										<span>Inbound Exchange</span>
+									</a>
+								</li>
+								<li>
+									<a class="best" href="#">
+										<i>4</i>
+										<span>International Summer Semester</span>
+									</a>
+								</li>
+								<li>
+									<a class="best" href="#">
+										<i>5</i>
+										<span>Academic Schedule</span>
+									</a>
+								</li>
+								<li>
+									<a class="best" href="#">
+										<i>6</i>
+										<span>Scholarships and Financial Aid</span>
+									</a>
+								</li>
+								<li>
+									<a class="best" href="#">
+										<i>7</i>
+										<span>Sungkyun Writng Contest</span>
+									</a>
+								</li>
+								<li>
+									<a class="best" href="#">
+										<i>8</i>
+										<span>Department Search</span>
+									</a>
+								</li>
+								<li>
+									<a class="best" href="#">
+										<i>9</i>
+										<span>Thesis/Dissertation</span>
+									</a>
+								</li>
+								<li>
+									<a class="best" href="#">
+										<i>10</i>
+										<span>Korean Interdisciplonart Studies</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						
+					</li>
+				</ul>
+				<div class="main_gnbSearch">
+					<form method="post" action="/eng/search/search.do" id="topSearchForm" onsubmit="return formValid(this)">
+						<fieldset>
+							<legend class="hidden">Search</legend>
+							<input type="hidden" name="menu" value="통합검색"/>
+							<button class="main_searchIcon"></button>
+							<label for="main_seaInput" class="hidden">Search</label>
+							<input type="text" id="main_seaInput" name="qt" />
+
+						</fieldset>
+					</form>
+					
+				</div>
+			</div>
+			<div class="mgnb_bg flr">
+				<div class="gnbList_wrap">
+					<div class="mgnb_top">
+						<h1 class="mo_logo">
+							<a href="/eng"><img alt="성균관대학교" src="/_res/eng//img/common/mo_logo.png" /></a>
+						</h1>
+						<button class="moGnb_xBtn"></button>
+					</div>
+					
+					<ul class="utill">
+						<li>
+							<a href="/skku/">KOR</a>
+						</li>
+							
+
+						<li>
+							<a data-link="https://eportal.skku.edu" class="postLink" href="#">KINGO ID LOGIN</a>
+						</li> 
+
+						<li>
+							<a href="#" data-url="http://kingo.skku.edu" class="kingo">KINGOBOT</a>
+
+						</li>
+						
+						
+							
+						
+						
+						
+					</ul>
+
+					
+					
+						 
+						 
+					
+<ul class="gnb">
+	
+		<li class="">
+			<a href="/eng/About/pr/greeting.do" >About SKKU</a>	
+			
+   			<div class="gnb_bg">
+				<div class="w1650">
+					
+					<ul class="gnb_2dept">
+						
+		          		
+							<li>
+								<a href="/eng/About/pr/greeting.do" >Office of the President</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/About/pr/greeting.do" >Welcome from the President</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/About/pr/profile.do" >Curriculum Vitae</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/About/pr/prev_president_main.do" >President Emeritus</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/eng/About/vision/vision1.do" >VISION 2020+</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/About/vision/vision1.do" >Introduction</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/About/vision/vision2.do" >4 Strategic Goals</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/About/vision/vision3.do" >3 Strategic Directions</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/About/vision/vision4.do" >5 Divisional Strategies</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/About/vision/vision5.do" >Vision Declaration</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/eng/About/s620/sub01.do" >History &amp; Symbol</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/About/s620/sub01.do" target="_blank" >History</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/About/symbol/symbol_01.do" >UI</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/About/symbol/sy_tree_song_02.do" >University Arbor</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/eng/About/organ/OrganizationalChart1.do" >University Sections</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/About/organ/OrganizationalChart1.do" >Organizational Chart</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/About/organ/admin_organ_01.do" >Administrative Offices</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/About/organ/attachment_01.do" >Affiliated Institutions</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/eng/About/media/news.do" >SKKU MEDIA</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+														
+															
+																<a href="/eng/About/media/news.do" >SKKU News</a>	
+															
+																
+														
+														
+													
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/About/media/GlobalNewsletter.do" >Global Newsletter</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="http://sgallery.skku.edu" target="_blank" >S-Gallery</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/About/media/sns.do" >SNS</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/eng/About/campusinfo/CampusMap.do" >Campus Info</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/About/campusinfo/CampusMap.do" target="_blank" >CampusMap</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/About/campusinfo/location.do" >Directions to SKKU</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/About/campusinfo/parking.do" >Parking Info</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/About/campusinfo/campus_telInfo.do" >Phone Directories</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+					</ul>
+				</div>
+			</div>
+		          	
+		</li>
+	
+		<li class="">
+			<a href="https://admission-global.skku.edu/eng/index.html" >Admission</a>	
+			
+   			<div class="gnb_bg">
+				<div class="w1650">
+					
+					<ul class="gnb_2dept">
+						
+		          		
+							<li>
+								<a href="https://admission-global.skku.edu/eng/index.html" target="_blank" >Undergraduate/Graduate Admission</a>
+								
+							</li>
+						
+					</ul>
+				</div>
+			</div>
+		          	
+		</li>
+	
+		<li class="">
+			<a href="/eng/edu/education.do" >Academics</a>	
+			
+   			<div class="gnb_bg">
+				<div class="w1650">
+					
+					<ul class="gnb_2dept">
+						
+		          		
+							<li>
+								<a href="/eng/edu/education.do" >Colleges &amp; Schools</a>
+								
+							</li>
+						
+							<li>
+								<a href="/eng/edu/graduateSchool/graduate_school01.do" >Graduate Programs </a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/edu/graduateSchool/graduate_school01.do" >Graduate Programs - General</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/edu/graduateSchool/graduate_school02.do" >Graduate Programs - Special </a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/edu/graduateSchool/graduate_school03.do" >Graduate Programs - Professional </a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/eng/Academics/departments.do" >Department and Curriculums</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/Academics/departments.do" >Departments A-Z</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/Academics/departmentSearch.do" >Department Search</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/eng/edu/international/schooling_01.do" >Affiliated Educational Institutions</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/edu/international/schooling_01.do" >Sungkyun Language Institute</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/edu/international/schooling_02.do" >Korean Academy of Librarian Education</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/edu/international/schooling_03.do" >e-Learning</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/edu/international/schooling_04.do" >Extension Courses</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/eng/edu/bachelor/ca_de_schedule.do" >Academic information</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/edu/bachelor/ca_de_schedule.do" >Academic Schedule</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/edu/bachelor/ca_de_schedule01.do" >Academic Policies and Procedures</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/edu/bachelor/de_thesis.do" >Thesis/Dissertation</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+					</ul>
+				</div>
+			</div>
+		          	
+		</li>
+	
+		<li class="">
+			<a href="/eng/Research/industry/researchStory.do" >Research</a>	
+			
+   			<div class="gnb_bg">
+				<div class="w1650">
+					
+					<ul class="gnb_2dept">
+						
+		          		
+							<li>
+								<a href="/eng/Research/industry/researchStory.do" >Research Information</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/Research/industry/researchStory.do" >Research Stories</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/Research/industry/search_researcher.do" >Find a Researcher</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="http://research.skku.edu/rims/" target="_blank" >Research Info. Portal</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/Research/industry/StudentChallenge.do" >Student Challenge</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/eng/Research/industry/research.do" >Research Institutes</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/Research/industry/research.do" >Academic Institutes</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/Research/industry/BK21.do" >BK21 PLUS Project</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/Research/industry/research_national.do" >Research Center supported by Government</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/eng/Research/support/research02.do" >Research Support</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/Research/support/research02.do" >Research Support Services</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/Research/support/supp_program.do" >Intramural Research Support Program</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/eng/Research/industry/IRB.do" >Research Ethics</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/Research/industry/IRB.do" >Institutes Review Board&#40;IRB&#41;</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/Research/industry/IRB02.do" >Research Ethics Committee</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+					</ul>
+				</div>
+			</div>
+		          	
+		</li>
+	
+		<li class="">
+			<a href="/eng/Univ-Industry/Research-Business-Found/FactsandFigures.do" >Univ-Industry Collabo.</a>	
+			
+   			<div class="gnb_bg">
+				<div class="w1650">
+					
+					<ul class="gnb_2dept">
+						
+		          		
+							<li>
+								<a href="/eng/Univ-Industry/Research-Business-Found/FactsandFigures.do" >Research &amp; Business</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/Univ-Industry/Research-Business-Found/FactsandFigures.do" >Facts and Figures</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/Univ-Industry/Research-Business-Found/ReseaarchBusinessFoundation.do" >Research &amp; Business Foundation</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/eng/Univ-Industry/CollaborativeProjects2/IntellectualPropertyIPManagement.do" >Collaborative Projects</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/Univ-Industry/CollaborativeProjects2/IntellectualPropertyIPManagement.do" >Intellectual Property &#40;IP&#41; Management</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/Univ-Industry/CollaborativeProjects2/TechnologyLicensingOffice.do" >Technology Licensing Office</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/eng/Univ-Industry/LINCProject/LINCProjectIntroduction.do" >LINC Project</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/Univ-Industry/LINCProject/LINCProjectIntroduction.do" >LINC Project Introduction</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/Univ-Industry/LINCProject/LINCProject2.do" >Business Promotion System</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/eng/Univ-Industry/Srart-upSupportFoundation/Organization.do" >Start-up Support Foundation</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/Univ-Industry/Srart-upSupportFoundation/Organization.do" >Organization</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/Univ-Industry/Srart-upSupportFoundation/sanhak_13.do" >Entrepreneurial Lab</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/Univ-Industry/Srart-upSupportFoundation/BusinessforStart-upLeadingUniversity.do" >Leading University for Start-up </a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/Univ-Industry/Srart-upSupportFoundation/CampusTownProjectBoard.do" >Campus Town Project Board</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/Univ-Industry/Srart-upSupportFoundation/EntrepreneurshipInnovationCenter.do" >Entrepreneurship &amp; Innovation Center </a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/Univ-Industry/Srart-upSupportFoundation/BusinessIncubator.do" >Business Incubator  </a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/Univ-Industry/Srart-upSupportFoundation/sanhak_14.do" >Korean I-Corps</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+					</ul>
+				</div>
+			</div>
+		          	
+		</li>
+	
+		<li class="gnbFirst">
+			<a href="/eng/International/GlobalEngagement/InternationalReputationandAchievements.do" >International</a>	
+			
+   			<div class="gnb_bg">
+				<div class="w1650">
+					
+					<ul class="gnb_2dept">
+						
+		          		
+							<li>
+								<a href="/eng/International/GlobalEngagement/InternationalReputationandAchievements.do" >Global Engagement</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/International/GlobalEngagement/InternationalReputationandAchievements.do" >International Reputation and Achievements</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/International/GlobalEngagement/InternationalObjectivesPolicy.do" >International Objectives &amp; Policy</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/International/GlobalEngagement/GlobalNetwork01.do" >Partnerships</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/eng/International/StudySKKU/Introduction.do" >Study at SKKU</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/International/StudySKKU/Introduction.do" >Inbound Exchange/Visiting Program</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+														
+															
+																<a href="/eng/International/StudySKKU/KoreanInterdisciplonartStudies.do" >Korean Language Program</a>	
+															
+																
+														
+														
+													
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/International/StudySKKU/InternationalSummerSemester.do" >International Summer Semester</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/eng/International/InternationalPrograms/AR_Forums.do" >International Programs</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/International/InternationalPrograms/AR_Forums.do" >Academic &amp; Research Forums</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/International/InternationalPrograms/ConferenceParticipation.do" >Conference Participation</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/International/InternationalPrograms/SungkyunWritngContest.do" >Sungkyun Writing Contest</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/International/InternationalPrograms/71Program.do" >7+1 Program</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/International/InternationalPrograms/CampusAsia.do" >Campus Asia</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/International/InternationalPrograms/Erasmus.do" >Erasmus+</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/International/InternationalPrograms/visiting_1_1025.jsp" >International Freshmen Welcome Program</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/eng/International/OutboundPrograms/OutboundExchange.do" >Outbound Programs</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/International/OutboundPrograms/OutboundExchange.do" >Outbound Exchange</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/eng/International/AboutDivision/AbouttheInternationalAffairsDivision01.do" >About the International Affairs Division</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/International/AboutDivision/AbouttheInternationalAffairsDivision01.do" >Introdution</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/International/AboutDivision/AbouttheInternationalAffairsDivision02.do" >Office of International Relations</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/International/AboutDivision/AbouttheInternationalAffairsDivision03.do" >Office of International Student Services</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/International/AboutDivision/AbouttheInternationalAffairsDivision04.do" >Staff Contact</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/International/AboutDivision/AbouttheInternationalAffairsDivision05.do" >Location &amp; Hours</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+					</ul>
+				</div>
+			</div>
+		          	
+		</li>
+	
+		<li class="">
+			<a href="/eng/CampusLife/support/employment.do" >Campus Life</a>	
+			
+   			<div class="gnb_bg">
+				<div class="w1650">
+					
+					<ul class="gnb_2dept">
+						
+		          		
+							<li>
+								<a href="/eng/CampusLife/support/employment.do" >Student Support &amp; Services</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/CampusLife/support/employment.do" >Career Development</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/CampusLife/support/scholarship.do" >Scholarships and Financial Aid</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/CampusLife/support/GenderEqualityCounselingCenter.do" >Human Rights Center</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/CampusLife/support/DisabilitiesServices.do" >Disabilities Services</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/CampusLife/support/dormitory02.do" >Dormitory</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/CampusLife/support/StudentIDCard.do" >Student ID Card</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/CampusLife/support/InternationalStudentIDCard.do" >International Student ID Card</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/CampusLife/support/StudentAdvisingCounseling.do" >Student Advising &amp; Counseling</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/eng/CampusLife/convenience/DiningHallsMenu.do" >Student Convenience &amp; Welfare</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/CampusLife/convenience/DiningHallsMenu.do" >Dining Halls/Menu</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/CampusLife/convenience/Shuttlebus.do" >Shuttle Bus</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/CampusLife/convenience/ConvenienceFacilities.do" >Convenience Facilities</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/CampusLife/convenience/FacilityUtilizationInstructions.do" >Facility Utilization Instructions</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/CampusLife/convenience/HealthCareCenter.do" >Healthcare Center</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/CampusLife/convenience/StudentInsurance.do" >Student Insurance</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/CampusLife/convenience/LostFound.do" >Lost &amp; Found </a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/eng/CampusLife/activities/SocialVolunteer.do" >Student Activities</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/CampusLife/activities/SocialVolunteer.do" >Social Volunteer</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+														
+															
+																<a href="/eng/CampusLife/activities/CampusMedia.do" >Student Groups/Organizations</a>	
+															
+																
+														
+														
+													
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/CampusLife/activities/event.do" >Events</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/eng/CampusLife/ITServices/ITCallCenter.do" >IT Services</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/CampusLife/ITServices/ITCallCenter.do" >IT Call Center</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/CampusLife/ITServices/AppsForAndroid.do" >Mobile Web/App Use</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/CampusLife/ITServices/LaptopAndSWRentalServices.do" >Laptop and SW Rental Services</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/CampusLife/ITServices/InternetUtilization.do" >Wifi Services</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/CampusLife/ITServices/WifiServices.do" >Internet Utilization</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+														
+															
+																<a href="/eng/CampusLife/ITServices/KingoPortal1_1.do" >Kingo Portal</a>	
+															
+																
+														
+														
+													
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/CampusLife/ITServices/WebpageWebhard.do" >Webpage/Webhard</a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/CampusLife/ITServices/itservice_1.do" >Video Conference System </a>	
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/CampusLife/ITServices/CertificateIssuingServices.do" >Certificate Issuing Services</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+							<li>
+								<a href="/eng/CampusLife/skku/Notice1.do" >Sungkyun Square</a>
+								
+									<ul class="gnb_3dept">
+										
+										
+											<li>
+												
+												
+													
+														
+															
+																<a href="/eng/CampusLife/skku/Notice1.do" >Notice</a>	
+															
+																
+														
+														
+													
+													
+												
+												
+											</li>
+										
+											<li>
+												
+												
+													
+													
+														<a href="/eng/CampusLife/skku/SKKUCalendar.do" >SKKU Calendar</a>	
+													
+												
+												
+											</li>
+										
+									</ul>		
+								
+							</li>
+						
+					</ul>
+				</div>
+			</div>
+		          	
+		</li>
+	
+</ul>
+
+					<a href="https://admission-global.skku.edu/eng/index.html" class="graBtn" target="_blank">Graduate<br> School</a>
+					<div class="body">
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="mo_seaWrap">
+	<div class="seadiv">
+		<form method="post" action="/skku/search/search.do" id="moSearchForm">
+			<fieldset>
+				<legend class="hidden">Search</legend>
+				<input type="hidden" name="menu" value="통합검색"/>
+
+				<label for="mo_search_val" class="hidden">Search</label>
+				<input type="text" id="mo_search_val" name="qt" />
+
+				<button class="mo_seaBtn"></button>
+
+			</fieldset>
+		</form>
+	</div>
+	<ul class="share_list">
+		<li><a href="https://www.facebook.com/sungkyunkwanuniversity1398" target="_blank"><img src="/_res/skku/img/common/headM_sns_icon01.png" alt="facebook 바로가기"></a></li>
+		<li><a href="https://www.instagram.com/sungkyunkwan_univ_official/" target="_blank"><img src="/_res/skku/img/common/headM_sns_icon02.png" alt="instagram 바로가기"></a></li>
+		<li><a href="https://www.youtube.com/channel/UCMSzjNHLZNNUUA-Z8OrXY9Q" target="_blank"><img src="/_res/skku/img/common/headM_sns_icon03.png" alt="youtube 바로가기"></a></li>
+	</ul>
+</div>
+
+<form name="popForm">
+    <input type="hidden" name="ssoToken" value="" />
+	<input type="hidden" name="varUA"/>
+</form>
+</div>
+<div class="main_container" id="jwxe_main_content">
+<div class="main_visualWrap">
+	<div class="owl-carousel owl-theme" style="display: block;">
+		<div class="mainVisual">
+			
+			
+				
+				
+				
+				
+				
+			
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	 
+
+	
+		 
+		 
+		
+			
+			
+				
+					
+					
+						
+							
+								
+								
+										
+										
+									
+									
+										
+									
+										
+											
+											
+											
+										
+									
+								
+
+							
+							
+						
+					
+
+					<div class="item" data-target="_self" data-h="" data-w="" data-url="">
+						<div class="mainVis01 type1">
+							
+								
+								
+								
+								
+								
+									<div class="mainVisTxtWrap">
+										<div class="mainVisTxtInner">
+											<div>
+												<div class="fr-view"><p>　</p></div>
+											</div>
+										</div>
+									</div>
+									<img src="/_attach/image/2018/10/ZgOeHpMZnepmhzlojJfE.jpg" alt="No.1 Private Comprehensive University in Korea"/>
+								
+							
+
+						</div>
+					</div>
+				
+				
+			
+		
+		
+	
+		 
+		 
+		
+			
+			
+				
+					
+					
+						
+							
+								
+								
+										
+										
+									
+									
+										
+									
+										
+											
+											
+											
+										
+									
+								
+
+							
+							
+						
+					
+
+					<div class="item url" data-target="_blank" data-h="" data-w="" data-url="https://www.skku.edu/eng/Research/industry/researchStory_view.do?mode=view&amp;articleNo=67419">
+						<div class="mainVis02 type2">
+							
+								
+								 
+									<div class="mainVisTxtWrap"></div>
+									<div class="w1400">
+										<div class="mainVisTxtInner">
+											<div>
+												<div class="fr-view"><p class="mainVisBtmTxt" style="color: rgb(255, 255, 255);">Research Stories</p><h2 class="mainVisTit"><span style="color: rgb(255, 255, 255);">Study on Dirac Electrons in a Dodecagonal Graphene Quasicrystal</span></h2><p class="mainVisDesc"><span style="color: rgb(255, 255, 255); font-size: 14px;">Physics<br>Prof. AHN, JOUNGREAL<br>Dr. AHN, Sung Jun</span></p>　</div>
+
+												
+													<a href="#" class="main_moreBtn url" data-target="_blank" data-h="" data-w="" data-url="https://www.skku.edu/eng/Research/industry/researchStory_view.do?mode=view&amp;articleNo=67419">
+														READ MORE
+													</a>
+												
+											</div>
+										</div>
+									</div>
+									<img src="/_attach/image/2018/10/xGyLZbAtyNSxXTpdyAOu.jpg" alt="Study on Dirac Electrons in a Dodecagonal Graphene Quasicrystal "/>
+								
+								
+								
+								
+							
+
+						</div>
+					</div>
+				
+				
+			
+		
+		
+	
+		 
+		 
+		
+			
+			
+				
+					
+					
+						
+							
+								
+								
+										
+										
+									
+									
+										
+									
+										
+											
+											
+											
+										
+									
+								
+
+							
+							
+						
+					
+
+					<div class="item url" data-target="_blank" data-h="" data-w="" data-url="https://www.skku.edu/eng/About/media/news.do?mode=view&amp;articleNo=67324">
+						<div class="mainVis01 type3">
+							
+								
+								
+								
+								
+								
+									<div class="mainVisTxtWrap">
+										<div class="mainVisTxtInner">
+											<div>
+												<div class="fr-view"><p class="mainVisTit"><br>10th Central Asia Sungkyun Writing Contest</p></div>
+											</div>
+										</div>
+									</div>
+									<img src="/_attach/image/2018/10/lYqJFSwcUGcMJoDToaWp.jpg" alt="10th Central Asia Sungkyun Writing Contest"/>
+								
+							
+
+						</div>
+					</div>
+				
+				
+			
+		
+		
+	
+		 
+		 
+		
+		
+	
+		 
+		 
+		
+		
+	
+	
+	
+	
+
+
+		</div>
+	</div>
+</div>
+<div class="main_content">
+	<div class="w1400">
+		<div class="mainContTop">
+			<div class="newsWrap">
+				<h3 class="mainContTit"><a href="/eng/About/media/news.do">News</a></h3>
+				<div class="newsBox">
+					
+						
+						
+						
+						
+						
+						
+					
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+			
+			
+		
+		
+			
+			
+				
+			
+		
+		
+		
+		
+			
+				
+					
+					
+						
+			
+		
+		
+		
+			
+				<div class="news_gallery">
+					
+						<img src="/_attach/image/2018/10/erVWMtzjpoyrwwfzeWJE.jpg" alt="">
+					
+					<div class="newsGallery_txtWrap">
+						<p class="newsGalleryTit"><a href="/eng/About/media/news.do?mode=view&amp;articleNo=67481">The Academy of East Asian Studies held &#039;China Reform and Opening International Forum&#039; </a></p>
+						<p class="newsGalleryDesc"><a href="/eng/About/media/news.do?mode=view&amp;articleNo=67481">From October 27th to 28th, The Academy of East Asian Studies held China Reform International Forum with the theme ‘Chinese Reform and Opening and the World’. This event was co-hosted by the China (Hinan) Reform and Development Research Center, the Bank of China, and the German International Cooperation Agency (GIZ).</a></p>
+					</div>
+				</div>
+			
+			
+				
+		
+		
+	
+		
+			
+			
+		
+		
+			
+			
+				
+			
+		
+		
+		
+		
+			
+				
+					
+					
+						
+			
+		
+		
+		
+			
+			
+			
+				
+					<ul class="notice_list">
+				
+						
+				<li>
+					<a href="/eng/About/media/news.do?mode=view&amp;articleNo=67466">· SKKU Ranks No.1 in Korean Comprehensive University by Joong Ang Daily</a>
+					<span class="date">10.31</span>
+				</li>
+						
+				
+				
+		
+		
+	
+		
+			
+			
+		
+		
+			
+			
+				
+			
+		
+		
+		
+		
+			
+				
+					
+					
+						
+			
+		
+		
+		
+			
+			
+			
+				
+						
+				<li>
+					<a href="/eng/About/media/news.do?mode=view&amp;articleNo=67395">· Prof. Jae Kyo JIN of the Dept. of Classical Chinese Education Received an Honorary Doctorate Degree at Sofia University,</a>
+					<span class="date">10.29</span>
+				</li>
+						
+				
+					</ul>
+				
+				
+		
+		
+	
+	
+	
+	
+
+
+				</div>
+			</div>
+			<div class="noticeWrap">
+				<h3 class="mainContTit"><a href="/eng/CampusLife/skku/Notice1.do">Notice</a></h3>
+				
+					
+					
+					
+					
+					
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="noticeDotArea">
+	<ul class="clearFloat">
+		
+			<li><a href="#" class="textHide">1번 공지보기</a></li>
+		
+			<li><a href="#" class="textHide">2번 공지보기</a></li>
+		
+			<li><a href="#" class="textHide">3번 공지보기</a></li>
+		
+			<li><a href="#" class="textHide">4번 공지보기</a></li>
+		
+	</ul>
+	<a href="#" class="textHide noticeToggleButton">정지</a>
+</div>
+
+<div class="newsBox" id="noticeCarousel">
+	<ul class="notice_list">
+
+		
+			<li>
+				<a href="/eng/CampusLife/skku/Notice1.do?mode=view&amp;articleNo=67159">
+				[Events]
+				2018 China Education Expo 中国国际教育展 (10/20~21)   </a>
+				<span class="date">	10.16</span>
+			</li>	
+		
+			<li>
+				<a href="/eng/CampusLife/skku/Notice1.do?mode=view&amp;articleNo=67123">
+				[General]
+				2018 Sports Day for Int&#039;l Students in Suwon(Fully Booked)</a>
+				<span class="date">	10.19</span>
+			</li>	
+		
+			<li>
+				<a href="/eng/CampusLife/skku/Notice1.do?mode=view&amp;articleNo=66843">
+				[Academics]
+				Notice on Electronic Attendance System</a>
+				<span class="date">	09.21</span>
+			</li>	
+		
+			<li>
+				<a href="/eng/CampusLife/skku/Notice1.do?mode=view&amp;articleNo=66840">
+				[Hiring/Recruitment]
+				SKKU OISS (Office of International Student Services) YouTube Creator</a>
+				<span class="date">	09.21</span>
+			</li>	
+		
+			<li>
+				<a href="/eng/CampusLife/skku/Notice1.do?mode=view&amp;articleNo=66803">
+				[Events]
+				2018 Fall Graduate School Fair</a>
+				<span class="date">	09.20</span>
+			</li>	
+		
+			<li>
+				<a href="/eng/CampusLife/skku/Notice1.do?mode=view&amp;articleNo=66599">
+				[General]
+				Insurance Application for Int&#039;l Students</a>
+				<span class="date">	09.11</span>
+			</li>	
+		
+			<li>
+				<a href="/eng/CampusLife/skku/Notice1.do?mode=view&amp;articleNo=66564">
+				[General]
+				MERS-CoV Infection Prevention Guidance</a>
+				<span class="date">	09.10</span>
+			</li>	
+		
+			<li>
+				<a href="/eng/CampusLife/skku/Notice1.do?mode=view&amp;articleNo=66373">
+				[Academics]
+				Early Completion of Combined Master and Ph.D. Program </a>
+				<span class="date">	09.03</span>
+			</li>	
+		
+			<li>
+				<a href="/eng/CampusLife/skku/Notice1.do?mode=view&amp;articleNo=66371">
+				[Academics]
+				Early Graduation Application for the Undergraduate</a>
+				<span class="date">	09.03</span>
+			</li>	
+		
+			<li>
+				<a href="/eng/CampusLife/skku/Notice1.do?mode=view&amp;articleNo=65998">
+				[Academics]
+				Notification about Change of VISA for Graduates (D-2 VISA holders)</a>
+				<span class="date">	08.23</span>
+			</li>	
+		
+			<li>
+				<a href="/eng/CampusLife/skku/Notice1.do?mode=view&amp;articleNo=65911">
+				[Hiring/Recruitment]
+				(Japanese Only) Internship/Part-time opportunity for ZIGZAG Service</a>
+				<span class="date">	08.21</span>
+			</li>	
+		
+			<li>
+				<a href="/eng/CampusLife/skku/Notice1.do?mode=view&amp;articleNo=65581">
+				[Academics]
+				Invitation for 2018 Summer Graduation Party</a>
+				<span class="date">	08.06</span>
+			</li>	
+		
+			<li>
+				<a href="/eng/CampusLife/skku/Notice1.do?mode=view&amp;articleNo=17984">
+				[General]
+				The Second half of 2018 Study in Korea Online Education Fair</a>
+				<span class="date">	07.06</span>
+			</li>	
+		
+			<li>
+				<a href="/eng/CampusLife/skku/Notice1.do?mode=view&amp;articleNo=17983">
+				[General]
+				Recruiting WWOOF Korea</a>
+				<span class="date">	06.24</span>
+			</li>	
+		
+			<li>
+				<a href="/eng/CampusLife/skku/Notice1.do?mode=view&amp;articleNo=17982">
+				[General]
+				2018 FEALAC Youth Summit </a>
+				<span class="date">	06.21</span>
+			</li>	
+		
+		
+		
+	</ul>
+		
+	
+</div>
+
+
+
+
+				
+			</div>
+		</div>
+		<div class="headLineWrap">
+			<h3 class="mainContTit">Headlines</h3>
+			<ul class="headLine_list">
+				
+					
+					
+					
+					
+					
+					
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+			
+				
+				
+			
+			
+		
+			
+		
+		
+		
+		
+		
+		<li>
+			
+			<a class="articleTitle url" data-w= data-h= href="#"  data-url="https://www.skku.edu/eng/About/media/news.do?mode=view&amp;articleNo=67466" data-target=_self>
+				<span class="headLineimgWrap">
+					<img src="/_attach/image/2018/10/hCSOtehKGwjZcxOtLJZW.jpg" alt="SKKU was named No.2 in Korean University Rankings by the Joong Ang Daily">
+				</span>
+				<span class="headLineTxtWrap">
+					<span class="headLIneTit">REPUTATION</span>
+					<span class="headLIneRec"></span>
+					<span class="headLIneDesc">SKKU Ranks No.1 in Korean Comprehensive University by Joong Ang Daily</span>
+				</span>
+			</a>
+		</li>	
+	
+	
+	
+
+
+
+
+
+				
+				
+					
+					
+					
+					
+					
+					
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+			
+				
+				
+			
+			
+		
+			
+		
+		
+		
+		
+		
+		<li>
+			
+			<a class="articleTitle url" data-w= data-h= href="#"  data-url="https://www.skku.edu/eng/About/media/news.do?mode=view&amp;articleNo=67223" data-target=_self>
+				<span class="headLineimgWrap">
+					<img src="/_attach/image/2018/10/IUNjJMfQbcdsqFIIJaDG.jpg" alt="Dr. Subra Suresh, President of Nanyang Technological University (NTU) visited Humanities and Social Sciences Campus on Oct 12th (Friday) to receive an honorary doctorate degree in engineering from SKKU. ">
+				</span>
+				<span class="headLineTxtWrap">
+					<span class="headLIneTit">GLOBAL SKKU</span>
+					<span class="headLIneRec"></span>
+					<span class="headLIneDesc">NTU President Dr. Subra Suresh Received Honorary Doctorate Degree from SKKU</span>
+				</span>
+			</a>
+		</li>	
+	
+	
+	
+
+
+
+
+
+				
+				
+					
+					
+					
+					
+					
+					
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+			
+				
+				
+			
+			
+		
+			
+		
+		
+		
+		
+		
+		<li>
+			
+			<a class="articleTitle url" data-w= data-h= href="#"  data-url="https://www.skku.edu/eng/About/media/news.do?mode=view&amp;articleNo=67395" data-target=_self>
+				<span class="headLineimgWrap">
+					<img src="/_attach/image/2018/10/ppPbAJwqkbHGWsAVbhoa.jpg" alt="Prof. Jae Kyo JIN of the Dept. of Classical Chinese Education Received an Honorary Doctorate Degree at Sofia University, Bulgaria">
+				</span>
+				<span class="headLineTxtWrap">
+					<span class="headLIneTit">PEOPLE</span>
+					<span class="headLIneRec"></span>
+					<span class="headLIneDesc">Prof. Jae Kyo JIN Received an Honorary Doctorate Degree at Sofia University, Bulgaria</span>
+				</span>
+			</a>
+		</li>	
+	
+	
+	
+
+
+
+
+
+				
+				
+					
+					
+					
+					
+					
+					
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+			
+				
+				
+			
+			
+		
+			
+		
+		
+		
+		
+		
+		<li>
+			
+			<a class="articleTitle url" data-w= data-h= href="#"  data-url="https://www.skku.edu/eng/CampusLife/skku/Notice1.do?mode=view&amp;articleNo=67123" data-target=_self>
+				<span class="headLineimgWrap">
+					<img src="/_attach/image/2018/10/bzTHGxppCVqZKroFsTJz.png" alt="2018 Sports Day for Int'l Students in Suwon">
+				</span>
+				<span class="headLineTxtWrap">
+					<span class="headLIneTit">EVENTS</span>
+					<span class="headLIneRec"></span>
+					<span class="headLIneDesc">2018 Sports Day for Int'l Students in Suwon</span>
+				</span>
+			</a>
+		</li>	
+	
+	
+	
+
+
+
+
+
+			</ul>
+		</div>
+		<div class="Research">
+			<h3 class="mainContTit">Research Stories</h3>
+			
+			
+				
+				
+				
+								
+				
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="mResWrap">
+	<div class="mResSwiperWrap">				
+		<ul class="mResSwiper">
+			
+				
+				
+					
+						
+									
+						
+							
+								
+								<li>
+									<a href="/eng/Research/industry/researchStory_view.do?mode=view&amp;articleNo=67419" target="_blank">
+										<img src="/_attach/image/2018/10/xjyHfAcEHMxblWVbUBgp.jpg" alt="Study on Dirac Electrons in a Dodecagonal Graphene Quasicrystal"/>
+									</a>
+								</li>
+									
+						
+							
+								
+								<li>
+									<a href="/eng/Research/industry/researchStory_view.do?mode=view&amp;articleNo=67419" target="_blank">
+										<img src="/_attach/image/2018/10/OBobbOrmUpFDWdnBPoEs.jpg" alt="Study on Dirac Electrons in a Dodecagonal Graphene Quasicrystal"/>
+									</a>
+								</li>
+									
+						
+					
+					
+				
+			
+				
+				
+			
+		</ul>
+	</div>
+	<div class="researchRight">
+		<ul>
+			
+				
+				
+				
+					
+						
+							
+							
+								
+					
+								
+					
+								
+					
+				
+				<li>
+					<div class="mainRes_txtWrap">
+						<div>
+							
+							<p>
+								Study on Dirac Electrons in a Dodecagonal Graphene Quasicrystal
+								<span>
+									Physics <br/> Prof.  AHN, JOUNGREAL   
+									
+									
+										<br/>
+										
+										Dr. AHN, Sung Jun
+									
+								</span>
+							</p>
+							<a href="/eng/Research/industry/researchStory_view.do?mode=view&amp;articleNo=67419" class="main_moreBtn" target="_blank">
+								READ MORE
+							</a>
+							
+							
+						</div>
+						<a href="/eng/Research/industry/researchStory_view.do?mode=view&amp;articleNo=67419" target="_blank">
+							<img src="/_attach/image/2018/10/xePjDFKGEFJDOHnSiGjw.jpg" alt="상대론적 디랙 전자구조를 가지는 12각형 그래핀 준결정에 관한 연구"/>
+						</a>
+					</div>
+				</li>
+			
+				
+				
+				
+					
+						
+							
+							
+								
+					
+								
+					
+								
+					
+				
+				<li>
+					<div class="mainRes_txtWrap mainRes_txtWrapBtm">
+						<div>
+							
+								<div>
+									<a class="poa_tx" href="/eng/Research/industry/researchStory.do?mode=list">[Past Contents]</a>
+							
+							<p>
+								Elucidation of Wnt Signaling Mechanism
+								<span>
+									Pharmacy <br/> Prof.  CHUNG, KA YOUNG   
+									
+									
+										<br/>
+										
+										Hee Ryung KIM, Ph.D. student
+									
+								</span>
+							</p>
+							<a href="/eng/Research/industry/researchStory_view.do?mode=view&amp;articleNo=67143" class="main_moreBtn" target="_blank">
+								READ MORE
+							</a>
+							
+								</div>
+							
+							
+						</div>
+						<a href="/eng/Research/industry/researchStory_view.do?mode=view&amp;articleNo=67143" target="_blank">
+							<img src="/_attach/image/2018/10/jdCqRYoUleuohkpRiiWW.jpg" alt="정가영 교수"/>
+						</a>
+					</div>
+				</li>
+			
+		</ul>
+	</div>
+</div>
+
+
+			
+			
+		</div>	
+	</div>
+	
+</div>
+</div>
+<div class="social_media">
+<div class="w1400">
+	<div class="Media">
+		<h3 class="mainContTit">Social Media</h3>
+		<div class="mediaLeft">
+			<div class="youtubeWrap">
+				<iframe frameborder="0" allowfullscreen title="YouTube video player" width="100%" height="100%" src="https://www.youtube.com/embed/xD3C9j1e8WA?autoplay=0&loop=0&controls=0&showinfo=0&autohide=0&modestbranding=1&rel=0&playlist=vbCUBfPaE40&vq=hd1080&enablejsapi=1&origin=http%3A%2F%2Fwww.skku.edu&widgetid=2"></iframe>
+			</div>
+			<div class="mediaTxtWrap">
+				<p class="mediaTit">2018 Gohanora</p>
+				<p class="mediaDesc">
+					Hosted by SKKU Confucian Culture Planning Group‘Chung Rang’
+				</p>
+				<a href="https://www.youtube.com/channel/UCMSzjNHLZNNUUA-Z8OrXY9Q" class="main_moreBtn" target="_blank">READ MORE</a>
+			</div>
+		</div>
+		<div class="mediaRight">
+			<ul class="snsList">
+				<li><a href="https://www.facebook.com/sungkyunkwanuniversity1398" target="_blank" title="새창"><img src="/_res/skku/img/main/media_icon01.png" alt="페이스북 바로가기"></a></li>
+				<li><a href="https://www.instagram.com/sungkyunkwan_univ_official/" target="_blank" title="새창"><img src="/_res/skku/img/main/media_icon02.png" alt="인스타그램 바로가기"></a></li>
+				<li><a href="http://blog.naver.com/good7101910" target="_blank" title="새창"><img src="/_res/skku/img/main/media_icon03.png" alt="블로거 바로가기"></a></li>
+				<li><a href="https://www.youtube.com/channel/UCMSzjNHLZNNUUA-Z8OrXY9Q" target="_blank" title="새창"><img src="/_res/skku/img/main/media_icon04.png" alt="유투브바로가기"></a></li>
+			</ul>
+			<ul class="snsQuickList">
+				<li><a href="http://www.facebook.com/skkuintl" target="_blank" title="새창">/ Office of International Affairs Facebook</a></li>
+				<li><a href="https://www.facebook.com/skkuoiss/" target="_blank" title="새창">/ International Student Services Facebook</a></li>
+				<li><a href="https://www.facebook.com/skkuiss" target="_blank" title="새창">/ International Summer Semester Facebook</a></li>
+				<li><a href="https://www.facebook.com/skkgsb" target="_blank" title="새창">/ SKK GSB Facebook</a></li>
+			</ul>
+		</div>
+	</div>	
+</div>
+</div>
+<div class="footer">
+<a href="#" class="topBtn">
+	<img src="/_res/skku/img/common/topBtn.png" class="top">
+	<img src="/_res/skku/img/common/topBtn_hover.png" class="top_hover">
+</a>
+<div class="LinkWrap">
+	<div class="LinkList">
+		<div class="w1400">
+			<ul>
+				
+					
+					
+					
+					
+					
+				
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+			
+				
+				
+			
+			
+		
+		
+		
+		<li>
+			<a class="url" data-w="" data-h="" data-url="https://lib.skku.edu/en/" href="#" data-target=_blank>
+				
+					
+						
+							
+							
+						
+						
+								
+					
+						
+						
+						
+							
+							
+								
+					
+				
+				
+				<img src="/_attach/image/2018/07/LLfoKnnTTwQHTGzzXYdI.png" alt="img" class="fIconTop">
+				<img src="/_attach/image/2018/07/tgkswmXhVgKdSZFllGnS.png" alt="img" class="fIconBtm">
+				<span>Libraries</span>
+			</a>
+			
+			
+			<div class="seaBan_pupp" style="display: none;">
+				
+				
+				1811-8585<br>
+				1811-7558<br><br>
+
+				9:00~12:00 / 13:00~17:00<br>
+				
+				<img src="/_res/skku/img/sub/seaBan_tail.png" alt=""/>
+			</div>
+		</li>	
+	
+		
+		
+			
+				
+				
+			
+			
+		
+		
+		
+		<li>
+			<a class="url" data-w="" data-h="" data-url="/eng/Academics/departments.do" href="#" data-target=_self>
+				
+					
+						
+							
+							
+						
+						
+								
+					
+						
+						
+						
+							
+							
+								
+					
+				
+				
+				<img src="/_attach/image/2018/07/HcaYMVLUKTRfGGdKrLWH.png" alt="img" class="fIconTop">
+				<img src="/_attach/image/2018/07/kffKMQcZRGamcVcaCbYh.png" alt="img" class="fIconBtm">
+				<span>Departments A-Z</span>
+			</a>
+			
+			
+			<div class="seaBan_pupp" style="display: none;">
+				
+				
+				1811-8585<br>
+				1811-7558<br><br>
+
+				9:00~12:00 / 13:00~17:00<br>
+				
+				<img src="/_res/skku/img/sub/seaBan_tail.png" alt=""/>
+			</div>
+		</li>	
+	
+		
+		
+			
+				
+				
+			
+			
+		
+		
+		
+		<li>
+			<a class="url" data-w="" data-h="" data-url="https://summer.skku.edu/summer/index.do" href="#" data-target=_self>
+				
+					
+						
+							
+							
+						
+						
+								
+					
+						
+						
+						
+							
+							
+								
+					
+				
+				
+				<img src="/_attach/image/2018/07/eViJcIjHpeCQbvOlyjQI.png" alt="img" class="fIconTop">
+				<img src="/_attach/image/2018/07/yrHNbMwVCXeRsDQZcpyc.png" alt="img" class="fIconBtm">
+				<span>International Summer Semester</span>
+			</a>
+			
+			
+			<div class="seaBan_pupp" style="display: none;">
+				
+				
+				1811-8585<br>
+				1811-7558<br><br>
+
+				9:00~12:00 / 13:00~17:00<br>
+				
+				<img src="/_res/skku/img/sub/seaBan_tail.png" alt=""/>
+			</div>
+		</li>	
+	
+		
+		
+			
+				
+				
+			
+			
+		
+		
+		
+			
+		
+		<li>
+			<a class="url foot_hover" data-w="" data-h="" data-url="tel:1811-8585" href="#" data-target=_self>
+				
+					
+						
+							
+							
+						
+						
+								
+					
+						
+						
+						
+							
+							
+								
+					
+				
+				
+				<img src="/_attach/image/2018/07/PjrqZCdOsmJzRGpXrqlk.png" alt="img" class="fIconTop">
+				<img src="/_attach/image/2018/07/kJoRXkEzNStlzmXgjlMI.png" alt="img" class="fIconBtm">
+				<span>One-Stop Academic Service center</span>
+			</a>
+			
+			
+			<div class="seaBan_pupp" style="display: none;">
+				
+				
+				1811-8585<br>
+				1811-7558<br><br>
+
+				9:00~12:00 / 13:00~17:00<br>
+				
+				<img src="/_res/skku/img/sub/seaBan_tail.png" alt=""/>
+			</div>
+		</li>	
+	
+		
+		
+			
+				
+				
+			
+			
+		
+		
+		
+		<li>
+			<a class="url" data-w="" data-h="" data-url="/eng/International/GlobalEngagement/GlobalNetwork01.do" href="#" data-target=_self>
+				
+					
+						
+							
+							
+						
+						
+								
+					
+						
+						
+						
+							
+							
+								
+					
+				
+				
+				<img src="/_attach/image/2018/07/pmclPvKUEuOBMHJQOzsb.png" alt="img" class="fIconTop">
+				<img src="/_attach/image/2018/07/DnDhXgwmsHItgoiktefJ.png" alt="img" class="fIconBtm">
+				<span>Global Network</span>
+			</a>
+			
+			
+			<div class="seaBan_pupp" style="display: none;">
+				
+				
+				1811-8585<br>
+				1811-7558<br><br>
+
+				9:00~12:00 / 13:00~17:00<br>
+				
+				<img src="/_res/skku/img/sub/seaBan_tail.png" alt=""/>
+			</div>
+		</li>	
+	
+		
+		
+			
+				
+				
+			
+			
+		
+		
+		
+		<li>
+			<a class="url" data-w="" data-h="" data-url="#" href="#" data-target=_self>
+				
+					
+						
+							
+							
+						
+						
+								
+					
+						
+						
+						
+							
+							
+								
+					
+				
+				
+				<img src="/_attach/image/2018/07/rpjrqobspTBxldwbObUF.png" alt="img" class="fIconTop">
+				<img src="/_attach/image/2018/07/IdbVVgNLWRuBxCPdZbdY.png" alt="img" class="fIconBtm">
+				<span>Human Rights Center</span>
+			</a>
+			
+			
+			<div class="seaBan_pupp" style="display: none;">
+				
+				
+				1811-8585<br>
+				1811-7558<br><br>
+
+				9:00~12:00 / 13:00~17:00<br>
+				
+				<img src="/_res/skku/img/sub/seaBan_tail.png" alt=""/>
+			</div>
+		</li>	
+	
+	
+	
+
+
+
+
+
+			</ul>
+		</div>
+	</div>
+	<div class="LinkListBtm">
+		<div class="w1400">
+			<ul>
+				<li>
+					<a href="/eng/About/campusinfo/campus_telInfo.do"><span>·</span> Phone Number Directory</a>
+				</li>
+				<li>
+					<a href="/eng/About/campusinfo/CampusMap.do" target="_blank" title="새창"><span>·</span> Campus Map</a>
+				</li>
+				<li>
+					<a href="https://koreansli.skku.edu/ksli/index.do" target="_blank" title="새창"><span>·</span> Korean Language Course</a>
+				</li>
+				<li>
+					<a href="http://oiss.skku.edu/oiss/" target="_blank" title="새창"><span>·</span> Office of International Student Services</a>
+				</li>
+				<li>
+					<a href="https://certi.skku.edu/icert/link.jsp" target="_blank" title="새창"><span>·</span> Certificate Issuance</a>
+				</li>
+				<li>
+					<a href="/eng/CampusLife/support/dormitory02.do"><span>·</span> Dormitory</a>
+				</li>
+				<li>
+					<a href="/eng/Research/industry/search_researcher.do"><span>·</span> Find a Researcher</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="w1400">
+	<div class="footer_top">
+		<h1 class="footer_logo"><img src="/_res/eng/img/common/footer-logo.png" alt="성균관대학교">
+		</h1>
+		
+		<div class="secWrap">
+			<ul class="foot_secList">
+				<li>
+					<label class="hidden" for="secLink">
+					</label>
+					<select class="select" id="secLink">
+						<option>
+							Link
+						</option>
+					</select>
+				</li>
+
+				
+				<li>
+					
+
+
+
+
+
+
+
+
+
+<label class="hidden" for="sec1">University</label>
+<select class="select" id="sec1">
+	<option>University</option>
+	
+		
+		
+		
+		
+			
+			
+		
+		<option value="http://hakbu.skku.edu/eng_hakbu/" target=_blank>University College</option>	
+	
+		
+		
+		
+		
+			
+			
+		
+		<option value="http://scos.skku.edu/eng_scos/" target=_blank>College of Confucian Studies and Eastern Philosophy</option>	
+	
+		
+		
+		
+		
+			
+			
+		
+		<option value="http://liberalarts.skku.edu/eng_liberal/" target=_blank>College of Liberal Arts</option>	
+	
+		
+		
+		
+		
+			
+			
+		
+		<option value="http://sscience.skku.edu/eng_sscience/" target=_blank>College of Social Sciences</option>	
+	
+		
+		
+		
+		
+			
+			
+		
+		<option value="http://ecostat.skku.edu/eng_ecostat/" target=_blank>College of Economics</option>	
+	
+		
+		
+		
+		
+			
+			
+		
+		<option value="https://biz.skku.edu/en/" target=_blank>School of Business</option>	
+	
+		
+		
+		
+		
+			
+			
+		
+		<option value="http://coe.skku.edu/eng_coe/" target=_blank>College of Education</option>	
+	
+		
+		
+		
+		
+			
+			
+		
+		<option value="http://art.skku.edu/eng_art/" target=_blank>School of Art</option>	
+	
+		
+		
+		
+		
+			
+			
+		
+		<option value="https://cscience.skku.edu/eng_cscience/index.do" target=_blank>College of Science</option>	
+	
+		
+		
+		
+		
+			
+			
+		
+		<option value="http://skb.skku.edu/eng_ice/" target=_blank>College of Information and Communication Engineering</option>	
+	
+		
+		
+		
+		
+			
+			
+		
+		<option value="http://skb.skku.edu/eng_cs" target=_blank>College of Software</option>	
+	
+		
+		
+		
+		
+			
+			
+		
+		<option value="http://enc.skku.edu/eng_enc/" target=_blank>College of Engineering</option>	
+	
+		
+		
+		
+		
+			
+			
+		
+		<option value="http://skb.skku.edu/eng_pharm" target=_blank>School of Pharmacy</option>	
+	
+		
+		
+		
+		
+			
+			
+		
+		<option value="http://biotech.skku.edu/eng_biotech/" target=_blank>College of Biotechnology and Bioengineering</option>	
+	
+		
+		
+		
+		
+			
+			
+		
+		<option value="http://sport.skku.edu/eng_sports/" target=_blank>College of Sport Science</option>	
+	
+		
+		
+		
+		
+			
+			
+		
+		<option value="http://www.skkumed.ac.kr/eng/index.asp" target=_blank>School of Medicine</option>	
+	
+		
+		
+		
+		
+			
+			
+		
+		<option value="http://icon.skku.edu/eng_icon/" target=_blank>SKKU Institute for Convergence</option>	
+	
+	<option value="/eng/edu/graduateSchool/graduate_school01.do" target="_blank">Graduate Programs - General</option>
+	<option value="/eng/edu/graduateSchool/graduate_school02.do" target="_blank">Graduate Programs - Special</option>
+	<option value="/eng/edu/graduateSchool/graduate_school03.do" target="_blank">Graduate Programs - Professional</option>	
+</select>
+
+				</li>
+
+				<li>
+					
+						
+						
+						
+						
+						
+						
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<label class="hidden" for="sec2">Service</label>
+	<select class="select" id="sec2">
+		<option value="">Service</option>
+		
+			<option value="/eng/CampusLife/ITServices/LaptopAndSWRentalServices.do" data-target="_blank">Laptop and SW Rental Services</option>	
+		
+			<option value="/eng/CampusLife/ITServices/InternetUtilization.do" data-target="_blank">Wifi Services</option>	
+		
+			<option value="/eng/CampusLife/ITServices/ITCallCenter.do" data-target="_blank">IT Call Center</option>	
+		
+			<option value="/eng/About/campusinfo/parking.do" data-target="_blank">Parking Info.(Seoul)</option>	
+		
+			<option value="/eng/About/campusinfo/parking02.do" data-target="_blank">Parking Info.(Suwon)</option>	
+		
+			<option value="/eng/About/campusinfo/location.do" data-target="_blank">Directions to SKKU(Seoul)</option>	
+		
+			<option value="/eng/About/campusinfo/location02.do" data-target="_blank">Directions to SKKU(Suwon)</option>	
+		
+			<option value="/eng/CampusLife/convenience/ConvenienceFacilities.do" data-target="_blank">Campus Facilities and Amenities (Seoul)</option>	
+		
+			<option value="/eng/CampusLife/convenience/ConvenienceFacilities02.do" data-target="_blank">Campus Facilities and Amenities (Suwon)</option>	
+		
+			<option value="/eng/Academics/departmentSearch.do" data-target="_blank">Curriculums</option>	
+		
+	</select>
+
+
+
+				</li>
+				<li>
+					
+						
+						
+						
+						
+						
+						
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<label class="hidden" for="sec3">Site</label>
+	<select class="select" id="sec3">
+		<option value="">Site</option>
+		
+			<option value="http://shb.skku.edu/ccrf_eng/index.jsp" data-target="_blank">Cooperative Center for Research Facilities</option>	
+		
+			<option value="http://abeek.skku.edu/new/eng" data-target="_blank">Center for Innovation Engineering Education</option>	
+		
+			<option value="http://shb.skku.edu/faculty_eng/" data-target="_blank">Global faculty recruitment system</option>	
+		
+			<option value="http://shb.skku.edu/aeas_eng/" data-target="_blank">Academy of East Asian Studies</option>	
+		
+			<option value="/eng/International/StudySKKU/BulletinBoard.do" data-target="_blank">Exchange Student</option>	
+		
+	</select>
+
+
+
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="footer_btm">
+
+		<div class="footBtm_info">
+			<ul>
+				<li>
+					HUMANITIES AND SOCIAL SCIENCES CAMPUS: (03063) 25-2, SUNGKYUNKWAN-RO, JONGNO-GU, SEOUL, KOREA
+				</li>
+				<li>
+					NATURAL SCIENCES CAMPUS: (16419) 2066, SEOBU-RO, JANGAN-GU, SUWON-SI, GYEONGGI-DO, KOREA
+				</li>
+				<li>
+					COPYRIGHT ⓒ 2014 SUNGKYUNKWAN UNIVERSITY ALL RIGHTS RESERVED. Contact us
+				</li>
+			</ul>
+		</div>
+		<div class="foot_award">
+			<ul>
+				<li>
+					<a href="#">
+						<img src="/_res/skku/img/common/award_icon01.png" alt="잘 가르치는 대학 ACE">
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="/_res/skku/img/common/award_icon02.png" alt="국가고객만족도 9년 연속 1위">
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="/_res/skku/img/common/award_icon03.png" alt="대통령상 大賞">
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="/_res/skku/img/common/award_icon04.png" alt="국가품질경영 대통령상">
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="/_res/skku/img/common/award_icon05.png" alt="2013년 한국서비스품질지수 3년 연속 1위 달성">
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="/_res/skku/img/common/award_icon06.png" alt="공공부문 Best HRD 1위">
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="/_res/skku/img/common/award_icon07.png" alt="국내대학 최초 QS 5-star 인증 획득">
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+
+</div>
+<noscript><p>This site does not support JavaScript may connote normally invisible.</p></noscript>
+</body>
+</html>
