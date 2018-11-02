@@ -26,9 +26,9 @@ typedef struct Node{
     struct Node * branch[28];
 }nd, *pnd;
 
-int urlSeq, pNum, finNum, isGetAll;
-int fpid[100], pipFd[2];
-char fBuffer[100000], tmpfbuffer[100000];
+int urlSeq, pNum, finNum, isGetAll, statnum;
+int fpid[3000], pipFd[2];
+char fBuffer[100000], tmpfbuffer[100000], rdBuf[100000];
 nd head;
 
 void collect (void);
@@ -36,12 +36,24 @@ void DLweb(char* url);
 static char *getcmd();
 char *int2str (char *dest, int num);
 char* findTitle(int pNum);
+char* trim(char * buf);
 void svData(pnd pn, char* tt);
 pnd MakeNd(void);
 void movTrie(pnd *Node, char c);
 int parsecmd(char *buf, char **argv);
-char* trim(char * buf);
 void handler(int sig);
+
+static char *getcmd() {
+    static char buf[256];
+
+    if (fgets(buf, sizeof(buf), stdin) == NULL)
+        return NULL;
+
+    if (buf[strlen(buf)] == '\n')
+        buf[strlen(buf)] = 0;
+
+    return buf;
+}
 
 int main (int argc, char* argv[]) {
     signal(SIGCHLD, handler);
@@ -84,14 +96,14 @@ int parsecmd(char *buf, char **argv)
 
 void collect (void){
     char * cmdLine, *argv[20], *buftok, *svBuftok;
-    char tmp[256], tmp2[25], rdBuf[8192], cmdParse[8],svArgv[256];
+    char tmp[256], tmp2[25], cmdParse[8],svArgv[256];
     int argc, tmpN, i, fd, hasBuf = 0;
     pnd pNode = &head;
     while(cmdLine = hasBuf ? strtok_r(svBuftok, "\n", &svBuftok) : getcmd()){
-        if(hasBuf && strlen(svBuftok) == 0) hasBuf = 0;
+        if(hasBuf && strlen(svBuftok) <= 3) hasBuf = 0;
         if(cmdLine[strlen(cmdLine) - 1] == '\n') cmdLine[strlen(cmdLine) - 1] = '\0';
         strncpy(cmdParse, cmdLine, 7);
-        //printf("::::%s\n", cmdLine);
+        //printf("::::%s %d %d\n", cmdLine, hasBuf, hasBuf);
         pNum++;
         if(!strcmp(cmdParse, "http://") || (!strcmp(cmdParse, "https:/") && cmdLine[7] == '/')){
 
@@ -103,12 +115,12 @@ void collect (void){
             
             if(argv[0][0] == 'p'){    
                 if(!isGetAll && finNum){
-                memset(rdBuf, 0, 8191);
+                memset(rdBuf, 0, 99999);
                 for(i = 1; i <= finNum; i++){
                     waitpid(fpid[i], NULL, 0);
                 }
                 isGetAll = 1;
-                if(read(pipFd[0], rdBuf, 8191)){
+                if(read(pipFd[0], rdBuf, 99999)){
                     for(i = strlen(rdBuf); rdBuf[i] != '@'; i--);
                     rdBuf[i + 1] = 0;
                     buftok = strtok(rdBuf, "@");
@@ -141,7 +153,13 @@ void collect (void){
                     if(argv[1][i] == '.') movTrie(&pNode, 'z' + 1);
                     else movTrie(&pNode, argv[1][i]);
                 }
-                if(!pNode->tlen) continue;
+                if(!pNode->tlen) {
+                    int2str(tmp, pNum);
+                    strcat(tmp, ">");
+                    strcat(tmp, "Not Available\n");
+                    write(1, tmp, strlen(tmp));
+                    continue;
+                }
                 int2str(tmp, pNum);
                 strcat(tmp, ">");
                 strcat(tmp, argv[1]);
@@ -153,12 +171,12 @@ void collect (void){
             }
             else if(argv[0][0] == 's'){
                 if(!isGetAll && finNum){
-                memset(rdBuf, 0, 8191);
+                memset(rdBuf, 0, 99999);
                 for(i = 1; i <= finNum; i++){
                     waitpid(fpid[i], NULL, 0);
                 }
                 isGetAll = 1;
-                if(read(pipFd[0], rdBuf, 8191)){
+                if(read(pipFd[0], rdBuf, 99999)){
                     for(i = strlen(rdBuf); rdBuf[i] != '@'; i--);
                     rdBuf[i + 1] = 0;
                     buftok = strtok(rdBuf, "@");
@@ -188,7 +206,7 @@ void collect (void){
                 memset(tmp, 0, 255);
                 int2str(tmp, pNum);
                 strcat(tmp, ">");
-                int2str(tmp2, finNum);
+                int2str(tmp2, statnum);
                 strcat(tmp, tmp2);
                 strcat(tmp, " titles\n");
                 write(1, tmp, strlen(tmp));
@@ -202,13 +220,13 @@ void collect (void){
                     tmpfbuffer[strlen(svBuftok)] = 0;
                 }
                 
-                if((fd = open(svArgv, O_RDONLY))){
-                    memset(rdBuf, 0, 8191);
+                if((fd = open(svArgv, O_RDONLY)) > 0){
+                    memset(rdBuf, 0, 99999);
                     memset(fBuffer, 0, 99999);
                     strcat(fBuffer, " \n");
-                    while(read(fd, rdBuf, 7999)){
+                    while(read(fd, rdBuf, 99999)){
                         strcat(fBuffer, rdBuf);
-                        memset(rdBuf, 0, 7999);
+                        memset(rdBuf, 0, 99999);
                     }
                     if(hasBuf){
                         strcat(fBuffer, tmpfbuffer);
@@ -226,20 +244,6 @@ void collect (void){
     }
 }
 
-static char *getcmd(char * cLine) {
-    static char buf[256];
-    memset(buf, 0, sizeof(buf));
-    //write(1, "> ", 2);
-
-    if (read(0, buf, sizeof(buf)) < 0)
-        return NULL;
-
-    if (buf[strlen(buf)] == '\n')
-        buf[strlen(buf)] = 0;
-    
-    return buf;
-}
-
 void DLweb(char * url){
     int pid, status, i, tmp, chkdot;
     char buf[256], pbuf[256];
@@ -248,33 +252,51 @@ void DLweb(char * url){
         close(pipFd[0]);
         if((pid = fork()) == 0){
             //printf("%s\n", url);
+            int fd = open("/dev/null", O_WRONLY);
+            dup2(fd, 1);
+            dup2(fd, 2);
             if(execl("/usr/bin/wget", "wget", url, "-q", "-O", int2str(NULL, finNum),  NULL) < 0){
                 printf("exec failed\n"); //just for debug!
-                exit(0);
+                exit(-1);
             }
             exit(0);
         }
         else{
             //printf("%s\n", url);
             tmp = strlen(url) - 1;
-            chkdot = (url[tmp] == 'r' && url[tmp - 1] == 'k') ? 3 : 2;
-
-
+            chkdot = 2;
             for(i = tmp; i > 0; i--){
+                if(url[i] == 'r' && url[i - 1] == 'k' && url[i - 2] == '.'){
+                    chkdot = 3;
+                    url[i + 1] = 0;
+                    break;
+                }
+
+                if(url[i] == '/') url[i] = 0;
+                if(url[i] == '.') break;
+            }
+
+            url = strchr(url, '/') + 2;
+            tmp = strlen(url);
+            for(i = tmp; i >= 0; i--){
                 if(url[i] == '.') {
                     if(--chkdot == 0) break;
                 }
             }
             url = &url[i + 1];
+            //printf("%s %d\n", url, chkdot);
             //strtok(url, ".");
             //strcpy(url, strtok(NULL, "/"));
             //printf("%s\n", url);
             
             waitpid(pid, &status, 0);
             memset(buf, 0, sizeof(buf));
-            if(status == -1){
-                write(1, int2str(buf, finNum), strlen(buf));
-                write(1, ">Error occured!\n", 16);
+            printf("%s %d\n", url, status);
+            if(status){
+                int2str(buf, pNum);
+                strcat(buf, ">Error occured!\n");
+                write(1, buf, strlen(buf));
+                close(pipFd[1]);
             }    
             else{
                 strcpy(pbuf, findTitle(finNum));
@@ -294,6 +316,7 @@ void DLweb(char * url){
                 // svData(pNode, buf);
                 close(pipFd[1]);
             }
+            remove(int2str(NULL, finNum));
             exit(0);
         }
 
@@ -301,12 +324,17 @@ void DLweb(char * url){
     
 }
 
-char* findTitle(int pNum){
+char* findTitle(int finNum){
     char buf[1024], c;
     char *buftok, *trimer;
     int fdd;
-    if((fdd = open(int2str(NULL, pNum), O_RDONLY)) < 0){
-        write(2, "Source file not found\n", 22);
+    if((fdd = open(int2str(NULL, finNum), O_RDONLY)) < 0){
+        int2str(buf, pNum);
+        strcat(buf, ">");
+        strcat(buf, "Error occured!\n");
+        write(1, buf, strlen(buf));
+        remove(int2str(NULL, finNum));
+
         exit(-1);
     };
     while(read(fdd, buf, sizeof(buf))){
@@ -317,7 +345,6 @@ char* findTitle(int pNum){
         if(buftok){
             buftok = strtok(buftok, ">");
             buftok = strtok(NULL, "");
-            buftok = trim(buftok);
             //printf("::::%s\n", buftok);
             return buftok;
         }
@@ -347,6 +374,8 @@ char *int2str (char *dest, int num) {
 
 void svData(pnd pn, char* tt){
     int tmp = strlen(tt);
+    statnum++;
+    //printf(":::%d %s\n", pn->tlen, pn->title);
     if(pn->tlen >= tmp) return;
 
     strcpy(pn->title, tt);
@@ -371,15 +400,6 @@ void movTrie(pnd *Node, char c){
 
 }
 
-char* trim(char * buf){
-    char * tmp;
-    while(*buf && ((*buf == ' ') || (*buf == '\n') || (*buf == 9))) buf++;
-    
-    tmp = buf + strlen(buf) - 1;
-    while(*tmp && ((*tmp == ' ') || (*tmp == '\n') || (*tmp == 9))) tmp--;
-    *(tmp + 1) = 0;
-    return buf;
-}
 void handler(int sig){
     if(sig == SIGKILL) exit(0);
     if(sig == SIGINT) return;
